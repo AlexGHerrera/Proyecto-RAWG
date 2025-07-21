@@ -75,8 +75,7 @@ def extract_all_games_resume_safe():
     else:
         logging.info(f"[SKIP] Página {page} ya existe.")
 
-    # for page in tqdm(range(2, total_pages + 1), desc="Extrayendo juegos"):
-    for page in tqdm(range(2, 4), desc="Extrayendo juegos"):
+    for page in tqdm(range(2, total_pages + 1), desc="Extrayendo juegos"):
         filename = os.path.join(SAVE_DIR, f"games_page_{page}.json")
         if os.path.exists(filename):
             logging.debug(f"[SKIP] Página {page} ya existe.")
