@@ -1,0 +1,138 @@
+CREATE TABLE games(
+id_game BIGSERIAL PRIMARY KEY,
+slug VARCHAR(255),
+name_game VARCHAR(255),
+playtime INT,
+plataforms VARCHAR(255),
+store VARCHAR(255),
+released DATE,
+tba BOOLEAN,
+background_image VARCHAR(255),
+rating FLOAT,
+rating_top INT,
+ratings VARCHAR(255),
+ratings_count INT,
+reviews_text_count INT,
+added INT,
+metacritic FLOAT,
+suggestions_count INT,
+updated TIMESTAMPTZ,
+id_api INT UNIQUE,
+score INT,
+clip VARCHAR(255),
+tags VARCHAR(255),
+user_game VARCHAR(255),
+reviews_count INT,
+saturated_color CHAR(6),
+dominant_color CHAR(6),
+short_screenshots VARCHAR(255),
+parent_plataforms VARCHAR(255),
+genres VARCHAR(255),
+added_by_status_yet FLOAT,
+added_by_status_owned INT,
+added_by_status_beaten FLOAT,
+added_by_status_toplay FLOAT,
+added_by_status_dropped FLOAT,
+added_by_status_playing FLOAT,
+esrb_rating_id FLOAT,
+esrb_rating_name VARCHAR(55),
+esrb_rating_slug VARCHAR(55),
+esrb_rating_name_en VARCHAR(55),
+esrb_rating_name_ru VARCHAR(55),
+esrb_rating FLOAT,
+community_rating FLOAT
+);
+
+CREATE TABLE platforms (
+  id_platform BIGINT PRIMARY KEY,
+  name VARCHAR(255),
+  slug VARCHAR(255)
+);
+
+CREATE TABLE game_platforms (
+  id_game BIGINT REFERENCES games(id_game),
+  id_platform BIGINT REFERENCES platforms(id_platform),
+  PRIMARY KEY(id_game, id_platform)
+);
+
+
+CREATE TABLE stores (
+  id_store BIGINT PRIMARY KEY,
+  name VARCHAR(255),
+  slug VARCHAR(255)
+);
+
+CREATE TABLE game_stores (
+  id_game BIGINT REFERENCES games(id_game),
+  id_store BIGINT REFERENCES stores(id_store),
+  PRIMARY KEY(id_game, id_store)
+);
+
+
+CREATE TABLE ratings (
+  id_ratings BIGINT PRIMARY KEY,
+  title VARCHAR(255),
+  count_ratings INT,
+  percent_ratings FLOAT
+);
+
+CREATE TABLE game_ratings (
+  id_game BIGINT REFERENCES games(id_game),
+  id_ratings BIGINT REFERENCES ratings(id_ratings),
+  PRIMARY KEY(id_game, id_ratings)
+);
+
+
+CREATE TABLE tags (
+	id_tag BIGINT PRIMARY KEY,
+	name VARCHAR(255),
+	slug VARCHAR(255),
+	language_tag CHAR(3),
+	games_count INT,
+	image_background VARCHAR(255)
+);
+
+CREATE TABLE game_tags (
+  id_game BIGINT REFERENCES games(id_game),
+  id_tag BIGINT REFERENCES tags(id_tag),
+  PRIMARY KEY(id_game, id_tag)
+);
+
+
+CREATE TABLE short_screenshots(
+	id_short_screenshot BIGINT PRIMARY KEY,
+	image VARCHAR(255)
+);
+
+CREATE TABLE game_short_screenshots(
+	id_game BIGINT REFERENCES games(id_game),
+    id_short_screenshot BIGINT REFERENCES short_screenshots(id_short_screenshot),
+    PRIMARY KEY(id_game, id_short_screenshot)
+);
+
+
+CREATE TABLE parent_platforms (
+  id_parent_platform BIGINT PRIMARY KEY,
+  name VARCHAR(255),
+  slug VARCHAR(255)
+);
+
+CREATE TABLE game_parent_platforms (
+  id_game BIGINT REFERENCES games(id_game),
+  id_parent_platform BIGINT REFERENCES parent_platforms(id_parent_platform),
+  PRIMARY KEY(id_game, id_parent_platform)
+);
+
+
+CREATE TABLE genres (
+  id_genres BIGINT PRIMARY KEY,
+  name VARCHAR(255),
+  slug VARCHAR(255)
+);
+
+CREATE TABLE game_genres (
+  id_game BIGINT REFERENCES games(id_game),
+  id_genres BIGINT REFERENCES genres(id_genres),
+  PRIMARY KEY(id_game, id_genres)
+);
+
