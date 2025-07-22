@@ -1,0 +1,5032 @@
+{
+  "count": 889938,
+  "next": "https://api.rawg.io/api/games?key=474cddd382814f4b94a7fdde4f77166d&page=1287&page_size=40",
+  "previous": "https://api.rawg.io/api/games?key=474cddd382814f4b94a7fdde4f77166d&page=1285&page_size=40",
+  "results": [
+    {
+      "id": 36845,
+      "slug": "the-key",
+      "name": "The Key",
+      "released": "2003-01-01",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/b13/b13e873e9053a3d1247a825102e9c19c.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "yet": 1,
+        "owned": 1,
+        "toplay": 4
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 411,
+      "updated": "2025-05-16T08:50:25",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2025-05-12",
+          "requirements_en": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> windows 10<br></li><li><strong>Processor:</strong> Intel Core i5<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> GTX 1050 ti<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 6 GB available space</li></ul>",
+            "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> windows 11<br></li><li><strong>Processor:</strong> Intel Core i7<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> RTX 2080<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 6 GB available space</li></ul>"
+          },
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 148382,
+          "image_background": "https://media.rawg.io/media/games/879/879c930f9c6787c920153fa2df452eb3.jpg"
+        },
+        {
+          "id": 10,
+          "name": "Strategy",
+          "slug": "strategy",
+          "games_count": 60716,
+          "image_background": "https://media.rawg.io/media/games/af7/af7a831001c5c32c46e950cc883b8cb7.jpg"
+        },
+        {
+          "id": 59,
+          "name": "Massively Multiplayer",
+          "slug": "massively-multiplayer",
+          "games_count": 4111,
+          "image_background": "https://media.rawg.io/media/games/b4e/b4e4c73d5aa4ec66bbf75375c4847a2b.jpg"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie",
+          "games_count": 80396,
+          "image_background": "https://media.rawg.io/media/games/e04/e04963f3ac4c4fa83a1dc0b9231e50db.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 1004635,
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "domain": "store.steampowered.com",
+            "games_count": 115017,
+            "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer",
+          "slug": "singleplayer",
+          "language": "eng",
+          "games_count": 243001,
+          "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Multiplayer",
+          "slug": "multiplayer",
+          "language": "eng",
+          "games_count": 41244,
+          "image_background": "https://media.rawg.io/media/games/737/737ea5662211d2e0bbd6f5989189e4f1.jpg"
+        },
+        {
+          "id": 149,
+          "name": "Third Person",
+          "slug": "third-person",
+          "language": "eng",
+          "games_count": 13820,
+          "image_background": "https://media.rawg.io/media/games/62c/62c7c8b28a27b83680b22fb9d33fc619.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Exploration",
+          "slug": "exploration",
+          "language": "eng",
+          "games_count": 27409,
+          "image_background": "https://media.rawg.io/media/games/cee/cee577e2097a59b77193fe2bce94667d.jpg"
+        },
+        {
+          "id": 115,
+          "name": "Controller",
+          "slug": "controller",
+          "language": "eng",
+          "games_count": 14072,
+          "image_background": "https://media.rawg.io/media/screenshots/2fc/2fc6994425146f9dba3133400b414e29.jpg"
+        },
+        {
+          "id": 80,
+          "name": "Tactical",
+          "slug": "tactical",
+          "language": "eng",
+          "games_count": 6172,
+          "image_background": "https://media.rawg.io/media/games/997/997ab4d67e96fb20a4092383477d4463.jpg"
+        },
+        {
+          "id": 150,
+          "name": "Third-Person Shooter",
+          "slug": "third-person-shooter",
+          "language": "eng",
+          "games_count": 3978,
+          "image_background": "https://media.rawg.io/media/games/20a/20aa03a10cda45239fe22d035c0ebe64.jpg"
+        },
+        {
+          "id": 157,
+          "name": "PvP",
+          "slug": "pvp",
+          "language": "eng",
+          "games_count": 11264,
+          "image_background": "https://media.rawg.io/media/games/4e0/4e0e7b6d6906a131307c94266e5c9a1c.jpg"
+        },
+        {
+          "id": 40832,
+          "name": "Cross-Platform Multiplayer",
+          "slug": "cross-platform-multiplayer",
+          "language": "eng",
+          "games_count": 2988,
+          "image_background": "https://media.rawg.io/media/games/238/2383a172b4d50a7b44e07980eb7141ea.jpg"
+        },
+        {
+          "id": 165,
+          "name": "Colorful",
+          "slug": "colorful",
+          "language": "eng",
+          "games_count": 26985,
+          "image_background": "https://media.rawg.io/media/games/fd7/fd794a9f0ffe816038d981b3acc3eec9.jpg"
+        },
+        {
+          "id": 571,
+          "name": "3D",
+          "slug": "3d",
+          "language": "eng",
+          "games_count": 90882,
+          "image_background": "https://media.rawg.io/media/screenshots/066/066eb1b7a3f332b8089645fbf8c3ebdc.jpg"
+        },
+        {
+          "id": 1465,
+          "name": "combat",
+          "slug": "combat",
+          "language": "eng",
+          "games_count": 15172,
+          "image_background": "https://media.rawg.io/media/games/a12/a12f806432cb385bc286f0935c49cd14.jpg"
+        },
+        {
+          "id": 45878,
+          "name": "Online PvP",
+          "slug": "online-pvp",
+          "language": "eng",
+          "games_count": 5898,
+          "image_background": "https://media.rawg.io/media/games/e43/e43f9f0a1429bd9332020ac5876bc693.jpg"
+        },
+        {
+          "id": 133,
+          "name": "3D Vision",
+          "slug": "3d-vision",
+          "language": "eng",
+          "games_count": 1059,
+          "image_background": "https://media.rawg.io/media/games/fd8/fd882c8267a44621a0de6f9cec77ae90.jpg"
+        },
+        {
+          "id": 56,
+          "name": "Shoot 'Em Up",
+          "slug": "shoot-em-up",
+          "language": "eng",
+          "games_count": 12143,
+          "image_background": "https://media.rawg.io/media/games/d81/d81c9725b1da073e7ba036bdca8528f7.jpg"
+        },
+        {
+          "id": 216,
+          "name": "Heist",
+          "slug": "heist",
+          "language": "eng",
+          "games_count": 582,
+          "image_background": "https://media.rawg.io/media/games/1e5/1e5e33b88be978f451196a751424a72e.jpg"
+        },
+        {
+          "id": 91686,
+          "name": "Family Sharing",
+          "slug": "family-sharing",
+          "language": "eng",
+          "games_count": 21740,
+          "image_background": "https://media.rawg.io/media/screenshots/90b/90b4ade7b3f51172989be82b443d9f71.jpg"
+        },
+        {
+          "id": 54,
+          "name": "Score Attack",
+          "slug": "score-attack",
+          "language": "eng",
+          "games_count": 5098,
+          "image_background": "https://media.rawg.io/media/screenshots/ac8/ac8e4bf022bd80e778f05064a48cdb3a.jpg"
+        },
+        {
+          "id": 38844,
+          "name": "looter shooter",
+          "slug": "looter-shooter",
+          "language": "eng",
+          "games_count": 726,
+          "image_background": "https://media.rawg.io/media/games/4e9/4e9c951414c732923fa72d5b1da49402.jpg"
+        },
+        {
+          "id": 568,
+          "name": "Time Management",
+          "slug": "time-management",
+          "language": "eng",
+          "games_count": 2210,
+          "image_background": "https://media.rawg.io/media/screenshots/d9e/d9e5b749589cc80daffba66f25d6d4ab.jpg"
+        },
+        {
+          "id": 2896,
+          "name": "collectathon",
+          "slug": "collectathon",
+          "language": "eng",
+          "games_count": 2329,
+          "image_background": "https://media.rawg.io/media/screenshots/e79/e798477413a08e16369dc064dc55524b.jpg"
+        },
+        {
+          "id": 49998,
+          "name": "Лутер-шутер",
+          "slug": "luter-shuter",
+          "language": "eng",
+          "games_count": 719,
+          "image_background": "https://media.rawg.io/media/screenshots/0fe/0fe11b6e3ca05679b3fbe3a75133991c.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/b13/b13e873e9053a3d1247a825102e9c19c.jpg"
+        },
+        {
+          "id": 432828,
+          "image": "https://media.rawg.io/media/screenshots/f45/f459fd1cdbd04ec60ac9306a424af434.jpg"
+        },
+        {
+          "id": 432829,
+          "image": "https://media.rawg.io/media/screenshots/0e1/0e19e280d1127ac20af6470effed19cb.jpg"
+        },
+        {
+          "id": 432830,
+          "image": "https://media.rawg.io/media/screenshots/b01/b016524440a1cde40ec5179426f4a9a1.jpg"
+        },
+        {
+          "id": 432831,
+          "image": "https://media.rawg.io/media/screenshots/add/add0e47afe8f35ae973b851e280cc01a.jpg"
+        },
+        {
+          "id": 432832,
+          "image": "https://media.rawg.io/media/screenshots/964/9643a4555f7df21770d050d1c994d855.jpg"
+        },
+        {
+          "id": 432833,
+          "image": "https://media.rawg.io/media/screenshots/d96/d9614380f5a273ec4a3d36cba4a02a45.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36828,
+      "slug": "maribato",
+      "name": "Maribato",
+      "released": "2005-01-01",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/43c/43c0517d3af5644f6ca2b2eebc1400ec.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 4,
+        "toplay": 2
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 489,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2005-01-01",
+          "requirements_en": null,
+          "requirements_ru": {
+            "minimum": "Pentium III/Athlon 1 ГГц,256 Мб памяти,3D-ускоритель с 32 Мб памяти,280 Мб на винчестере",
+            "recommended": "Pentium 4/Athlon XP 1.5 ГГц,512 Мб памяти,3D-ускоритель с 32 Мб памяти,280 Мб на винчестере"
+          }
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 11,
+          "name": "Arcade",
+          "slug": "arcade",
+          "games_count": 22665,
+          "image_background": "https://media.rawg.io/media/games/556/556157feed9ee1f55f2b12b2973e30a3.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Fighting",
+          "slug": "fighting",
+          "games_count": 11766,
+          "image_background": "https://media.rawg.io/media/games/e42/e428e70c97064037326d7863a43a0454.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/43c/43c0517d3af5644f6ca2b2eebc1400ec.jpg"
+        },
+        {
+          "id": 431911,
+          "image": "https://media.rawg.io/media/screenshots/c27/c2727d38e2f17b60774bbbd3b3d33f2f.jpg"
+        },
+        {
+          "id": 431912,
+          "image": "https://media.rawg.io/media/screenshots/e43/e430682b7833c394fae77e7dd0d25852.jpg"
+        },
+        {
+          "id": 431913,
+          "image": "https://media.rawg.io/media/screenshots/547/547472a85681da3f0e66a0149b72f7e6.jpg"
+        },
+        {
+          "id": 431914,
+          "image": "https://media.rawg.io/media/screenshots/59c/59c43a4868041d6876d9aa57843d37c7.jpg"
+        },
+        {
+          "id": 431915,
+          "image": "https://media.rawg.io/media/screenshots/af8/af871bb27aeaa98e36f0e0f723175a44.jpg"
+        },
+        {
+          "id": 431916,
+          "image": "https://media.rawg.io/media/screenshots/96c/96c584d7ae6b58381231838734e68e6b.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36742,
+      "slug": "diplomacy-2005",
+      "name": "Diplomacy (2005)",
+      "released": "2005-11-04",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/999/9991b753aa2043f45211bb328afbdca4.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 1,
+        "beaten": 2,
+        "toplay": 3
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 347,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 1,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2005-11-04",
+          "requirements_en": null,
+          "requirements_ru": {
+            "minimum": "Pentium III/Athlon 800 МГц,256 Мб памяти,3D-ускоритель с 32 Мб памяти,250 Мб на винчестере",
+            "recommended": "Pentium 4/Athlon XP 1.6 ГГц,512 Мб памяти,3D-ускоритель со 128 Мб памяти,250 Мб на винчестере"
+          }
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 10,
+          "name": "Strategy",
+          "slug": "strategy",
+          "games_count": 60716,
+          "image_background": "https://media.rawg.io/media/games/af7/af7a831001c5c32c46e950cc883b8cb7.jpg"
+        },
+        {
+          "id": 28,
+          "name": "Board Games",
+          "slug": "board-games",
+          "games_count": 8389,
+          "image_background": "https://media.rawg.io/media/screenshots/8ff/8ffe8f19d2e764867c8ed625ddf4e368.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/999/9991b753aa2043f45211bb328afbdca4.jpg"
+        },
+        {
+          "id": 426160,
+          "image": "https://media.rawg.io/media/screenshots/5e0/5e01974d72a108dceefa48e0d0e3242f.jpg"
+        },
+        {
+          "id": 426161,
+          "image": "https://media.rawg.io/media/screenshots/ba2/ba2d2ad620b7729365dfee105bc76cb5.jpg"
+        },
+        {
+          "id": 426162,
+          "image": "https://media.rawg.io/media/screenshots/8a1/8a1dea6a901d6cd94b4a7299035ce105.jpg"
+        },
+        {
+          "id": 426163,
+          "image": "https://media.rawg.io/media/screenshots/824/8247651ed232b725d60fbb5a3556bf13.jpg"
+        },
+        {
+          "id": 426164,
+          "image": "https://media.rawg.io/media/screenshots/4f0/4f08671e88f2cb80c73a9ef0c33ff772.jpg"
+        },
+        {
+          "id": 426165,
+          "image": "https://media.rawg.io/media/screenshots/b06/b0633ba7f27e89b3e8796f30c606b3c6.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36736,
+      "slug": "falcon-40-allied-force",
+      "name": "Falcon 4.0: Allied Force",
+      "released": "2005-06-28",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/9b9/9b9c0d28f87d718228a684d812e2a782.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 4,
+        "toplay": 2
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 376,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2005-06-28",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 14,
+          "name": "Simulation",
+          "slug": "simulation",
+          "games_count": 74679,
+          "image_background": "https://media.rawg.io/media/games/78d/78dfae12fb8c5b16cd78648553071e0a.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/9b9/9b9c0d28f87d718228a684d812e2a782.jpg"
+        },
+        {
+          "id": 425778,
+          "image": "https://media.rawg.io/media/screenshots/9e9/9e91458fef9a4b9d9b01644c38a237ae.jpg"
+        },
+        {
+          "id": 425779,
+          "image": "https://media.rawg.io/media/screenshots/266/266e30f79bf8121fcdbcb2aac67386fe.jpg"
+        },
+        {
+          "id": 425780,
+          "image": "https://media.rawg.io/media/screenshots/d06/d0628a0966d72df2c23050f97658f166.jpg"
+        },
+        {
+          "id": 425781,
+          "image": "https://media.rawg.io/media/screenshots/c14/c145cdafd524ce7d7bec5add4862b60b.jpg"
+        },
+        {
+          "id": 425782,
+          "image": "https://media.rawg.io/media/screenshots/856/8564c294c92b0300dc2664307cc565b1.jpg"
+        },
+        {
+          "id": 425783,
+          "image": "https://media.rawg.io/media/screenshots/328/328c382e4542be85e4212fca80016a15.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36713,
+      "slug": "saints-sinners-bingo",
+      "name": "Saints & Sinners Bingo",
+      "released": "2005-03-01",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/2c1/2c1b7b5c6512a70e257d41fc128d6cc2.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 4,
+        "toplay": 1,
+        "dropped": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 159,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2005-03-01",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 28,
+          "name": "Board Games",
+          "slug": "board-games",
+          "games_count": 8389,
+          "image_background": "https://media.rawg.io/media/screenshots/8ff/8ffe8f19d2e764867c8ed625ddf4e368.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/2c1/2c1b7b5c6512a70e257d41fc128d6cc2.jpg"
+        },
+        {
+          "id": 424121,
+          "image": "https://media.rawg.io/media/screenshots/fa8/fa85607dd4578a83925120942ca18d08.jpg"
+        },
+        {
+          "id": 424122,
+          "image": "https://media.rawg.io/media/screenshots/fe2/fe2b789981ff052a1e3de819cbe3de18.jpg"
+        },
+        {
+          "id": 424123,
+          "image": "https://media.rawg.io/media/screenshots/df0/df09ebbfb31a734fa892b5ff422a904f.jpg"
+        },
+        {
+          "id": 424124,
+          "image": "https://media.rawg.io/media/screenshots/d3f/d3f72ab7503b6fe56eee1edb675ae4c0.jpg"
+        },
+        {
+          "id": 424125,
+          "image": "https://media.rawg.io/media/screenshots/2c1/2c1b7b5c6512a70e257d41fc128d6cc2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36700,
+      "slug": "coin-planets",
+      "name": "Coin Planets",
+      "released": "2004-01-01",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/07a/07a64d164e2cfb4b961c9333eede856b.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "yet": 1,
+        "owned": 4,
+        "toplay": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 423,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2004-01-01",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 11,
+          "name": "Arcade",
+          "slug": "arcade",
+          "games_count": 22665,
+          "image_background": "https://media.rawg.io/media/games/556/556157feed9ee1f55f2b12b2973e30a3.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/07a/07a64d164e2cfb4b961c9333eede856b.jpg"
+        },
+        {
+          "id": 424070,
+          "image": "https://media.rawg.io/media/screenshots/34e/34ee6201834a776ee05eefe7b30c1847.jpg"
+        },
+        {
+          "id": 424071,
+          "image": "https://media.rawg.io/media/screenshots/681/681c2881672edfd7913ec3ba10c6ec00.jpg"
+        },
+        {
+          "id": 424072,
+          "image": "https://media.rawg.io/media/screenshots/bd8/bd8e31552d23537531081b90548651d4.jpg"
+        },
+        {
+          "id": 424073,
+          "image": "https://media.rawg.io/media/screenshots/d72/d724fec749c93024ba97600c0aaec77c.jpg"
+        },
+        {
+          "id": 424074,
+          "image": "https://media.rawg.io/media/screenshots/207/207247e0a4e9a5b8ce0c9693fcd00eed.jpg"
+        },
+        {
+          "id": 424075,
+          "image": "https://media.rawg.io/media/screenshots/f0e/f0eeb8cc759f164df041720509dac6bd.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36699,
+      "slug": "girls-inc-teamup",
+      "name": "Girls Inc. TeamUP",
+      "released": "2004-01-01",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/c72/c72f2bacb8d82956e809793a4b633aa2.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "yet": 1,
+        "owned": 4,
+        "toplay": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 58,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2004-01-01",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/c72/c72f2bacb8d82956e809793a4b633aa2.jpg"
+        },
+        {
+          "id": 424066,
+          "image": "https://media.rawg.io/media/screenshots/045/0451881efa43a7a0354529699df0c2d3.jpg"
+        },
+        {
+          "id": 424067,
+          "image": "https://media.rawg.io/media/screenshots/f4d/f4dff4a65c47e94deb9d27810828072d.jpg"
+        },
+        {
+          "id": 424068,
+          "image": "https://media.rawg.io/media/screenshots/e23/e23edaa5b89765e4d2d9159fd2212c84.jpg"
+        },
+        {
+          "id": 424069,
+          "image": "https://media.rawg.io/media/screenshots/c72/c72f2bacb8d82956e809793a4b633aa2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36683,
+      "slug": "digbys-donuts",
+      "name": "Digby's Donuts",
+      "released": "2004-11-11",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/91d/91d7bfd64106e907b7e96494ec58e6ff.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 3,
+        "toplay": 2,
+        "dropped": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 95,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2004-11-11",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 11,
+          "name": "Arcade",
+          "slug": "arcade",
+          "games_count": 22665,
+          "image_background": "https://media.rawg.io/media/games/556/556157feed9ee1f55f2b12b2973e30a3.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/91d/91d7bfd64106e907b7e96494ec58e6ff.jpg"
+        },
+        {
+          "id": 423946,
+          "image": "https://media.rawg.io/media/screenshots/352/35276a9d51afa3d7d053df575e5f0130.jpg"
+        },
+        {
+          "id": 423947,
+          "image": "https://media.rawg.io/media/screenshots/92f/92fa3beed4661272892b7bbbf2cc3e9d.jpg"
+        },
+        {
+          "id": 423948,
+          "image": "https://media.rawg.io/media/screenshots/c8a/c8a9baa22f94a0eb61a638b358feea2a.jpg"
+        },
+        {
+          "id": 423949,
+          "image": "https://media.rawg.io/media/screenshots/91d/91d7bfd64106e907b7e96494ec58e6ff.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36661,
+      "slug": "army-racer",
+      "name": "Army Racer",
+      "released": "2005-01-01",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/651/65115b4eadf39b9c52ef45077b417dfc.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "yet": 1,
+        "owned": 2,
+        "toplay": 3
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 355,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2005-01-01",
+          "requirements_en": null,
+          "requirements_ru": {
+            "minimum": "Pentium III/Athlon 1 ГГц,128 Мб памяти,3D-ускоритель с 32 Мб памяти,610 Мб на винчестере",
+            "recommended": "Pentium 4/Athlon XP 1.5 ГГц,256 Мб памяти,3D-ускоритель с 64 Мб памяти,610 Мб на винчестере"
+          }
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 1,
+          "name": "Racing",
+          "slug": "racing",
+          "games_count": 25533,
+          "image_background": "https://media.rawg.io/media/screenshots/c02/c02c64324edc2045ea1fc0601cdaaa0c.jpg"
+        },
+        {
+          "id": 11,
+          "name": "Arcade",
+          "slug": "arcade",
+          "games_count": 22665,
+          "image_background": "https://media.rawg.io/media/games/556/556157feed9ee1f55f2b12b2973e30a3.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/651/65115b4eadf39b9c52ef45077b417dfc.jpg"
+        },
+        {
+          "id": 423279,
+          "image": "https://media.rawg.io/media/screenshots/409/409db1338402c48628e1aa3aca893df1.jpg"
+        },
+        {
+          "id": 423280,
+          "image": "https://media.rawg.io/media/screenshots/ef3/ef349241ce7a1fbd22e2bb5ec9c69134.jpg"
+        },
+        {
+          "id": 423281,
+          "image": "https://media.rawg.io/media/screenshots/8d2/8d28c52a1c10bffe7b1fda3d7a6efbaa.jpg"
+        },
+        {
+          "id": 423282,
+          "image": "https://media.rawg.io/media/screenshots/088/0889349f0f982a821e8fd288aa5e0fab.jpg"
+        },
+        {
+          "id": 423283,
+          "image": "https://media.rawg.io/media/screenshots/abc/abc58251b9560fe13e6f1ed5646d85af.jpg"
+        },
+        {
+          "id": 423284,
+          "image": "https://media.rawg.io/media/screenshots/44f/44fc4b4fb4c7c4a2e6936f9c8e06133a.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36656,
+      "slug": "lock-on-11-flaming-cliffs",
+      "name": "Lock On 1.1: Flaming Cliffs",
+      "released": "2005-04-01",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/b37/b3710d4836ef9c9957a9a773c49126e8.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 2,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 2,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 4,
+        "toplay": 1,
+        "dropped": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 432,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 2,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2005-04-01",
+          "requirements_en": null,
+          "requirements_ru": {
+            "minimum": "Pentium III/Athlon 800 МГц,256 Мб памяти,3D-ускоритель с 32 Мб памяти,2 Гб на винчестере",
+            "recommended": "Pentium 4 3.2 ГГц,1 Гб памяти,3D-ускоритель со 128 Мб памяти,2 Гб на винчестере"
+          }
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 14,
+          "name": "Simulation",
+          "slug": "simulation",
+          "games_count": 74679,
+          "image_background": "https://media.rawg.io/media/games/78d/78dfae12fb8c5b16cd78648553071e0a.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/b37/b3710d4836ef9c9957a9a773c49126e8.jpg"
+        },
+        {
+          "id": 423100,
+          "image": "https://media.rawg.io/media/screenshots/693/693610376c88fbd83dbfe5fb5149109a.jpg"
+        },
+        {
+          "id": 423101,
+          "image": "https://media.rawg.io/media/screenshots/02b/02b7ec34ca2a060f4696052b6a9a7eab.jpg"
+        },
+        {
+          "id": 423102,
+          "image": "https://media.rawg.io/media/screenshots/cb7/cb7536b60ba881d114af4869b9c8803d.jpg"
+        },
+        {
+          "id": 423103,
+          "image": "https://media.rawg.io/media/screenshots/f3c/f3c4d7de791e3d1114769faef6e2efac.jpg"
+        },
+        {
+          "id": 423104,
+          "image": "https://media.rawg.io/media/screenshots/1ba/1ba55a8a238fb265e9e0283bb3cc4d9f.jpg"
+        },
+        {
+          "id": 423105,
+          "image": "https://media.rawg.io/media/screenshots/bbb/bbb8d4415c268da65a7541194db9baed.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36655,
+      "slug": "game-145",
+      "name": "Трое из Простоквашино: Путешествие на плоту",
+      "released": "2005-11-01",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/4cd/4cd46551e878d5d96601e4686f904c71.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 3,
+        "beaten": 1,
+        "toplay": 2
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 208,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 1,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2005-11-01",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 148382,
+          "image_background": "https://media.rawg.io/media/games/879/879c930f9c6787c920153fa2df452eb3.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/4cd/4cd46551e878d5d96601e4686f904c71.jpg"
+        },
+        {
+          "id": 423095,
+          "image": "https://media.rawg.io/media/screenshots/c51/c51af0270c9a7b5c730b88d227621aa5.jpg"
+        },
+        {
+          "id": 423096,
+          "image": "https://media.rawg.io/media/screenshots/e0f/e0f82cd0f1dfb305d814b80edb7ba447.jpg"
+        },
+        {
+          "id": 423097,
+          "image": "https://media.rawg.io/media/screenshots/612/612504feb9fef7e74678de1e39ee87d2.jpg"
+        },
+        {
+          "id": 423098,
+          "image": "https://media.rawg.io/media/screenshots/77b/77bf08409d50af82bbd8148342288698.jpg"
+        },
+        {
+          "id": 423099,
+          "image": "https://media.rawg.io/media/screenshots/4cd/4cd46551e878d5d96601e4686f904c71.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36648,
+      "slug": "game-143",
+      "name": "Спецназ: Антитеррор",
+      "released": "2004-11-04",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/005/00502ecb802c21f796fb55bab28741d0.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 3,
+        "beaten": 1,
+        "toplay": 2
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 359,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 1,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2004-11-04",
+          "requirements_en": null,
+          "requirements_ru": {
+            "minimum": "Pentium II 450 МГц,4 Мб памяти,3D-ускоритель с 16 Мб памяти,1 Гб на винчестере",
+            "recommended": "Pentium III 700 МГц,4 Мб памяти,3D-ускоритель с 32 Мб памяти,1 Гб на винчестере"
+          }
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Shooter",
+          "slug": "shooter",
+          "games_count": 59577,
+          "image_background": "https://media.rawg.io/media/games/120/1201a40e4364557b124392ee50317b99.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/005/00502ecb802c21f796fb55bab28741d0.jpg"
+        },
+        {
+          "id": 422933,
+          "image": "https://media.rawg.io/media/screenshots/3e7/3e767471584b1bdd60064fb63f5d60e8.jpg"
+        },
+        {
+          "id": 422934,
+          "image": "https://media.rawg.io/media/screenshots/411/41152d10fa02810be5932b44e3120ead.jpg"
+        },
+        {
+          "id": 422935,
+          "image": "https://media.rawg.io/media/screenshots/38e/38e4006a6103ec1213e62d5f217e895c.jpg"
+        },
+        {
+          "id": 422936,
+          "image": "https://media.rawg.io/media/screenshots/d86/d867e3ad8224a3656c23b8fd7633702b.jpg"
+        },
+        {
+          "id": 422937,
+          "image": "https://media.rawg.io/media/screenshots/489/489fea9a407e37cd8353453b50faa5d9.jpg"
+        },
+        {
+          "id": 422938,
+          "image": "https://media.rawg.io/media/screenshots/606/606b4577fffdd7f73bd5925cc2d72c99.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36640,
+      "slug": "blitzkrieg-total-challenge-4",
+      "name": "Blitzkrieg: Total Challenge 4",
+      "released": "2004-09-24",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/950/950651771dd3d9078f3aee418f36119f.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 3,
+        "beaten": 1,
+        "toplay": 2
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 499,
+      "updated": "2023-06-08T19:12:30",
+      "user_game": null,
+      "reviews_count": 1,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2004-09-24",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 10,
+          "name": "Strategy",
+          "slug": "strategy",
+          "games_count": 60716,
+          "image_background": "https://media.rawg.io/media/games/af7/af7a831001c5c32c46e950cc883b8cb7.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/950/950651771dd3d9078f3aee418f36119f.jpg"
+        },
+        {
+          "id": 422725,
+          "image": "https://media.rawg.io/media/screenshots/50d/50de450eee378b77a24c0a6add7e07fd.jpg"
+        },
+        {
+          "id": 422726,
+          "image": "https://media.rawg.io/media/screenshots/447/447235e508b9599e8a1662d896f402f5.jpg"
+        },
+        {
+          "id": 422727,
+          "image": "https://media.rawg.io/media/screenshots/fe3/fe3a18aab57ca93968ab437cb1ad0afe.jpg"
+        },
+        {
+          "id": 422728,
+          "image": "https://media.rawg.io/media/screenshots/3d4/3d40197475fc6551edce3e708e62433c.jpg"
+        },
+        {
+          "id": 422729,
+          "image": "https://media.rawg.io/media/screenshots/1ac/1ac9eb9d68455757a50fc8eb84414ca8.jpg"
+        },
+        {
+          "id": 422730,
+          "image": "https://media.rawg.io/media/screenshots/448/44839a44224844325d905e5a66386acb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36629,
+      "slug": "more-vegas-games-entertainment-pack-for-windows",
+      "name": "More Vegas Games Entertainment Pack for Windows",
+      "released": "1993-01-01",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/535/5354d8066bf5ebdaf90382ff08f755b6.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "yet": 1,
+        "owned": 2,
+        "toplay": 2,
+        "dropped": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 33,
+      "updated": "2024-12-17T04:42:04",
+      "user_game": null,
+      "reviews_count": 1,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "1993-01-01",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 17,
+          "name": "Card",
+          "slug": "card",
+          "games_count": 4537,
+          "image_background": "https://media.rawg.io/media/games/81b/81bf6b3cb4851f135b90091ec8ac5445.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/535/5354d8066bf5ebdaf90382ff08f755b6.jpg"
+        },
+        {
+          "id": 422546,
+          "image": "https://media.rawg.io/media/screenshots/ff5/ff58007264834e70f5919a1f4f82da34.jpg"
+        },
+        {
+          "id": 422547,
+          "image": "https://media.rawg.io/media/screenshots/535/5354d8066bf5ebdaf90382ff08f755b6.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36624,
+      "slug": "midnight-outlaw-six-hours-to-sun-up",
+      "name": "Midnight Outlaw: Six Hours to Sun Up",
+      "released": "2005-03-07",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/f03/f03dc7b9da410110430cb2b06997fb52.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "yet": 1,
+        "owned": 1,
+        "beaten": 1,
+        "toplay": 2,
+        "dropped": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 135,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2005-03-07",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 1,
+          "name": "Racing",
+          "slug": "racing",
+          "games_count": 25533,
+          "image_background": "https://media.rawg.io/media/screenshots/c02/c02c64324edc2045ea1fc0601cdaaa0c.jpg"
+        },
+        {
+          "id": 11,
+          "name": "Arcade",
+          "slug": "arcade",
+          "games_count": 22665,
+          "image_background": "https://media.rawg.io/media/games/556/556157feed9ee1f55f2b12b2973e30a3.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/f03/f03dc7b9da410110430cb2b06997fb52.jpg"
+        },
+        {
+          "id": 422472,
+          "image": "https://media.rawg.io/media/screenshots/321/3214c7fa5e78e5f82da240be6e5262eb.jpg"
+        },
+        {
+          "id": 422473,
+          "image": "https://media.rawg.io/media/screenshots/172/172e02ba785a0397ceee400091e79ddd.jpg"
+        },
+        {
+          "id": 422474,
+          "image": "https://media.rawg.io/media/screenshots/cf3/cf32700944a316f7b0dc0ae089eae738.jpg"
+        },
+        {
+          "id": 422475,
+          "image": "https://media.rawg.io/media/screenshots/f03/f03dc7b9da410110430cb2b06997fb52.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36620,
+      "slug": "ddd-pool",
+      "name": "DDD Pool",
+      "released": "2004-01-01",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/0dc/0dc92d0aedb1ef7bb8bf49172012f1d0.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "yet": 2,
+        "owned": 2,
+        "beaten": 1,
+        "toplay": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 109,
+      "updated": "2024-12-07T17:14:20",
+      "user_game": null,
+      "reviews_count": 1,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2004-01-01",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 15,
+          "name": "Sports",
+          "slug": "sports",
+          "games_count": 22320,
+          "image_background": "https://media.rawg.io/media/games/11f/11fd681c312c14644ab360888dba3486.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/0dc/0dc92d0aedb1ef7bb8bf49172012f1d0.jpg"
+        },
+        {
+          "id": 421973,
+          "image": "https://media.rawg.io/media/screenshots/0a8/0a8530115901778741616c7979319217.jpg"
+        },
+        {
+          "id": 421974,
+          "image": "https://media.rawg.io/media/screenshots/46c/46cb0bdeacd2583d1a7a5989103c81b0.jpg"
+        },
+        {
+          "id": 421975,
+          "image": "https://media.rawg.io/media/screenshots/cf9/cf9e7171802c7480896c388a53c258ca.jpg"
+        },
+        {
+          "id": 421976,
+          "image": "https://media.rawg.io/media/screenshots/4de/4ded0f273387a49801c163541bb2b5ff.jpg"
+        },
+        {
+          "id": 421977,
+          "image": "https://media.rawg.io/media/screenshots/8ed/8ed1a81b88ea379625b7274874c18feb.jpg"
+        },
+        {
+          "id": 421978,
+          "image": "https://media.rawg.io/media/screenshots/9af/9af997268aadfa9629ae0ba6ab16dadb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36599,
+      "slug": "perfect-ace-2-the-championships",
+      "name": "Perfect Ace 2: The Championships",
+      "released": "2005-09-23",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/126/12619f57e44257da34f12a1b57cbc977.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 3,
+        "toplay": 3
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 281,
+      "updated": "2022-04-22T04:32:14",
+      "user_game": null,
+      "reviews_count": 1,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 16,
+            "name": "PlayStation 3",
+            "slug": "playstation3",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 3166,
+            "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+          },
+          "released_at": "2005-09-23",
+          "requirements_en": null,
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": "2005-09-23",
+          "requirements_en": null,
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2005-09-23",
+          "requirements_en": null,
+          "requirements_ru": {
+            "minimum": "Pentium III/Athlon 800 МГц,128 Мб памяти,3D-ускоритель с 32 Мб памяти,800 Мб на винчестере",
+            "recommended": "Pentium III/Athlon 1.3 ГГц,256 Мб памяти,3D-ускоритель с 64 Мб памяти,800 Мб на винчестере"
+          }
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 15,
+          "name": "Sports",
+          "slug": "sports",
+          "games_count": 22320,
+          "image_background": "https://media.rawg.io/media/games/11f/11fd681c312c14644ab360888dba3486.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/126/12619f57e44257da34f12a1b57cbc977.jpg"
+        },
+        {
+          "id": 421179,
+          "image": "https://media.rawg.io/media/screenshots/059/059ef56d3a662e3dc55422e6bc642f7d.jpg"
+        },
+        {
+          "id": 421180,
+          "image": "https://media.rawg.io/media/screenshots/714/7146431097f1d7063f30133cddd33dcc.jpg"
+        },
+        {
+          "id": 421181,
+          "image": "https://media.rawg.io/media/screenshots/41d/41df8a24be911b919599c6c5c25e080a.jpg"
+        },
+        {
+          "id": 421182,
+          "image": "https://media.rawg.io/media/screenshots/963/963e356f2ac7981550a0fae413172d50.jpg"
+        },
+        {
+          "id": 421183,
+          "image": "https://media.rawg.io/media/screenshots/5e9/5e9f9837b652ed91b076d3c7bc23f6e2.jpg"
+        },
+        {
+          "id": 421184,
+          "image": "https://media.rawg.io/media/screenshots/fca/fca02bfbdc9e21a7563658cd59afe29f.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36575,
+      "slug": "shady-brook",
+      "name": "Shady Brook",
+      "released": "2005-01-01",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/e3b/e3bfe1d386c25a7f30f5f7031414b012.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 4,
+        "toplay": 2
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 426,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2005-01-01",
+          "requirements_en": null,
+          "requirements_ru": {
+            "minimum": "Pentium III 500 МГц,512 Мб памяти,350 Мб на винчестере",
+            "recommended": "Pentium III 800 МГц,512 Мб памяти,350 Мб на винчестере"
+          }
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 148382,
+          "image_background": "https://media.rawg.io/media/games/879/879c930f9c6787c920153fa2df452eb3.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/e3b/e3bfe1d386c25a7f30f5f7031414b012.jpg"
+        },
+        {
+          "id": 419906,
+          "image": "https://media.rawg.io/media/screenshots/83c/83cc3571649212692c48b1d6af31e2bd.jpg"
+        },
+        {
+          "id": 419907,
+          "image": "https://media.rawg.io/media/screenshots/f45/f45e50e156c96a76e199b5fa938f4f69.jpg"
+        },
+        {
+          "id": 419908,
+          "image": "https://media.rawg.io/media/screenshots/d39/d399a181c94160cfd32eb275eb7d2550.jpg"
+        },
+        {
+          "id": 419909,
+          "image": "https://media.rawg.io/media/screenshots/a7c/a7c64a28a327351626b2c999b914168c.jpg"
+        },
+        {
+          "id": 419910,
+          "image": "https://media.rawg.io/media/screenshots/003/003764a57bf813510922a5fa7fa17a70.jpg"
+        },
+        {
+          "id": 419911,
+          "image": "https://media.rawg.io/media/screenshots/8f2/8f217c46402b88ea14f148d1d1ad10e2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36572,
+      "slug": "airline-69-2-krassers-revenge",
+      "name": "Airline 69-2: Krasser's Revenge",
+      "released": "2005-03-01",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/7dd/7ddbd823951f85543ea0738308d310db.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 2,
+        "toplay": 3,
+        "playing": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 388,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2005-03-01",
+          "requirements_en": null,
+          "requirements_ru": {
+            "minimum": "Pentium III/Athlon 800 МГц,64 Мб памяти,3D-ускоритель с 8 Мб памяти,230 Мб на винчестере",
+            "recommended": "Pentium III/Athlon 800 МГц,128 Мб памяти,3D-ускоритель с 8 Мб памяти,230 Мб на винчестере"
+          }
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 148382,
+          "image_background": "https://media.rawg.io/media/games/879/879c930f9c6787c920153fa2df452eb3.jpg"
+        },
+        {
+          "id": 10,
+          "name": "Strategy",
+          "slug": "strategy",
+          "games_count": 60716,
+          "image_background": "https://media.rawg.io/media/games/af7/af7a831001c5c32c46e950cc883b8cb7.jpg"
+        },
+        {
+          "id": 11,
+          "name": "Arcade",
+          "slug": "arcade",
+          "games_count": 22665,
+          "image_background": "https://media.rawg.io/media/games/556/556157feed9ee1f55f2b12b2973e30a3.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/7dd/7ddbd823951f85543ea0738308d310db.jpg"
+        },
+        {
+          "id": 419746,
+          "image": "https://media.rawg.io/media/screenshots/7a1/7a168e2e281338ea149822450e5e074e.jpg"
+        },
+        {
+          "id": 419747,
+          "image": "https://media.rawg.io/media/screenshots/144/1441ea3c8141aecb5741f52e8adf2891.jpg"
+        },
+        {
+          "id": 419748,
+          "image": "https://media.rawg.io/media/screenshots/8fc/8fcfaf43bf728d3ca6f4e89b7e5c4844.jpg"
+        },
+        {
+          "id": 419749,
+          "image": "https://media.rawg.io/media/screenshots/207/2071a0626dc9c57aa3d53c8117b36123.jpg"
+        },
+        {
+          "id": 419750,
+          "image": "https://media.rawg.io/media/screenshots/57f/57ff8a2933416b30d082df49ff26a0a2.jpg"
+        },
+        {
+          "id": 419751,
+          "image": "https://media.rawg.io/media/screenshots/b2d/b2d85c18b489f599a9bfe8bb65be3786.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36547,
+      "slug": "power-mad",
+      "name": "Power Mad",
+      "released": "2003-04-01",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/9ac/9acf1a04fb59f579ef8c209a52d3f218.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "yet": 1,
+        "owned": 4,
+        "toplay": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 277,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2003-04-01",
+          "requirements_en": null,
+          "requirements_ru": {
+            "minimum": "Pentium II 300 МГц,64 Мб памяти,3D-ускоритель с 8 Мб памяти,12 Мб на винчестере",
+            "recommended": "Pentium III 500 МГц,128 Мб памяти,3D-ускоритель с 8 Мб памяти,12 Мб на винчестере"
+          }
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 10,
+          "name": "Strategy",
+          "slug": "strategy",
+          "games_count": 60716,
+          "image_background": "https://media.rawg.io/media/games/af7/af7a831001c5c32c46e950cc883b8cb7.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/9ac/9acf1a04fb59f579ef8c209a52d3f218.jpg"
+        },
+        {
+          "id": 419093,
+          "image": "https://media.rawg.io/media/screenshots/6e7/6e7294d0c335fb8fd0b742f62ccfcacc.jpg"
+        },
+        {
+          "id": 419094,
+          "image": "https://media.rawg.io/media/screenshots/5a3/5a32f28c876195fd4f2b564ea0e32301.jpg"
+        },
+        {
+          "id": 419095,
+          "image": "https://media.rawg.io/media/screenshots/b5f/b5f2463aea7acbf86ad0c641c5577a42.jpg"
+        },
+        {
+          "id": 419096,
+          "image": "https://media.rawg.io/media/screenshots/067/067d2eeeeff929b598fd6f5aeae1aa28.jpg"
+        },
+        {
+          "id": 419097,
+          "image": "https://media.rawg.io/media/screenshots/5c1/5c118c14ac3d59564082e474fc7d7a77.jpg"
+        },
+        {
+          "id": 419098,
+          "image": "https://media.rawg.io/media/screenshots/de1/de19d86aae5d9c9297a0436a3b81eeea.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36546,
+      "slug": "heavyweight-thunder",
+      "name": "Heavyweight Thunder",
+      "released": "2005-04-29",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/536/5361de473ab9eb9134465f60d57a006e.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 2,
+        "toplay": 3,
+        "dropped": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 382,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2005-04-29",
+          "requirements_en": null,
+          "requirements_ru": {
+            "minimum": "Pentium III 500 МГц,128 Мб памяти,3D-ускоритель с 16 Мб памяти,200 Мб на винчестере",
+            "recommended": "Pentium 4/Athlon XP 1.5 ГГц,256 Мб памяти,3D-ускоритель с 32 Мб памяти,200 Мб на винчестере,геймпад"
+          }
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 15,
+          "name": "Sports",
+          "slug": "sports",
+          "games_count": 22320,
+          "image_background": "https://media.rawg.io/media/games/11f/11fd681c312c14644ab360888dba3486.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/536/5361de473ab9eb9134465f60d57a006e.jpg"
+        },
+        {
+          "id": 419070,
+          "image": "https://media.rawg.io/media/screenshots/edc/edc408f96500628bcd6a923153b9ea27.jpg"
+        },
+        {
+          "id": 419071,
+          "image": "https://media.rawg.io/media/screenshots/b15/b153221c5ee9177e883e397b807ca464.jpg"
+        },
+        {
+          "id": 419072,
+          "image": "https://media.rawg.io/media/screenshots/1f3/1f365147dc6e47db8c1e43eddc19780f.jpg"
+        },
+        {
+          "id": 419073,
+          "image": "https://media.rawg.io/media/screenshots/aef/aef388c0f317d5f3f394bc181c2296ac.jpg"
+        },
+        {
+          "id": 419074,
+          "image": "https://media.rawg.io/media/screenshots/e4b/e4b17506f5c3df701ed04d48fdbf7904.jpg"
+        },
+        {
+          "id": 419075,
+          "image": "https://media.rawg.io/media/screenshots/13a/13a6e35e05fb3a7f39adb30f2ad04231.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36536,
+      "slug": "seaworld-adventure-parks-tycoon-2",
+      "name": "SeaWorld Adventure Parks Tycoon 2",
+      "released": "2005-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/37d/37d9204d14e86849076c669ce5b0ce3e.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 2,
+        "beaten": 1,
+        "toplay": 3
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 499,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2005-01-25",
+          "requirements_en": null,
+          "requirements_ru": {
+            "minimum": "Pentium III/Athlon 800 МГц,128 Мб памяти,3D-ускоритель с 32 Мб памяти,200 Мб на винчестере",
+            "recommended": "Pentium 4/Athlon XP 1.8 ГГц,512 Мб памяти,3D-ускоритель с 64 Мб памяти,200 Мб на винчестере"
+          }
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 10,
+          "name": "Strategy",
+          "slug": "strategy",
+          "games_count": 60716,
+          "image_background": "https://media.rawg.io/media/games/af7/af7a831001c5c32c46e950cc883b8cb7.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/37d/37d9204d14e86849076c669ce5b0ce3e.jpg"
+        },
+        {
+          "id": 418514,
+          "image": "https://media.rawg.io/media/screenshots/99a/99a48ade30fc5f508d6a56ba40096abe.jpg"
+        },
+        {
+          "id": 418515,
+          "image": "https://media.rawg.io/media/screenshots/209/209d09c828f1cd7a93f2fb2829fe465d.jpg"
+        },
+        {
+          "id": 418516,
+          "image": "https://media.rawg.io/media/screenshots/4cc/4cc2bef530e2ab10cd35db3fbb445ffd.jpg"
+        },
+        {
+          "id": 418517,
+          "image": "https://media.rawg.io/media/screenshots/464/464fd9eec258c3aafc455aac1cc7808a.jpg"
+        },
+        {
+          "id": 418518,
+          "image": "https://media.rawg.io/media/screenshots/0c9/0c980322b9daf1f15bab0b17d73c4ba7.jpg"
+        },
+        {
+          "id": 418519,
+          "image": "https://media.rawg.io/media/screenshots/bee/beed7dec6d152418e87dda91358bf6ca.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36535,
+      "slug": "1944-battle-of-the-bulge",
+      "name": "1944: Battle of the Bulge",
+      "released": "2005-04-01",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/f0a/f0ac8c396c278229cc0009be075dde92.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 1,
+          "percent": 50.0
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 1,
+          "percent": 50.0
+        }
+      ],
+      "ratings_count": 2,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 2,
+        "toplay": 3,
+        "dropped": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 679,
+      "updated": "2024-03-30T05:24:16",
+      "user_game": null,
+      "reviews_count": 2,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2005-04-01",
+          "requirements_en": null,
+          "requirements_ru": {
+            "minimum": "Pentium III 600 МГц,256 Мб памяти,3D-ускоритель с 32 Мб памяти,960 Мб на винчестере",
+            "recommended": "Pentium III/Athlon 1 ГГц,512 Мб памяти,3D-ускоритель с 64 Мб памяти,960 Мб на винчестере"
+          }
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 10,
+          "name": "Strategy",
+          "slug": "strategy",
+          "games_count": 60716,
+          "image_background": "https://media.rawg.io/media/games/af7/af7a831001c5c32c46e950cc883b8cb7.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/f0a/f0ac8c396c278229cc0009be075dde92.jpg"
+        },
+        {
+          "id": 418490,
+          "image": "https://media.rawg.io/media/screenshots/914/914cfef500d066dda0829cffbdf55072.jpg"
+        },
+        {
+          "id": 418491,
+          "image": "https://media.rawg.io/media/screenshots/490/4903b8073a480d2bd939ebc5fc8eac60.jpg"
+        },
+        {
+          "id": 418492,
+          "image": "https://media.rawg.io/media/screenshots/1ca/1ca3fbf5ffc433bfb07d0a22116fbcd6.jpg"
+        },
+        {
+          "id": 418493,
+          "image": "https://media.rawg.io/media/screenshots/350/35061797c87da2de9faec38b225290f0.jpg"
+        },
+        {
+          "id": 418494,
+          "image": "https://media.rawg.io/media/screenshots/211/211195c1b19097566648965aa113add1.jpg"
+        },
+        {
+          "id": 418495,
+          "image": "https://media.rawg.io/media/screenshots/ba1/ba157c8a75fc83b3cd487896aa490d74.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36534,
+      "slug": "fred-jeff-balls-and-kicks",
+      "name": "Fred & Jeff: Balls and Kicks",
+      "released": "2002-01-01",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/817/8171db25c19ce6fb974c5dc63a905620.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "yet": 3,
+        "owned": 1,
+        "toplay": 2
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 431,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2002-01-01",
+          "requirements_en": null,
+          "requirements_ru": {
+            "minimum": "Pentium III 600 МГц,128 Мб памяти,3D-ускоритель с 16 Мб памяти,750 Мб на винчестере",
+            "recommended": "Pentium III/Athlon 800 МГц,256 Мб памяти,3D-ускоритель с 32 Мб памяти,1 Гб на винчестере"
+          }
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 148382,
+          "image_background": "https://media.rawg.io/media/games/879/879c930f9c6787c920153fa2df452eb3.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/817/8171db25c19ce6fb974c5dc63a905620.jpg"
+        },
+        {
+          "id": 418478,
+          "image": "https://media.rawg.io/media/screenshots/b5f/b5f3290c96cee11658f241424ec6ed5b.jpg"
+        },
+        {
+          "id": 418479,
+          "image": "https://media.rawg.io/media/screenshots/6e2/6e2cee9eaa214afc49a25ecf170578c1.jpg"
+        },
+        {
+          "id": 418480,
+          "image": "https://media.rawg.io/media/screenshots/5a1/5a14853ddace7348f81ab801902dfc72.jpg"
+        },
+        {
+          "id": 418481,
+          "image": "https://media.rawg.io/media/screenshots/41b/41b9ec6f221d60528d6e6a6f45860b4b.jpg"
+        },
+        {
+          "id": 418482,
+          "image": "https://media.rawg.io/media/screenshots/fbe/fbe4dbbeb08ac3d2ea5f4e01720004ea.jpg"
+        },
+        {
+          "id": 418483,
+          "image": "https://media.rawg.io/media/screenshots/4a6/4a6be3ddc7b7a6660860675b12a36a42.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36485,
+      "slug": "magic-ball-2",
+      "name": "Magic Ball 2",
+      "released": "2004-11-30",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/8eb/8ebea9890d3f8dbe83e19583b9efe08a.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 1,
+        "beaten": 1,
+        "toplay": 3,
+        "dropped": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 208,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 1,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2004-11-30",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 11,
+          "name": "Arcade",
+          "slug": "arcade",
+          "games_count": 22665,
+          "image_background": "https://media.rawg.io/media/games/556/556157feed9ee1f55f2b12b2973e30a3.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/8eb/8ebea9890d3f8dbe83e19583b9efe08a.jpg"
+        },
+        {
+          "id": 416518,
+          "image": "https://media.rawg.io/media/screenshots/3f9/3f9b5cf4717a1481fce209bbced9c4fb.jpg"
+        },
+        {
+          "id": 416519,
+          "image": "https://media.rawg.io/media/screenshots/ff8/ff80909af9614fcf36cbcbd2660a3c13.gif"
+        },
+        {
+          "id": 416520,
+          "image": "https://media.rawg.io/media/screenshots/945/94508fbc32ef96c786877c43ba919289_SdXiks1.jpg"
+        },
+        {
+          "id": 416521,
+          "image": "https://media.rawg.io/media/screenshots/128/12893f97abf54824d2fffda6a916543c.gif"
+        },
+        {
+          "id": 416522,
+          "image": "https://media.rawg.io/media/screenshots/0db/0db6aa4d7b30ec921a9421d9350fa750.gif"
+        },
+        {
+          "id": 416523,
+          "image": "https://media.rawg.io/media/screenshots/8eb/8ebea9890d3f8dbe83e19583b9efe08a.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36483,
+      "slug": "conspiracy-weapons-of-mass-destruction",
+      "name": "Conspiracy: Weapons of Mass Destruction",
+      "released": "2005-05-01",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/91f/91f1ba838df8facd30fa5e0a4860b61f.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 2,
+        "toplay": 3,
+        "dropped": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 418,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 1,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2005-05-01",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Shooter",
+          "slug": "shooter",
+          "games_count": 59577,
+          "image_background": "https://media.rawg.io/media/games/120/1201a40e4364557b124392ee50317b99.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/91f/91f1ba838df8facd30fa5e0a4860b61f.jpg"
+        },
+        {
+          "id": 416474,
+          "image": "https://media.rawg.io/media/screenshots/d7b/d7b94827a9ce9ae124f2a09f0deb2e4a.jpg"
+        },
+        {
+          "id": 416475,
+          "image": "https://media.rawg.io/media/screenshots/1b7/1b72296ad2c9897faa5c5e0394d2cad9.jpg"
+        },
+        {
+          "id": 416476,
+          "image": "https://media.rawg.io/media/screenshots/d6f/d6f201b22a1908db0f6d2dddd3f7b494.jpg"
+        },
+        {
+          "id": 416477,
+          "image": "https://media.rawg.io/media/screenshots/a5c/a5c14de0d3485b5a52bf6fc506073534.jpg"
+        },
+        {
+          "id": 416478,
+          "image": "https://media.rawg.io/media/screenshots/dd7/dd7e1e47a8faea0b8c018e1aac0c2faa.jpg"
+        },
+        {
+          "id": 416479,
+          "image": "https://media.rawg.io/media/screenshots/495/495a56ea6c5e1a80e244efa7d52d9730.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36469,
+      "slug": "bonez-adventures-tomb-of-fulaos",
+      "name": "Bonez Adventures: Tomb of Fulaos",
+      "released": "2005-07-08",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/6bd/6bdc1a62a718e4e911c805556977ee54.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 2,
+        "toplay": 4
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 440,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 1,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2005-07-08",
+          "requirements_en": null,
+          "requirements_ru": {
+            "minimum": "Pentium III 600 МГц,128 Мб памяти,3D-ускоритель с 32 Мб памяти,500 Мб на винчестере",
+            "recommended": "Pentium III/Athlon 800 МГц,128 Мб памяти,3D-ускоритель с 64 Мб памяти,500 Мб на винчестере"
+          }
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        },
+        {
+          "id": 5,
+          "name": "RPG",
+          "slug": "role-playing-games-rpg",
+          "games_count": 60287,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/6bd/6bdc1a62a718e4e911c805556977ee54.jpg"
+        },
+        {
+          "id": 415756,
+          "image": "https://media.rawg.io/media/screenshots/0d5/0d5af167f59224c566e2348f9eee306c.jpg"
+        },
+        {
+          "id": 415757,
+          "image": "https://media.rawg.io/media/screenshots/70d/70d31dbe9111bf15273a09e11bcd02e9.jpg"
+        },
+        {
+          "id": 415758,
+          "image": "https://media.rawg.io/media/screenshots/8bf/8bf43780b8c3185e15cfa2135496d074.jpg"
+        },
+        {
+          "id": 415759,
+          "image": "https://media.rawg.io/media/screenshots/6eb/6ebdf2635b32c42abf5e1ed6cb28ab2e.jpg"
+        },
+        {
+          "id": 415760,
+          "image": "https://media.rawg.io/media/screenshots/e4c/e4cc13981a8ca4be5c53ef1fa21e7961.jpg"
+        },
+        {
+          "id": 415761,
+          "image": "https://media.rawg.io/media/screenshots/3de/3de95c30bfebd53a95478fa9648fe0ea.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36466,
+      "slug": "rubies-of-eventide",
+      "name": "Rubies of Eventide",
+      "released": "2003-06-04",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/abf/abf5ff860035da17b536874810f60539.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 1,
+          "percent": 50.0
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 1,
+          "percent": 50.0
+        }
+      ],
+      "ratings_count": 2,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "yet": 1,
+        "owned": 2,
+        "toplay": 2,
+        "dropped": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 492,
+      "updated": "2023-01-29T09:29:37",
+      "user_game": null,
+      "reviews_count": 2,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2003-06-04",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 5,
+          "name": "RPG",
+          "slug": "role-playing-games-rpg",
+          "games_count": 60287,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        },
+        {
+          "id": 59,
+          "name": "Massively Multiplayer",
+          "slug": "massively-multiplayer",
+          "games_count": 4111,
+          "image_background": "https://media.rawg.io/media/games/b4e/b4e4c73d5aa4ec66bbf75375c4847a2b.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/abf/abf5ff860035da17b536874810f60539.jpg"
+        },
+        {
+          "id": 415497,
+          "image": "https://media.rawg.io/media/screenshots/98b/98bc38e3c969bfb26e19a8a5914fc5a5.jpg"
+        },
+        {
+          "id": 415498,
+          "image": "https://media.rawg.io/media/screenshots/122/1229789134427aea2a507fe85e878297.jpg"
+        },
+        {
+          "id": 415499,
+          "image": "https://media.rawg.io/media/screenshots/956/95696539223a8a1100ded45b7a2039ef.jpg"
+        },
+        {
+          "id": 415500,
+          "image": "https://media.rawg.io/media/screenshots/9dd/9dd29c4ad0105a43ab32f43306067528.jpg"
+        },
+        {
+          "id": 415501,
+          "image": "https://media.rawg.io/media/screenshots/635/635fe6909e48ae1d8d7b12d338957fa3.jpg"
+        },
+        {
+          "id": 415502,
+          "image": "https://media.rawg.io/media/screenshots/f08/f08d9dacaf446fc89e1634ab70927cf8.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36452,
+      "slug": "talvisota",
+      "name": "Talvisota: Ледяной ад",
+      "released": "2007-11-16",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/775/7751f57a4935aa42a6c2c7c49457bf67.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 3,
+        "toplay": 3
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 490,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2007-11-16",
+          "requirements_en": null,
+          "requirements_ru": {
+            "minimum": "Pentium II 350 МГц,128 Мб памяти,3D-ускоритель с 8 Мб памяти,900 Мб на винчестере",
+            "recommended": "Pentium III/Athlon 1 ГГц,256 Мб памяти,3D-ускоритель со 128 Мб памяти,900 Мб на винчестере"
+          }
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 10,
+          "name": "Strategy",
+          "slug": "strategy",
+          "games_count": 60716,
+          "image_background": "https://media.rawg.io/media/games/af7/af7a831001c5c32c46e950cc883b8cb7.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/775/7751f57a4935aa42a6c2c7c49457bf67.jpg"
+        },
+        {
+          "id": 415155,
+          "image": "https://media.rawg.io/media/screenshots/3c1/3c1eac0558796801b0f340765571aa0b.jpg"
+        },
+        {
+          "id": 415156,
+          "image": "https://media.rawg.io/media/screenshots/872/8727e0094ffefd701fa291f304c2f125.jpg"
+        },
+        {
+          "id": 415157,
+          "image": "https://media.rawg.io/media/screenshots/538/538d5a4db88057cd8f6016df7c9038bb.jpg"
+        },
+        {
+          "id": 415158,
+          "image": "https://media.rawg.io/media/screenshots/837/83765ba77a192c0f8312aa4d4564a2be.jpg"
+        },
+        {
+          "id": 415159,
+          "image": "https://media.rawg.io/media/screenshots/918/9185276247509f8cc66c772b6cb01243.jpg"
+        },
+        {
+          "id": 415160,
+          "image": "https://media.rawg.io/media/screenshots/9bc/9bcda4a4454a2a0fe1be78790cab690a.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36450,
+      "slug": "taxi-3-extreme-rush",
+      "name": "Taxi 3: eXtreme Rush",
+      "released": "2005-05-01",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/609/6097503373b05150f55dbf60c19ed5b5.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 2,
+        "beaten": 1,
+        "toplay": 3
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 353,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2005-05-01",
+          "requirements_en": null,
+          "requirements_ru": {
+            "minimum": "Pentium III/Athlon 1 ГГц,256 Мб памяти,3D-ускоритель с 32 Мб памяти,350 Мб на винчестере",
+            "recommended": "Pentium 4/Athlon XP 2 ГГц,512 Мб памяти,3D-ускоритель с 64 Мб памяти,350 Мб на винчестере"
+          }
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 1,
+          "name": "Racing",
+          "slug": "racing",
+          "games_count": 25533,
+          "image_background": "https://media.rawg.io/media/screenshots/c02/c02c64324edc2045ea1fc0601cdaaa0c.jpg"
+        },
+        {
+          "id": 11,
+          "name": "Arcade",
+          "slug": "arcade",
+          "games_count": 22665,
+          "image_background": "https://media.rawg.io/media/games/556/556157feed9ee1f55f2b12b2973e30a3.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/609/6097503373b05150f55dbf60c19ed5b5.jpg"
+        },
+        {
+          "id": 415097,
+          "image": "https://media.rawg.io/media/screenshots/f70/f7026849549009bb76704f0a21d2e54b.jpg"
+        },
+        {
+          "id": 415098,
+          "image": "https://media.rawg.io/media/screenshots/bf8/bf8e470d1cc707dcc50f4a489669ff95.jpg"
+        },
+        {
+          "id": 415099,
+          "image": "https://media.rawg.io/media/screenshots/5fc/5fcdb5e9babe96cf250d68fbe44364a2.jpg"
+        },
+        {
+          "id": 415100,
+          "image": "https://media.rawg.io/media/screenshots/3e0/3e09617f64f6ba64d623b309a132b5cd.jpg"
+        },
+        {
+          "id": 415101,
+          "image": "https://media.rawg.io/media/screenshots/160/1606669b404161a98749e022964c8a1e.jpg"
+        },
+        {
+          "id": 415102,
+          "image": "https://media.rawg.io/media/screenshots/bbb/bbb687580e8f7022eaf3662cfaf6689d.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36428,
+      "slug": "gold-miner-joe",
+      "name": "Gold Miner Joe",
+      "released": "2004-01-15",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/bc2/bc26ce4c310585a39ffbc5444f710f3d_8LKk8Go.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "yet": 1,
+        "owned": 4,
+        "toplay": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 120,
+      "updated": "2019-07-30T01:21:20",
+      "user_game": null,
+      "reviews_count": 1,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2004-01-15",
+          "requirements_en": null,
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 77399,
+            "image_background": "https://media.rawg.io/media/games/095/0953bf01cd4e4dd204aba85489ac9868.jpg"
+          },
+          "released_at": "2009-09-18",
+          "requirements_en": {
+            "minimum": "iPad 2 Wifi, iPad 2 3G, iPhone 4S, iPad Third Gen, iPad Third Gen 4G, iPhone 5, iPod Touch Fifth Gen, iPad Fourth Gen, iPad Fourth Gen 4G, iPad Mini, iPad Mini 4G, iPhone 5c, iPhone 5s, iPad Air, iPad Air Cellular, iPad Mini Retina, iPad Mini Retina Cellular, iPhone 6, iPhone 6 Plus, iPad Air 2, iPad Air 2 Cellular, iPad Mini 3, iPad Mini 3 Cellular, iPod Touch Sixth Gen, iPhone 6s, iPhone 6s Plus, iPad Mini 4, iPad Mini 4 Cellular, iPad Pro, iPad Pro Cellular, iPad Pro 9.7, iPad Pro 9.7 Cellular, iPhone SE, iPhone 7, iPhone 7 Plus, iPad 6 1 1, iPad 6 1 2, iPad 7 1, iPad 7 2, iPad 7 3, iPad 7 4, iPhone 8, iPhone 8 Plus, iPhone X, iPad 7 5, iPad 7 6, iPhone X S, iPhone X S Max, iPhone X R, iPad 8 1 2, iPad 8 3 4, iPad 8 5 6, iPad 8 7 8, iPad Mini 5, iPad Mini 5 Cellular, iPad Air 3, iPad Air 3 Cellular, iPod Touch Seventh Gen"
+          },
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 148382,
+          "image_background": "https://media.rawg.io/media/games/879/879c930f9c6787c920153fa2df452eb3.jpg"
+        },
+        {
+          "id": 11,
+          "name": "Arcade",
+          "slug": "arcade",
+          "games_count": 22665,
+          "image_background": "https://media.rawg.io/media/games/556/556157feed9ee1f55f2b12b2973e30a3.jpg"
+        },
+        {
+          "id": 19,
+          "name": "Family",
+          "slug": "family",
+          "games_count": 5407,
+          "image_background": "https://media.rawg.io/media/screenshots/351/351ee0915fcd5a64e976791794039d5c.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 70394,
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "apps.apple.com",
+            "games_count": 75585,
+            "image_background": "https://media.rawg.io/media/games/49c/49c3dfa4ce2f6f140cc4825868e858cb.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 115,
+          "name": "Controller",
+          "slug": "controller",
+          "language": "eng",
+          "games_count": 14072,
+          "image_background": "https://media.rawg.io/media/screenshots/2fc/2fc6994425146f9dba3133400b414e29.jpg"
+        },
+        {
+          "id": 179,
+          "name": "Cartoon",
+          "slug": "cartoon",
+          "language": "eng",
+          "games_count": 7237,
+          "image_background": "https://media.rawg.io/media/games/b17/b17485d757ca36b5f1ad376b6b096885.jpg"
+        },
+        {
+          "id": 1897,
+          "name": "fire",
+          "slug": "fire",
+          "language": "eng",
+          "games_count": 6127,
+          "image_background": "https://media.rawg.io/media/screenshots/9c9/9c9f16dfc0368aacb32c6cd8a7fc9f8e.jpeg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/bc2/bc26ce4c310585a39ffbc5444f710f3d_8LKk8Go.jpg"
+        },
+        {
+          "id": 414639,
+          "image": "https://media.rawg.io/media/screenshots/b80/b800aa579a0ce70995d9b97423e415fe.jpg"
+        },
+        {
+          "id": 414640,
+          "image": "https://media.rawg.io/media/screenshots/6ad/6add2afb3cd342ef81cf40d26a6af11a.jpg"
+        },
+        {
+          "id": 414641,
+          "image": "https://media.rawg.io/media/screenshots/bc2/bc26ce4c310585a39ffbc5444f710f3d_8LKk8Go.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36414,
+      "slug": "balloon-blast",
+      "name": "Balloon Blast",
+      "released": "2004-01-01",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/779/77917f8e96e9bad5e85b6cf9e3415908.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "yet": 1,
+        "owned": 2,
+        "toplay": 3
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 75,
+      "updated": "2021-04-12T11:12:18",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2021-04-05",
+          "requirements_en": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 8<br></li><li><strong>Processor:</strong> Intel i7 - 3630QM<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GT 740M<br></li><li><strong>Storage:</strong> 450 MB available space</li></ul>",
+            "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+          },
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android",
+            "slug": "android",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 52463,
+            "image_background": "https://media.rawg.io/media/games/5fa/5fae5fec3c943179e09da67a4427d68f.jpg"
+          },
+          "released_at": "2004-01-01",
+          "requirements_en": {
+            "minimum": "4.0 and up"
+          },
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 8,
+            "name": "Android",
+            "slug": "android"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        },
+        {
+          "id": 11,
+          "name": "Arcade",
+          "slug": "arcade",
+          "games_count": 22665,
+          "image_background": "https://media.rawg.io/media/games/556/556157feed9ee1f55f2b12b2973e30a3.jpg"
+        },
+        {
+          "id": 28,
+          "name": "Board Games",
+          "slug": "board-games",
+          "games_count": 8389,
+          "image_background": "https://media.rawg.io/media/screenshots/8ff/8ffe8f19d2e764867c8ed625ddf4e368.jpg"
+        },
+        {
+          "id": 40,
+          "name": "Casual",
+          "slug": "casual",
+          "games_count": 63679,
+          "image_background": "https://media.rawg.io/media/games/388/388935d851846f8ec747fffc7c765800.jpg"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie",
+          "games_count": 80396,
+          "image_background": "https://media.rawg.io/media/games/e04/e04963f3ac4c4fa83a1dc0b9231e50db.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 223237,
+          "store": {
+            "id": 8,
+            "name": "Google Play",
+            "slug": "google-play",
+            "domain": "play.google.com",
+            "games_count": 17115,
+            "image_background": "https://media.rawg.io/media/games/aa3/aa36ba4b486a03ddfaef274fb4f5afd4.jpg"
+          }
+        },
+        {
+          "id": 574916,
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "domain": "store.steampowered.com",
+            "games_count": 115017,
+            "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 40847,
+          "name": "Steam Achievements",
+          "slug": "steam-achievements",
+          "language": "eng",
+          "games_count": 47389,
+          "image_background": "https://media.rawg.io/media/games/713/713269608dc8f2f40f5a670a14b2de94.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Multiplayer",
+          "slug": "multiplayer",
+          "language": "eng",
+          "games_count": 41244,
+          "image_background": "https://media.rawg.io/media/games/737/737ea5662211d2e0bbd6f5989189e4f1.jpg"
+        },
+        {
+          "id": 8,
+          "name": "First-Person",
+          "slug": "first-person",
+          "language": "eng",
+          "games_count": 35725,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        },
+        {
+          "id": 40845,
+          "name": "Partial Controller Support",
+          "slug": "partial-controller-support",
+          "language": "eng",
+          "games_count": 13377,
+          "image_background": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg"
+        },
+        {
+          "id": 157,
+          "name": "PvP",
+          "slug": "pvp",
+          "language": "eng",
+          "games_count": 11264,
+          "image_background": "https://media.rawg.io/media/games/4e0/4e0e7b6d6906a131307c94266e5c9a1c.jpg"
+        },
+        {
+          "id": 165,
+          "name": "Colorful",
+          "slug": "colorful",
+          "language": "eng",
+          "games_count": 26985,
+          "image_background": "https://media.rawg.io/media/games/fd7/fd794a9f0ffe816038d981b3acc3eec9.jpg"
+        },
+        {
+          "id": 45878,
+          "name": "Online PvP",
+          "slug": "online-pvp",
+          "language": "eng",
+          "games_count": 5898,
+          "image_background": "https://media.rawg.io/media/games/e43/e43f9f0a1429bd9332020ac5876bc693.jpg"
+        },
+        {
+          "id": 413,
+          "name": "online",
+          "slug": "online",
+          "language": "eng",
+          "games_count": 6555,
+          "image_background": "https://media.rawg.io/media/games/af2/af2b640fa820e8a8135948a4cd399539.jpg"
+        },
+        {
+          "id": 1867,
+          "name": "puzzles",
+          "slug": "puzzles",
+          "language": "eng",
+          "games_count": 8868,
+          "image_background": "https://media.rawg.io/media/screenshots/ea9/ea9036e881db5e334e10b2b61aecb29e.jpg"
+        },
+        {
+          "id": 2590,
+          "name": "fun",
+          "slug": "fun",
+          "language": "eng",
+          "games_count": 29221,
+          "image_background": "https://media.rawg.io/media/screenshots/ee8/ee8610ecaf643f53d66ba0704d6ddeef.jpg"
+        },
+        {
+          "id": 1743,
+          "name": "collect",
+          "slug": "collect",
+          "language": "eng",
+          "games_count": 8080,
+          "image_background": "https://media.rawg.io/media/screenshots/404/4045a88d51324d13eda8aa26f245f2df.jpg"
+        },
+        {
+          "id": 3612,
+          "name": "match",
+          "slug": "match",
+          "language": "eng",
+          "games_count": 6505,
+          "image_background": "https://media.rawg.io/media/screenshots/9e9/9e9754f31a872b746b6456d01e2c5ebf.jpg"
+        },
+        {
+          "id": 460,
+          "name": "Endless",
+          "slug": "endless",
+          "language": "eng",
+          "games_count": 14740,
+          "image_background": "https://media.rawg.io/media/screenshots/0ee/0ee3ca846ff10c91bbfeae6adf69019c_opJg8M3.jpg"
+        },
+        {
+          "id": 4441,
+          "name": "cube",
+          "slug": "cube",
+          "language": "eng",
+          "games_count": 2212,
+          "image_background": "https://media.rawg.io/media/screenshots/1b4/1b46082176f5ae4081ef3c439d2254d8.jpg"
+        },
+        {
+          "id": 1333,
+          "name": "android",
+          "slug": "android",
+          "language": "eng",
+          "games_count": 3365,
+          "image_background": "https://media.rawg.io/media/screenshots/4a1/4a194da0aa322a24fa8cdeb060323fd5.jpg"
+        },
+        {
+          "id": 2689,
+          "name": "rocket",
+          "slug": "rocket",
+          "language": "eng",
+          "games_count": 1696,
+          "image_background": "https://media.rawg.io/media/screenshots/294/294f3bd5a2aa79df10e10d6f3c6ed4a7.jpg"
+        },
+        {
+          "id": 2118,
+          "name": "snow",
+          "slug": "snow",
+          "language": "eng",
+          "games_count": 1273,
+          "image_background": "https://media.rawg.io/media/screenshots/be3/be3396218c381eaecf55378fc18e9985.jpg"
+        },
+        {
+          "id": 1994,
+          "name": "tap",
+          "slug": "tap",
+          "language": "eng",
+          "games_count": 7836,
+          "image_background": "https://media.rawg.io/media/screenshots/525/525b5da62342fa726bfe2820e8f93c09.jpg"
+        },
+        {
+          "id": 3189,
+          "name": "color",
+          "slug": "color",
+          "language": "eng",
+          "games_count": 6503,
+          "image_background": "https://media.rawg.io/media/screenshots/13f/13fbabb0f35721f1f15fbd4c87d960ea.jpg"
+        },
+        {
+          "id": 654,
+          "name": "blocks",
+          "slug": "blocks",
+          "language": "eng",
+          "games_count": 6316,
+          "image_background": "https://media.rawg.io/media/screenshots/676/6767f33d25f567005222cac8e9a7331c.jpg"
+        },
+        {
+          "id": 4424,
+          "name": "cubes",
+          "slug": "cubes",
+          "language": "eng",
+          "games_count": 1001,
+          "image_background": "https://media.rawg.io/media/screenshots/5bb/5bbd71548240703f3bc42cee7c87972d.jpg"
+        },
+        {
+          "id": 6224,
+          "name": "balloon",
+          "slug": "balloon",
+          "language": "eng",
+          "games_count": 541,
+          "image_background": "https://media.rawg.io/media/screenshots/ce5/ce5da20dfecf20be11b34db9b45bbcab.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/779/77917f8e96e9bad5e85b6cf9e3415908.jpg"
+        },
+        {
+          "id": 414561,
+          "image": "https://media.rawg.io/media/screenshots/756/7567ede2596f6857c9bb5018dfd86d09.jpg"
+        },
+        {
+          "id": 414562,
+          "image": "https://media.rawg.io/media/screenshots/e74/e7424e7452e5a5071401c1b82b187727.jpg"
+        },
+        {
+          "id": 414563,
+          "image": "https://media.rawg.io/media/screenshots/779/77917f8e96e9bad5e85b6cf9e3415908.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36407,
+      "slug": "the-unspoken-glyphs-of-the-ancient-souls",
+      "name": "The unSpoken: Glyphs of the Ancient Souls",
+      "released": "2004-11-20",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/337/3378e8355b4015901d6b381cf69e4448.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 1,
+          "percent": 50.0
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 1,
+          "percent": 50.0
+        }
+      ],
+      "ratings_count": 2,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 2,
+        "toplay": 4
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 431,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 2,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2004-11-20",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 5,
+          "name": "RPG",
+          "slug": "role-playing-games-rpg",
+          "games_count": 60287,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/337/3378e8355b4015901d6b381cf69e4448.jpg"
+        },
+        {
+          "id": 414513,
+          "image": "https://media.rawg.io/media/screenshots/6af/6afe7bd7e8d6942e63ea6a6b92f5897a.jpg"
+        },
+        {
+          "id": 414514,
+          "image": "https://media.rawg.io/media/screenshots/541/541c943b348520d65b591cee2ec47ba7.jpg"
+        },
+        {
+          "id": 414515,
+          "image": "https://media.rawg.io/media/screenshots/7cb/7cbba877c8b6301802cb198cc26c7090.jpg"
+        },
+        {
+          "id": 414516,
+          "image": "https://media.rawg.io/media/screenshots/5d0/5d0ddaa2594d87e96d529af578887629.jpg"
+        },
+        {
+          "id": 414517,
+          "image": "https://media.rawg.io/media/screenshots/bf6/bf62bfa177e10d994fd421a1e61ba416.jpg"
+        },
+        {
+          "id": 414518,
+          "image": "https://media.rawg.io/media/screenshots/c2a/c2aabec4df8b2b8b1ebed3f3ef133609.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36386,
+      "slug": "gutterball-2",
+      "name": "Gutterball 2",
+      "released": "2004-11-08",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/bc0/bc01fdb0d0188abce9ecf3f0612f10a7.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 4,
+        "beaten": 1,
+        "toplay": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 189,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2004-11-08",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 15,
+          "name": "Sports",
+          "slug": "sports",
+          "games_count": 22320,
+          "image_background": "https://media.rawg.io/media/games/11f/11fd681c312c14644ab360888dba3486.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/bc0/bc01fdb0d0188abce9ecf3f0612f10a7.jpg"
+        },
+        {
+          "id": 413795,
+          "image": "https://media.rawg.io/media/screenshots/ed3/ed33eff211b5a29ada48d2a1bf5984c6.jpg"
+        },
+        {
+          "id": 413796,
+          "image": "https://media.rawg.io/media/screenshots/9ad/9adca7d161a86f0b96d2aa20a97542e9.jpg"
+        },
+        {
+          "id": 413797,
+          "image": "https://media.rawg.io/media/screenshots/3c8/3c85c5bee99d091f803e2630ca464ab7.jpg"
+        },
+        {
+          "id": 413798,
+          "image": "https://media.rawg.io/media/screenshots/23b/23b4f1750edd99a0072559d3a94eb738.jpg"
+        },
+        {
+          "id": 413799,
+          "image": "https://media.rawg.io/media/screenshots/bc0/bc01fdb0d0188abce9ecf3f0612f10a7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36332,
+      "slug": "snowy-space-trip",
+      "name": "Snowy: Space Trip",
+      "released": "2004-10-12",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/341/34129e1047693ddac5d57e40646ba6db.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 4,
+        "beaten": 1,
+        "toplay": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 157,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2004-10-12",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 11,
+          "name": "Arcade",
+          "slug": "arcade",
+          "games_count": 22665,
+          "image_background": "https://media.rawg.io/media/games/556/556157feed9ee1f55f2b12b2973e30a3.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/341/34129e1047693ddac5d57e40646ba6db.jpg"
+        },
+        {
+          "id": 412487,
+          "image": "https://media.rawg.io/media/screenshots/031/031152977e19d425bfe315495da0fe1d.jpg"
+        },
+        {
+          "id": 412488,
+          "image": "https://media.rawg.io/media/screenshots/956/9566e0eeb157cfee2145866bceafe57c.jpg"
+        },
+        {
+          "id": 412489,
+          "image": "https://media.rawg.io/media/screenshots/341/34129e1047693ddac5d57e40646ba6db.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36324,
+      "slug": "betrapped",
+      "name": "BeTrapped!",
+      "released": "2004-10-07",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/539/5390d24c29b88603aebd570290107844.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 2,
+        "beaten": 1,
+        "toplay": 3
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 106,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 1,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2004-10-07",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 148382,
+          "image_background": "https://media.rawg.io/media/games/879/879c930f9c6787c920153fa2df452eb3.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Puzzle",
+          "slug": "puzzle",
+          "games_count": 97350,
+          "image_background": "https://media.rawg.io/media/games/852/8522935d8ab27b610a254b52de0da212.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/539/5390d24c29b88603aebd570290107844.jpg"
+        },
+        {
+          "id": 412292,
+          "image": "https://media.rawg.io/media/screenshots/fa2/fa24652ec85a4c5d0d2ce9e828740c8b.jpg"
+        },
+        {
+          "id": 412293,
+          "image": "https://media.rawg.io/media/screenshots/615/615cbddeb4e5e34f90a268b9a5a076e4.jpg"
+        },
+        {
+          "id": 412294,
+          "image": "https://media.rawg.io/media/screenshots/539/5390d24c29b88603aebd570290107844.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36311,
+      "slug": "strike-ball",
+      "name": "Strike Ball",
+      "released": "2004-10-01",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/8a7/8a7da4596fbc5476919f38b79a6b75ba.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 4,
+        "toplay": 2
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 134,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2004-10-01",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 11,
+          "name": "Arcade",
+          "slug": "arcade",
+          "games_count": 22665,
+          "image_background": "https://media.rawg.io/media/games/556/556157feed9ee1f55f2b12b2973e30a3.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/8a7/8a7da4596fbc5476919f38b79a6b75ba.jpg"
+        },
+        {
+          "id": 411745,
+          "image": "https://media.rawg.io/media/screenshots/5bc/5bc06ccc0147da7914dac87560750c3b.jpg"
+        },
+        {
+          "id": 411746,
+          "image": "https://media.rawg.io/media/screenshots/4b4/4b494ed26e038b21927adc978333d7ba.jpg"
+        },
+        {
+          "id": 411747,
+          "image": "https://media.rawg.io/media/screenshots/8a7/8a7da4596fbc5476919f38b79a6b75ba.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36295,
+      "slug": "world-war-ii-tank-commander",
+      "name": "World War II Tank Commander",
+      "released": "2005-04-22",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/365/3657bcce9c262ed5bdfe4d881e379cd0.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 3,
+        "toplay": 3
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 447,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2005-04-22",
+          "requirements_en": null,
+          "requirements_ru": {
+            "minimum": "Pentium III/Athlon 1 ГГц,256 Мб памяти,3D-ускоритель с 32 Мб памяти,1.1 Гб на винчестере",
+            "recommended": "Pentium 4/Athlon XP 1.4 ГГц,512 Мб памяти,3D-ускоритель с 64 Мб памяти,1.1 Гб на винчестере"
+          }
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 11,
+          "name": "Arcade",
+          "slug": "arcade",
+          "games_count": 22665,
+          "image_background": "https://media.rawg.io/media/games/556/556157feed9ee1f55f2b12b2973e30a3.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/365/3657bcce9c262ed5bdfe4d881e379cd0.jpg"
+        },
+        {
+          "id": 411274,
+          "image": "https://media.rawg.io/media/screenshots/f45/f45261a7a162c875d6cc0f852d6038e2.jpg"
+        },
+        {
+          "id": 411275,
+          "image": "https://media.rawg.io/media/screenshots/603/603722952e2b0447b09e0349e21636a0.jpg"
+        },
+        {
+          "id": 411276,
+          "image": "https://media.rawg.io/media/screenshots/8bc/8bc8555e0c89be6bb608ddcc665b1178.jpg"
+        },
+        {
+          "id": 411277,
+          "image": "https://media.rawg.io/media/screenshots/fae/fae8d34da7cb4c462ecb08bd3b15201a.jpg"
+        },
+        {
+          "id": 411278,
+          "image": "https://media.rawg.io/media/screenshots/bc1/bc12059ecdcb9709f4bc4b35b5c18856.jpg"
+        },
+        {
+          "id": 411279,
+          "image": "https://media.rawg.io/media/screenshots/db6/db60494a8bf446bedb5c2b04273d8df9.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36288,
+      "slug": "game-129",
+      "name": "МЕТРОН",
+      "released": "2004-09-23",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/aac/aac43a758c4df7d5d5de84150254cfeb.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 2,
+          "percent": 50.0
+        },
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 1,
+          "percent": 25.0
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 1,
+          "percent": 25.0
+        }
+      ],
+      "ratings_count": 4,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 2,
+        "beaten": 1,
+        "toplay": 1,
+        "dropped": 1,
+        "playing": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 335,
+      "updated": "2023-06-05T20:14:23",
+      "user_game": null,
+      "reviews_count": 4,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2004-09-23",
+          "requirements_en": null,
+          "requirements_ru": {
+            "minimum": "Pentium II 300 МГц,64 Мб памяти",
+            "recommended": "Pentium II 450 МГц,128 Мб памяти"
+          }
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 148382,
+          "image_background": "https://media.rawg.io/media/games/879/879c930f9c6787c920153fa2df452eb3.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/aac/aac43a758c4df7d5d5de84150254cfeb.jpg"
+        },
+        {
+          "id": 411056,
+          "image": "https://media.rawg.io/media/screenshots/adf/adf59c9c7ad0cbb816f6b27da95028f6.jpg"
+        },
+        {
+          "id": 411057,
+          "image": "https://media.rawg.io/media/screenshots/bb2/bb2bc315ce2ca53f58fa0e059611ebfb.jpg"
+        },
+        {
+          "id": 411058,
+          "image": "https://media.rawg.io/media/screenshots/f5e/f5ee70e8f2af84ee823da0a5c18dd489.jpg"
+        },
+        {
+          "id": 411059,
+          "image": "https://media.rawg.io/media/screenshots/287/2871910429d0f64080ddd1334b265f6e.jpg"
+        },
+        {
+          "id": 411060,
+          "image": "https://media.rawg.io/media/screenshots/429/4295b3856d0d9b1d482951b9619a695d.jpg"
+        },
+        {
+          "id": 411061,
+          "image": "https://media.rawg.io/media/screenshots/ed3/ed32c5c691c2e90be8fdb913c3ff8d53.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36286,
+      "slug": "red-shark-2",
+      "name": "Red Shark 2",
+      "released": "2005-04-04",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/91f/91f69b573072ece0035216d2e9a4c423.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 6,
+      "added_by_status": {
+        "owned": 2,
+        "toplay": 3,
+        "dropped": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 389,
+      "updated": "2019-01-09T12:41:06",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2005-04-04",
+          "requirements_en": null,
+          "requirements_ru": {
+            "minimum": "Pentium III/Athlon 800 МГц,256 Мб памяти,3D-ускоритель с 64 Мб памяти,1.2 Гб на винчестере",
+            "recommended": "Pentium 4/Athlon XP 1.4 ГГц,512 Мб памяти,3D-ускоритель со 128 Мб памяти,1.2 Гб на винчестере"
+          }
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 11,
+          "name": "Arcade",
+          "slug": "arcade",
+          "games_count": 22665,
+          "image_background": "https://media.rawg.io/media/games/556/556157feed9ee1f55f2b12b2973e30a3.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/91f/91f69b573072ece0035216d2e9a4c423.jpg"
+        },
+        {
+          "id": 411032,
+          "image": "https://media.rawg.io/media/screenshots/d9e/d9e687b35dc00f566eaededd243cd729.jpg"
+        },
+        {
+          "id": 411033,
+          "image": "https://media.rawg.io/media/screenshots/830/830c3e1845d07a59bd5140065de67b23.jpg"
+        },
+        {
+          "id": 411034,
+          "image": "https://media.rawg.io/media/screenshots/7cf/7cfff800ce2d07aaff16a0bbd2dc3b50.jpg"
+        },
+        {
+          "id": 411035,
+          "image": "https://media.rawg.io/media/screenshots/9d8/9d88ca2854199ca83a13c960378227dc.jpg"
+        },
+        {
+          "id": 411036,
+          "image": "https://media.rawg.io/media/screenshots/5b0/5b016e74701789ab7a63150ea4a55d82.jpg"
+        },
+        {
+          "id": 411037,
+          "image": "https://media.rawg.io/media/screenshots/488/488fbd20a75a90c4789fcf24764371f7.jpg"
+        }
+      ]
+    }
+  ],
+  "seo_title": "All Games",
+  "seo_description": "",
+  "seo_keywords": "",
+  "seo_h1": "All Games",
+  "noindex": false,
+  "nofollow": false,
+  "description": "",
+  "filters": {
+    "years": [
+      {
+        "from": 2020,
+        "to": 2025,
+        "filter": "2020-01-01,2025-12-31",
+        "decade": 2020,
+        "years": [
+          {
+            "year": 2025,
+            "count": 10372,
+            "nofollow": false
+          },
+          {
+            "year": 2024,
+            "count": 17527,
+            "nofollow": false
+          },
+          {
+            "year": 2023,
+            "count": 61989,
+            "nofollow": false
+          },
+          {
+            "year": 2022,
+            "count": 168188,
+            "nofollow": false
+          },
+          {
+            "year": 2021,
+            "count": 158708,
+            "nofollow": false
+          },
+          {
+            "year": 2020,
+            "count": 121373,
+            "nofollow": false
+          }
+        ],
+        "nofollow": true,
+        "count": 538157
+      },
+      {
+        "from": 2010,
+        "to": 2019,
+        "filter": "2010-01-01,2019-12-31",
+        "decade": 2010,
+        "years": [
+          {
+            "year": 2019,
+            "count": 73700,
+            "nofollow": false
+          },
+          {
+            "year": 2018,
+            "count": 67948,
+            "nofollow": false
+          },
+          {
+            "year": 2017,
+            "count": 54588,
+            "nofollow": true
+          },
+          {
+            "year": 2016,
+            "count": 40245,
+            "nofollow": true
+          },
+          {
+            "year": 2015,
+            "count": 25898,
+            "nofollow": true
+          },
+          {
+            "year": 2014,
+            "count": 15360,
+            "nofollow": true
+          },
+          {
+            "year": 2013,
+            "count": 6346,
+            "nofollow": true
+          },
+          {
+            "year": 2012,
+            "count": 5393,
+            "nofollow": true
+          },
+          {
+            "year": 2011,
+            "count": 4330,
+            "nofollow": true
+          },
+          {
+            "year": 2010,
+            "count": 3902,
+            "nofollow": true
+          }
+        ],
+        "nofollow": true,
+        "count": 297710
+      },
+      {
+        "from": 2000,
+        "to": 2009,
+        "filter": "2000-01-01,2009-12-31",
+        "decade": 2000,
+        "years": [
+          {
+            "year": 2009,
+            "count": 3124,
+            "nofollow": true
+          },
+          {
+            "year": 2008,
+            "count": 2043,
+            "nofollow": true
+          },
+          {
+            "year": 2007,
+            "count": 1600,
+            "nofollow": true
+          },
+          {
+            "year": 2006,
+            "count": 1314,
+            "nofollow": true
+          },
+          {
+            "year": 2005,
+            "count": 1205,
+            "nofollow": true
+          },
+          {
+            "year": 2004,
+            "count": 1198,
+            "nofollow": true
+          },
+          {
+            "year": 2003,
+            "count": 1179,
+            "nofollow": true
+          },
+          {
+            "year": 2002,
+            "count": 1036,
+            "nofollow": true
+          },
+          {
+            "year": 2001,
+            "count": 1151,
+            "nofollow": true
+          },
+          {
+            "year": 2000,
+            "count": 1058,
+            "nofollow": true
+          }
+        ],
+        "nofollow": true,
+        "count": 14908
+      },
+      {
+        "from": 1990,
+        "to": 1999,
+        "filter": "1990-01-01,1999-12-31",
+        "decade": 1990,
+        "years": [
+          {
+            "year": 1999,
+            "count": 826,
+            "nofollow": true
+          },
+          {
+            "year": 1998,
+            "count": 756,
+            "nofollow": true
+          },
+          {
+            "year": 1997,
+            "count": 885,
+            "nofollow": true
+          },
+          {
+            "year": 1996,
+            "count": 796,
+            "nofollow": true
+          },
+          {
+            "year": 1995,
+            "count": 884,
+            "nofollow": true
+          },
+          {
+            "year": 1994,
+            "count": 850,
+            "nofollow": true
+          },
+          {
+            "year": 1993,
+            "count": 768,
+            "nofollow": true
+          },
+          {
+            "year": 1992,
+            "count": 681,
+            "nofollow": true
+          },
+          {
+            "year": 1991,
+            "count": 597,
+            "nofollow": true
+          },
+          {
+            "year": 1990,
+            "count": 554,
+            "nofollow": true
+          }
+        ],
+        "nofollow": true,
+        "count": 7597
+      },
+      {
+        "from": 1980,
+        "to": 1989,
+        "filter": "1980-01-01,1989-12-31",
+        "decade": 1980,
+        "years": [
+          {
+            "year": 1989,
+            "count": 448,
+            "nofollow": true
+          },
+          {
+            "year": 1988,
+            "count": 326,
+            "nofollow": true
+          },
+          {
+            "year": 1987,
+            "count": 351,
+            "nofollow": true
+          },
+          {
+            "year": 1986,
+            "count": 257,
+            "nofollow": true
+          },
+          {
+            "year": 1985,
+            "count": 230,
+            "nofollow": true
+          },
+          {
+            "year": 1984,
+            "count": 188,
+            "nofollow": true
+          },
+          {
+            "year": 1983,
+            "count": 211,
+            "nofollow": true
+          },
+          {
+            "year": 1982,
+            "count": 154,
+            "nofollow": true
+          },
+          {
+            "year": 1981,
+            "count": 66,
+            "nofollow": true
+          },
+          {
+            "year": 1980,
+            "count": 35,
+            "nofollow": true
+          }
+        ],
+        "nofollow": true,
+        "count": 2266
+      },
+      {
+        "from": 1970,
+        "to": 1979,
+        "filter": "1970-01-01,1979-12-31",
+        "decade": 1970,
+        "years": [
+          {
+            "year": 1979,
+            "count": 15,
+            "nofollow": true
+          },
+          {
+            "year": 1978,
+            "count": 17,
+            "nofollow": true
+          },
+          {
+            "year": 1977,
+            "count": 13,
+            "nofollow": true
+          },
+          {
+            "year": 1976,
+            "count": 7,
+            "nofollow": true
+          },
+          {
+            "year": 1975,
+            "count": 3,
+            "nofollow": true
+          },
+          {
+            "year": 1974,
+            "count": 2,
+            "nofollow": true
+          },
+          {
+            "year": 1973,
+            "count": 1,
+            "nofollow": true
+          },
+          {
+            "year": 1972,
+            "count": 2,
+            "nofollow": true
+          },
+          {
+            "year": 1971,
+            "count": 6,
+            "nofollow": true
+          },
+          {
+            "year": 1970,
+            "count": 1,
+            "nofollow": true
+          }
+        ],
+        "nofollow": true,
+        "count": 67
+      },
+      {
+        "from": 1960,
+        "to": 1969,
+        "filter": "1960-01-01,1969-12-31",
+        "decade": 1960,
+        "years": [
+          {
+            "year": 1962,
+            "count": 1,
+            "nofollow": true
+          }
+        ],
+        "nofollow": true,
+        "count": 1
+      },
+      {
+        "from": 1950,
+        "to": 1959,
+        "filter": "1950-01-01,1959-12-31",
+        "decade": 1950,
+        "years": [
+          {
+            "year": 1958,
+            "count": 1,
+            "nofollow": true
+          },
+          {
+            "year": 1954,
+            "count": 1,
+            "nofollow": true
+          }
+        ],
+        "nofollow": true,
+        "count": 2
+      }
+    ]
+  },
+  "nofollow_collections": [
+    "stores"
+  ]
+}
