@@ -88,7 +88,7 @@ def extract_all_games_resume_safe():
 
         save_page_to_file(data, page)
         time.sleep(WAIT_BETWEEN_CALLS)
-
+amph
     logging.info("Extracción finalizada con éxito.")
 
 # ========= EJECUCIÓN =========

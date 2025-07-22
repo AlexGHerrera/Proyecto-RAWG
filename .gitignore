@@ -1,2 +1,17 @@
+# ignore macOS system files
+*.DS_Store
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# Ignore virtual environment directories
+venv/
 .env
-.DS_Store
+# Ignore log files
+*.log
+# Ignore data files
+data_pipeline/rawg_extractor/data/*.json
+data/cajon/

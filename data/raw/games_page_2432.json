@@ -1,0 +1,4729 @@
+{
+  "count": 889938,
+  "next": "https://api.rawg.io/api/games?key=474cddd382814f4b94a7fdde4f77166d&page=2433&page_size=40",
+  "previous": "https://api.rawg.io/api/games?key=474cddd382814f4b94a7fdde4f77166d&page=2431&page_size=40",
+  "results": [
+    {
+      "id": 359511,
+      "slug": "first-summoner",
+      "name": "First Summoner",
+      "released": "2019-07-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/2a3/2a395e5aee14a2f8e771cebd7af60391_cOpL5Yp.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "beaten": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 223,
+      "updated": "2019-08-05T06:10:48",
+      "user_game": null,
+      "reviews_count": 1,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 77399,
+            "image_background": "https://media.rawg.io/media/games/095/0953bf01cd4e4dd204aba85489ac9868.jpg"
+          },
+          "released_at": "2019-07-25",
+          "requirements_en": {
+            "minimum": "iPhone 5s, iPad Air, iPad Air Cellular, iPad Mini Retina, iPad Mini Retina Cellular, iPhone 6, iPhone 6 Plus, iPad Air 2, iPad Air 2 Cellular, iPad Mini 3, iPad Mini 3 Cellular, iPod Touch Sixth Gen, iPhone 6s, iPhone 6s Plus, iPad Mini 4, iPad Mini 4 Cellular, iPad Pro, iPad Pro Cellular, iPad Pro 9.7, iPad Pro 9.7 Cellular, iPhone SE, iPhone 7, iPhone 7 Plus, iPad 6 1 1, iPad 6 1 2, iPad 7 1, iPad 7 2, iPad 7 3, iPad 7 4, iPhone 8, iPhone 8 Plus, iPhone X, iPad 7 5, iPad 7 6, iPhone X S, iPhone X S Max, iPhone X R, iPad 8 1 2, iPad 8 3 4, iPad 8 5 6, iPad 8 7 8, iPad Mini 5, iPad Mini 5 Cellular, iPad Air 3, iPad Air 3 Cellular, iPod Touch Seventh Gen"
+          },
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 5,
+          "name": "RPG",
+          "slug": "role-playing-games-rpg",
+          "games_count": 60287,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        },
+        {
+          "id": 10,
+          "name": "Strategy",
+          "slug": "strategy",
+          "games_count": 60716,
+          "image_background": "https://media.rawg.io/media/games/af7/af7a831001c5c32c46e950cc883b8cb7.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 348394,
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "apps.apple.com",
+            "games_count": 75585,
+            "image_background": "https://media.rawg.io/media/games/49c/49c3dfa4ce2f6f140cc4825868e858cb.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 41,
+          "name": "Dark",
+          "slug": "dark",
+          "language": "eng",
+          "games_count": 17850,
+          "image_background": "https://media.rawg.io/media/games/7ac/7aca7ccf0e70cd0974cb899ab9e5158e.jpg"
+        },
+        {
+          "id": 157,
+          "name": "PvP",
+          "slug": "pvp",
+          "language": "eng",
+          "games_count": 11264,
+          "image_background": "https://media.rawg.io/media/games/4e0/4e0e7b6d6906a131307c94266e5c9a1c.jpg"
+        },
+        {
+          "id": 406,
+          "name": "Story",
+          "slug": "story",
+          "language": "eng",
+          "games_count": 11517,
+          "image_background": "https://media.rawg.io/media/games/08e/08e8d09cd5aae30959c4486649fda3e6.jpg"
+        },
+        {
+          "id": 981,
+          "name": "battle",
+          "slug": "battle",
+          "language": "eng",
+          "games_count": 10690,
+          "image_background": "https://media.rawg.io/media/games/044/044b2ee023930ca138deda151f40c18c.jpg"
+        },
+        {
+          "id": 581,
+          "name": "Epic",
+          "slug": "epic",
+          "language": "eng",
+          "games_count": 4130,
+          "image_background": "https://media.rawg.io/media/screenshots/4d9/4d9afae02fdf2896569b1c7bfeabb8c1.jpg"
+        },
+        {
+          "id": 1309,
+          "name": "hero",
+          "slug": "hero",
+          "language": "eng",
+          "games_count": 4857,
+          "image_background": "https://media.rawg.io/media/games/63b/63b82317c6eedcbf182206c9a5bafe81.jpg"
+        },
+        {
+          "id": 624,
+          "name": "Monsters",
+          "slug": "monsters",
+          "language": "eng",
+          "games_count": 9636,
+          "image_background": "https://media.rawg.io/media/screenshots/53a/53a98929b8c944db6522487896fd9264.jpg"
+        },
+        {
+          "id": 1863,
+          "name": "challenge",
+          "slug": "challenge",
+          "language": "eng",
+          "games_count": 12765,
+          "image_background": "https://media.rawg.io/media/games/9d3/9d3e5f3b9fbe3769e693c93b5b91300a.jpg"
+        },
+        {
+          "id": 460,
+          "name": "Endless",
+          "slug": "endless",
+          "language": "eng",
+          "games_count": 14740,
+          "image_background": "https://media.rawg.io/media/screenshots/0ee/0ee3ca846ff10c91bbfeae6adf69019c_opJg8M3.jpg"
+        }
+      ],
+      "esrb_rating": {
+        "id": 3,
+        "name": "Teen",
+        "slug": "teen"
+      },
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/2a3/2a395e5aee14a2f8e771cebd7af60391_cOpL5Yp.jpg"
+        },
+        {
+          "id": 2109334,
+          "image": "https://media.rawg.io/media/screenshots/12e/12e82241a144c5f4f8256f293e55691d.jpg"
+        },
+        {
+          "id": 2109335,
+          "image": "https://media.rawg.io/media/screenshots/8c6/8c6a2691f6619918a932aa32c1dcb379.jpg"
+        },
+        {
+          "id": 2109336,
+          "image": "https://media.rawg.io/media/screenshots/a6e/a6e8314389a11d1681adb9da7b03f009.jpg"
+        },
+        {
+          "id": 2109337,
+          "image": "https://media.rawg.io/media/screenshots/62a/62a411853573f5e4a675ebe8720e5adf.jpg"
+        },
+        {
+          "id": 2109338,
+          "image": "https://media.rawg.io/media/screenshots/2a3/2a395e5aee14a2f8e771cebd7af60391_cOpL5Yp.jpg"
+        }
+      ]
+    },
+    {
+      "id": 359510,
+      "slug": "beats-runner",
+      "name": "Beats Runner",
+      "released": "2019-08-08",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/2a8/2a83fc4a043f487365585619f838b225.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 125,
+      "updated": "2019-11-19T17:55:07",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 77399,
+            "image_background": "https://media.rawg.io/media/games/095/0953bf01cd4e4dd204aba85489ac9868.jpg"
+          },
+          "released_at": "2019-08-08",
+          "requirements_en": {
+            "minimum": "iPad 2 Wifi, iPad 2 3G, iPhone 4S, iPad Third Gen, iPad Third Gen 4G, iPhone 5, iPod Touch Fifth Gen, iPad Fourth Gen, iPad Fourth Gen 4G, iPad Mini, iPad Mini 4G, iPhone 5c, iPhone 5s, iPad Air, iPad Air Cellular, iPad Mini Retina, iPad Mini Retina Cellular, iPhone 6, iPhone 6 Plus, iPad Air 2, iPad Air 2 Cellular, iPad Mini 3, iPad Mini 3 Cellular, iPod Touch Sixth Gen, iPhone 6s, iPhone 6s Plus, iPad Mini 4, iPad Mini 4 Cellular, iPad Pro, iPad Pro Cellular, iPad Pro 9.7, iPad Pro 9.7 Cellular, iPhone SE, iPhone 7, iPhone 7 Plus, iPad 6 1 1, iPad 6 1 2, iPad 7 1, iPad 7 2, iPad 7 3, iPad 7 4, iPhone 8, iPhone 8 Plus, iPhone X, iPad 7 5, iPad 7 6, iPhone X S, iPhone X S Max, iPhone X R, iPad 8 1 2, iPad 8 3 4, iPad 8 5 6, iPad 8 7 8, iPad Mini 5, iPad Mini 5 Cellular, iPad Air 3, iPad Air 3 Cellular, iPod Touch Seventh Gen"
+          },
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 5654,
+            "image_background": "https://media.rawg.io/media/games/1f4/1f47a270b8f241e4676b14d39ec620f7.jpg"
+          },
+          "released_at": "2019-10-04",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo",
+            "slug": "nintendo"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 348393,
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "apps.apple.com",
+            "games_count": 75585,
+            "image_background": "https://media.rawg.io/media/games/49c/49c3dfa4ce2f6f140cc4825868e858cb.jpg"
+          }
+        },
+        {
+          "id": 381331,
+          "store": {
+            "id": 6,
+            "name": "Nintendo Store",
+            "slug": "nintendo",
+            "domain": "nintendo.com",
+            "games_count": 9137,
+            "image_background": "https://media.rawg.io/media/games/e04/e04963f3ac4c4fa83a1dc0b9231e50db.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 226,
+          "name": "Cyberpunk",
+          "slug": "cyberpunk",
+          "language": "eng",
+          "games_count": 5045,
+          "image_background": "https://media.rawg.io/media/games/556/556157feed9ee1f55f2b12b2973e30a3.jpg"
+        },
+        {
+          "id": 136,
+          "name": "Music",
+          "slug": "music",
+          "language": "eng",
+          "games_count": 26194,
+          "image_background": "https://media.rawg.io/media/screenshots/72f/72f1e176e1affdf7a6c0e49e167080d7.jpg"
+        },
+        {
+          "id": 2590,
+          "name": "fun",
+          "slug": "fun",
+          "language": "eng",
+          "games_count": 29221,
+          "image_background": "https://media.rawg.io/media/screenshots/ee8/ee8610ecaf643f53d66ba0704d6ddeef.jpg"
+        },
+        {
+          "id": 1863,
+          "name": "challenge",
+          "slug": "challenge",
+          "language": "eng",
+          "games_count": 12765,
+          "image_background": "https://media.rawg.io/media/games/9d3/9d3e5f3b9fbe3769e693c93b5b91300a.jpg"
+        },
+        {
+          "id": 310,
+          "name": "Runner",
+          "slug": "runner",
+          "language": "eng",
+          "games_count": 10424,
+          "image_background": "https://media.rawg.io/media/screenshots/757/7572dd1a82c19e38d67977b64af6e000.jpg"
+        },
+        {
+          "id": 704,
+          "name": "Traps",
+          "slug": "traps",
+          "language": "eng",
+          "games_count": 2199,
+          "image_background": "https://media.rawg.io/media/screenshots/e0a/e0abaefbcc99ef995be57d857806f2d2.jpeg"
+        },
+        {
+          "id": 2406,
+          "name": "dance",
+          "slug": "dance",
+          "language": "eng",
+          "games_count": 1161,
+          "image_background": "https://media.rawg.io/media/games/be6/be6a548f22fb9e2d2da35e43dfdeb6e4.jpg"
+        },
+        {
+          "id": 3075,
+          "name": "coins",
+          "slug": "coins",
+          "language": "eng",
+          "games_count": 5411,
+          "image_background": "https://media.rawg.io/media/screenshots/006/00697cd29c5c79610aff9945b6af61fd.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/2a8/2a83fc4a043f487365585619f838b225.jpg"
+        },
+        {
+          "id": 2109329,
+          "image": "https://media.rawg.io/media/screenshots/b23/b231b3a05cb3d45bbca2d621aea68d4b.jpg"
+        },
+        {
+          "id": 2109330,
+          "image": "https://media.rawg.io/media/screenshots/e09/e093d012d6de717f3049fd05213fe618.jpg"
+        },
+        {
+          "id": 2109331,
+          "image": "https://media.rawg.io/media/screenshots/1cd/1cdfac340473ad00172225de831099ce.jpg"
+        },
+        {
+          "id": 2109332,
+          "image": "https://media.rawg.io/media/screenshots/2e3/2e385944502e42b928b600b5492056c6.jpg"
+        },
+        {
+          "id": 2109333,
+          "image": "https://media.rawg.io/media/screenshots/2a8/2a83fc4a043f487365585619f838b225.jpg"
+        }
+      ]
+    },
+    {
+      "id": 359471,
+      "slug": "hello-angry-neighbor-a-maze",
+      "name": "Hello Angry Neighbor-A Maze!!",
+      "released": "2019-06-22",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/b98/b98ce19a3c330ad44d8574b422163aaa_WvfLSmy.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "dropped": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 134,
+      "updated": "2019-08-05T05:46:31",
+      "user_game": null,
+      "reviews_count": 1,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 77399,
+            "image_background": "https://media.rawg.io/media/games/095/0953bf01cd4e4dd204aba85489ac9868.jpg"
+          },
+          "released_at": "2019-06-22",
+          "requirements_en": {
+            "minimum": "iPad 2 Wifi, iPad 2 3G, iPhone 4S, iPad Third Gen, iPad Third Gen 4G, iPhone 5, iPod Touch Fifth Gen, iPad Fourth Gen, iPad Fourth Gen 4G, iPad Mini, iPad Mini 4G, iPhone 5c, iPhone 5s, iPad Air, iPad Air Cellular, iPad Mini Retina, iPad Mini Retina Cellular, iPhone 6, iPhone 6 Plus, iPad Air 2, iPad Air 2 Cellular, iPad Mini 3, iPad Mini 3 Cellular, iPod Touch Sixth Gen, iPhone 6s, iPhone 6s Plus, iPad Mini 4, iPad Mini 4 Cellular, iPad Pro, iPad Pro Cellular, iPad Pro 9.7, iPad Pro 9.7 Cellular, iPhone SE, iPhone 7, iPhone 7 Plus, iPad 6 1 1, iPad 6 1 2, iPad 7 1, iPad 7 2, iPad 7 3, iPad 7 4, iPhone 8, iPhone 8 Plus, iPhone X, iPad 7 5, iPad 7 6, iPhone X S, iPhone X S Max, iPhone X R, iPad 8 1 2, iPad 8 3 4, iPad 8 5 6, iPad 8 7 8, iPad Mini 5, iPad Mini 5 Cellular, iPad Air 3, iPad Air 3 Cellular, iPod Touch Seventh Gen"
+          },
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 15,
+          "name": "Sports",
+          "slug": "sports",
+          "games_count": 22320,
+          "image_background": "https://media.rawg.io/media/games/11f/11fd681c312c14644ab360888dba3486.jpg"
+        },
+        {
+          "id": 40,
+          "name": "Casual",
+          "slug": "casual",
+          "games_count": 63679,
+          "image_background": "https://media.rawg.io/media/games/388/388935d851846f8ec747fffc7c765800.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 348352,
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "apps.apple.com",
+            "games_count": 75585,
+            "image_background": "https://media.rawg.io/media/games/49c/49c3dfa4ce2f6f140cc4825868e858cb.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 744,
+          "name": "friends",
+          "slug": "friends",
+          "language": "eng",
+          "games_count": 15181,
+          "image_background": "https://media.rawg.io/media/games/9f1/9f1891779cb20f44de93cef33b067e50.jpg"
+        },
+        {
+          "id": 310,
+          "name": "Runner",
+          "slug": "runner",
+          "language": "eng",
+          "games_count": 10424,
+          "image_background": "https://media.rawg.io/media/screenshots/757/7572dd1a82c19e38d67977b64af6e000.jpg"
+        },
+        {
+          "id": 1079,
+          "name": "environment",
+          "slug": "environment",
+          "language": "eng",
+          "games_count": 7127,
+          "image_background": "https://media.rawg.io/media/games/aeb/aeb33772a46dfe88fa9bd2f93068c91c.jpg"
+        },
+        {
+          "id": 822,
+          "name": "escape",
+          "slug": "escape",
+          "language": "eng",
+          "games_count": 7643,
+          "image_background": "https://media.rawg.io/media/games/d0d/d0dc606686338de79d9cbb418adb74bf.jpg"
+        },
+        {
+          "id": 1350,
+          "name": "crazy",
+          "slug": "crazy",
+          "language": "eng",
+          "games_count": 1761,
+          "image_background": "https://media.rawg.io/media/games/46d/46d510ee5f0073dc9fb19d66e6688948.jpg"
+        },
+        {
+          "id": 646,
+          "name": "maze",
+          "slug": "maze",
+          "language": "eng",
+          "games_count": 5522,
+          "image_background": "https://media.rawg.io/media/screenshots/857/857328d5aef291cd7cd779f42ea2c2ea.jpg"
+        },
+        {
+          "id": 3111,
+          "name": "paint",
+          "slug": "paint",
+          "language": "eng",
+          "games_count": 1636,
+          "image_background": "https://media.rawg.io/media/screenshots/ca6/ca60baaccecf4c136420ac5b73637467.jpg"
+        }
+      ],
+      "esrb_rating": {
+        "id": 2,
+        "name": "Everyone 10+",
+        "slug": "everyone-10-plus"
+      },
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/b98/b98ce19a3c330ad44d8574b422163aaa_WvfLSmy.jpg"
+        },
+        {
+          "id": 2109018,
+          "image": "https://media.rawg.io/media/screenshots/878/8780f2cbef5c6106baa711f6f1eaedde_R0bNTGJ.jpg"
+        },
+        {
+          "id": 2109019,
+          "image": "https://media.rawg.io/media/screenshots/2a7/2a799d2877f82d8fc5af0ae4d8986884_Ojkj1C8.jpg"
+        },
+        {
+          "id": 2109020,
+          "image": "https://media.rawg.io/media/screenshots/5d5/5d596315574b1a39fc0180d1ca65ae00.jpg"
+        },
+        {
+          "id": 2109021,
+          "image": "https://media.rawg.io/media/screenshots/90f/90f0d1f36f50033abfdb299b9ca1773f.jpg"
+        },
+        {
+          "id": 2109022,
+          "image": "https://media.rawg.io/media/screenshots/b98/b98ce19a3c330ad44d8574b422163aaa_WvfLSmy.jpg"
+        }
+      ]
+    },
+    {
+      "id": 359405,
+      "slug": "airport",
+      "name": "Airport.",
+      "released": "2017-07-29",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/320/32048e0982944625399fa5df8bdc900c_vjJwbAI.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "toplay": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 88,
+      "updated": "2019-08-05T05:08:11",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 77399,
+            "image_background": "https://media.rawg.io/media/games/095/0953bf01cd4e4dd204aba85489ac9868.jpg"
+          },
+          "released_at": "2017-07-29",
+          "requirements_en": {
+            "minimum": "iPhone 4, iPad 2 Wifi, iPad 2 3G, iPhone 4S, iPad Third Gen, iPad Third Gen 4G, iPhone 5, iPod Touch Fifth Gen, iPad Fourth Gen, iPad Fourth Gen 4G, iPad Mini, iPad Mini 4G, iPhone 5c, iPhone 5s, iPad Air, iPad Air Cellular, iPad Mini Retina, iPad Mini Retina Cellular, iPhone 6, iPhone 6 Plus, iPad Air 2, iPad Air 2 Cellular, iPad Mini 3, iPad Mini 3 Cellular, iPod Touch Sixth Gen, iPhone 6s, iPhone 6s Plus, iPad Mini 4, iPad Mini 4 Cellular, iPad Pro, iPad Pro Cellular, iPad Pro 9.7, iPad Pro 9.7 Cellular, iPhone SE, iPhone 7, iPhone 7 Plus, iPad 6 1 1, iPad 6 1 2, iPad 7 1, iPad 7 2, iPad 7 3, iPad 7 4, iPhone 8, iPhone 8 Plus, iPhone X, iPad 7 5, iPad 7 6, iPhone X S, iPhone X S Max, iPhone X R, iPad 8 1 2, iPad 8 3 4, iPad 8 5 6, iPad 8 7 8, iPad Mini 5, iPad Mini 5 Cellular, iPad Air 3, iPad Air 3 Cellular, iPod Touch Seventh Gen"
+          },
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 40,
+          "name": "Casual",
+          "slug": "casual",
+          "games_count": 63679,
+          "image_background": "https://media.rawg.io/media/games/388/388935d851846f8ec747fffc7c765800.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 348286,
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "apps.apple.com",
+            "games_count": 75585,
+            "image_background": "https://media.rawg.io/media/games/49c/49c3dfa4ce2f6f140cc4825868e858cb.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 53,
+          "name": "Flight",
+          "slug": "flight",
+          "language": "eng",
+          "games_count": 4646,
+          "image_background": "https://media.rawg.io/media/screenshots/c7b/c7bf141c7a0ed4ff5485a05bec84e579.jpg"
+        },
+        {
+          "id": 3728,
+          "name": "memory",
+          "slug": "memory",
+          "language": "eng",
+          "games_count": 3237,
+          "image_background": "https://media.rawg.io/media/games/eb6/eb65582e5eade59096e2d74d59c09d9a.jpg"
+        },
+        {
+          "id": 905,
+          "name": "Animals",
+          "slug": "animals",
+          "language": "eng",
+          "games_count": 7322,
+          "image_background": "https://media.rawg.io/media/screenshots/64e/64e4c4a09537f31ce87cd4b75e713042.jpg"
+        },
+        {
+          "id": 684,
+          "name": "children",
+          "slug": "children",
+          "language": "eng",
+          "games_count": 3404,
+          "image_background": "https://media.rawg.io/media/screenshots/65d/65dc0fe35135ffe5e82b6de3183b05bb.jpg"
+        },
+        {
+          "id": 1325,
+          "name": "kids",
+          "slug": "kids",
+          "language": "eng",
+          "games_count": 5194,
+          "image_background": "https://media.rawg.io/media/screenshots/bea/bea1023e8dd15c694fc466c727922d3e.jpg"
+        },
+        {
+          "id": 1896,
+          "name": "plane",
+          "slug": "plane",
+          "language": "eng",
+          "games_count": 1599,
+          "image_background": "https://media.rawg.io/media/screenshots/c45/c456ad0caefa83f55a88f1dfe1bab5cc.jpg"
+        },
+        {
+          "id": 1486,
+          "name": "holiday",
+          "slug": "holiday",
+          "language": "eng",
+          "games_count": 687,
+          "image_background": "https://media.rawg.io/media/screenshots/09b/09b193f6cb658e05682c1c07ba4ea14c.jpg"
+        }
+      ],
+      "esrb_rating": {
+        "id": 2,
+        "name": "Everyone 10+",
+        "slug": "everyone-10-plus"
+      },
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/320/32048e0982944625399fa5df8bdc900c_vjJwbAI.jpg"
+        },
+        {
+          "id": 2108516,
+          "image": "https://media.rawg.io/media/screenshots/682/682b66c85be1169be5e4ef31ca11f6ec_dh3lzsc.jpg"
+        },
+        {
+          "id": 2108517,
+          "image": "https://media.rawg.io/media/screenshots/d6c/d6c54bffa51d6dda60a3107e6e553e99_ffLKRVw.jpg"
+        },
+        {
+          "id": 2108518,
+          "image": "https://media.rawg.io/media/screenshots/202/2027ae6ddd3444b551b8435b6a0bd747_hJxeRvE.jpg"
+        },
+        {
+          "id": 2108519,
+          "image": "https://media.rawg.io/media/screenshots/320/32048e0982944625399fa5df8bdc900c_vjJwbAI.jpg"
+        }
+      ]
+    },
+    {
+      "id": 359372,
+      "slug": "time-break-2121",
+      "name": "Time Break 2121",
+      "released": null,
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/330/330a2088e52acd768337de1ea681ba50.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 427,
+      "updated": "2019-08-28T21:43:51",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": null,
+          "requirements_en": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 7 , 8 , 10<br></li><li><strong>Processor:</strong> Intel core 7-2820QM CPU @ 2.30 GHZ<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GEFORCE GT 555M<br></li><li><strong>Storage:</strong> 8 GB available space</li></ul>",
+            "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 7 , 8 , 10<br></li><li><strong>Processor:</strong> Intel core i7-7700HQ CPU @ 2.80 GHZ<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GEFORCE GTX 1050<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Storage:</strong> 8 GB available space</li></ul>"
+          },
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        },
+        {
+          "id": 10,
+          "name": "Strategy",
+          "slug": "strategy",
+          "games_count": 60716,
+          "image_background": "https://media.rawg.io/media/games/af7/af7a831001c5c32c46e950cc883b8cb7.jpg"
+        },
+        {
+          "id": 40,
+          "name": "Casual",
+          "slug": "casual",
+          "games_count": 63679,
+          "image_background": "https://media.rawg.io/media/games/388/388935d851846f8ec747fffc7c765800.jpg"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie",
+          "games_count": 80396,
+          "image_background": "https://media.rawg.io/media/games/e04/e04963f3ac4c4fa83a1dc0b9231e50db.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 348247,
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "domain": "store.steampowered.com",
+            "games_count": 115017,
+            "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer",
+          "slug": "singleplayer",
+          "language": "eng",
+          "games_count": 243001,
+          "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+        },
+        {
+          "id": 49,
+          "name": "Difficult",
+          "slug": "difficult",
+          "language": "eng",
+          "games_count": 14020,
+          "image_background": "https://media.rawg.io/media/games/9dd/9ddabb34840ea9227556670606cf8ea3.jpg"
+        },
+        {
+          "id": 226,
+          "name": "Cyberpunk",
+          "slug": "cyberpunk",
+          "language": "eng",
+          "games_count": 5045,
+          "image_background": "https://media.rawg.io/media/games/556/556157feed9ee1f55f2b12b2973e30a3.jpg"
+        },
+        {
+          "id": 57,
+          "name": "Bullet Hell",
+          "slug": "bullet-hell",
+          "language": "eng",
+          "games_count": 10252,
+          "image_background": "https://media.rawg.io/media/games/f80/f805774c679cca1a1a472d9ac39c78b7.jpg"
+        },
+        {
+          "id": 308,
+          "name": "Bullet Time",
+          "slug": "bullet-time",
+          "language": "eng",
+          "games_count": 808,
+          "image_background": "https://media.rawg.io/media/screenshots/65e/65e41ec8f819b718adb4286b16df45e5.jpg"
+        },
+        {
+          "id": 302,
+          "name": "Time Manipulation",
+          "slug": "time-manipulation",
+          "language": "eng",
+          "games_count": 701,
+          "image_background": "https://media.rawg.io/media/screenshots/e33/e33ab0ebdf628a5daa59ead438813661.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/330/330a2088e52acd768337de1ea681ba50.jpg"
+        },
+        {
+          "id": 2108276,
+          "image": "https://media.rawg.io/media/screenshots/4e5/4e55674619500cdf705de22f9194cb02.jpg"
+        },
+        {
+          "id": 2108277,
+          "image": "https://media.rawg.io/media/screenshots/605/60509162673ae845c8e40141e8af3c7a.jpg"
+        },
+        {
+          "id": 2108278,
+          "image": "https://media.rawg.io/media/screenshots/49c/49ca8bf4f27ffbbb1204292c70ad342c.jpg"
+        },
+        {
+          "id": 2108279,
+          "image": "https://media.rawg.io/media/screenshots/64f/64fd062c625a729b18dda77e03fed797.jpg"
+        },
+        {
+          "id": 2108280,
+          "image": "https://media.rawg.io/media/screenshots/cc5/cc5b29e74901edb77d2b0b32d6e40fd2.jpg"
+        },
+        {
+          "id": 2108281,
+          "image": "https://media.rawg.io/media/screenshots/efc/efcdca722c7c541bb5ffc617fba4b981.jpg"
+        }
+      ]
+    },
+    {
+      "id": 359365,
+      "slug": "lamo",
+      "name": "LAMO",
+      "released": null,
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/3ce/3ce26e8cf2db827f009ee7f0903e242a.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "dropped": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 365,
+      "updated": "2022-08-30T15:25:23",
+      "user_game": null,
+      "reviews_count": 1,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": null,
+          "requirements_en": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10/Windows Vista/Windows 7/Windows 8/8.1<br></li><li><strong>Processor:</strong> 1.7+ GHz Dual Core or better<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Nvidia 660 or better<br></li><li><strong>DirectX:</strong> Version 10<br></li><li><strong>Storage:</strong> 6 GB available space</li></ul>",
+            "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> 2.8+ GHz Quad Core or better<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> Nvdia 970 or better<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 6 GB available space</li></ul>"
+          },
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        },
+        {
+          "id": 40,
+          "name": "Casual",
+          "slug": "casual",
+          "games_count": 63679,
+          "image_background": "https://media.rawg.io/media/games/388/388935d851846f8ec747fffc7c765800.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 348239,
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "domain": "store.steampowered.com",
+            "games_count": 115017,
+            "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 79,
+          "name": "Free to Play",
+          "slug": "free-to-play",
+          "language": "eng",
+          "games_count": 9003,
+          "image_background": "https://media.rawg.io/media/games/cc7/cc77035eb972f179f5090ee2a0fabd99.jpg"
+        },
+        {
+          "id": 397,
+          "name": "Online multiplayer",
+          "slug": "online-multiplayer",
+          "language": "eng",
+          "games_count": 3804,
+          "image_background": "https://media.rawg.io/media/games/651/651ae84f2d5e36206aad90976a453329.jpg"
+        },
+        {
+          "id": 11669,
+          "name": "stats",
+          "slug": "stats",
+          "language": "eng",
+          "games_count": 5670,
+          "image_background": "https://media.rawg.io/media/games/736/73619bd336c894d6941d926bfd563946.jpg"
+        },
+        {
+          "id": 14,
+          "name": "Early Access",
+          "slug": "early-access",
+          "language": "eng",
+          "games_count": 18314,
+          "image_background": "https://media.rawg.io/media/games/f52/f5206d55f918edf8ee07803101106fa6.jpg"
+        },
+        {
+          "id": 40837,
+          "name": "In-App Purchases",
+          "slug": "in-app-purchases",
+          "language": "eng",
+          "games_count": 3195,
+          "image_background": "https://media.rawg.io/media/games/d07/d0790809a13027251b6d0f4dc7538c58.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/3ce/3ce26e8cf2db827f009ee7f0903e242a.jpg"
+        },
+        {
+          "id": 2108218,
+          "image": "https://media.rawg.io/media/screenshots/533/533c8d07aff5eef659e5bb072655c54f.jpg"
+        },
+        {
+          "id": 2108219,
+          "image": "https://media.rawg.io/media/screenshots/f57/f571f1cd15eef6691041bb7170480f96.jpg"
+        },
+        {
+          "id": 2108220,
+          "image": "https://media.rawg.io/media/screenshots/70d/70dcee2f2bf55ffa6ec5feb46ab69eff.jpg"
+        },
+        {
+          "id": 2108221,
+          "image": "https://media.rawg.io/media/screenshots/2e8/2e849148f44a69dc08ca38130cd094be.jpg"
+        },
+        {
+          "id": 2108222,
+          "image": "https://media.rawg.io/media/screenshots/6de/6decf63a0d35960141f8e220e80acd6b.jpg"
+        },
+        {
+          "id": 2108223,
+          "image": "https://media.rawg.io/media/screenshots/1fd/1fdf202cb8cdf0acba1d9f988fb3d39a.jpg"
+        }
+      ]
+    },
+    {
+      "id": 359293,
+      "slug": "cup-of-ethanol",
+      "name": "Cup Of Ethanol",
+      "released": "2019-08-30",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/3c6/3c6c721cd7e18ab1f5951a0b2428e048.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "dropped": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 17,
+      "updated": "2022-08-30T13:00:09",
+      "user_game": null,
+      "reviews_count": 1,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2019-08-30",
+          "requirements_en": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel i3<br></li><li><strong>Memory:</strong> 256 MB RAM<br></li><li><strong>Graphics:</strong> Integrated graphics card<br></li><li><strong>Storage:</strong> 13 MB available space</li></ul>"
+          },
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie",
+          "games_count": 80396,
+          "image_background": "https://media.rawg.io/media/games/e04/e04963f3ac4c4fa83a1dc0b9231e50db.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 348156,
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "domain": "store.steampowered.com",
+            "games_count": 115017,
+            "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer",
+          "slug": "singleplayer",
+          "language": "eng",
+          "games_count": 243001,
+          "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+        },
+        {
+          "id": 79,
+          "name": "Free to Play",
+          "slug": "free-to-play",
+          "language": "eng",
+          "games_count": 9003,
+          "image_background": "https://media.rawg.io/media/games/cc7/cc77035eb972f179f5090ee2a0fabd99.jpg"
+        },
+        {
+          "id": 40838,
+          "name": "Includes level editor",
+          "slug": "includes-level-editor",
+          "language": "eng",
+          "games_count": 2111,
+          "image_background": "https://media.rawg.io/media/games/c11/c11a0b92b4c28f2e0db489f430142653.jpg"
+        },
+        {
+          "id": 266,
+          "name": "Level Editor",
+          "slug": "level-editor",
+          "language": "eng",
+          "games_count": 2001,
+          "image_background": "https://media.rawg.io/media/screenshots/d39/d39aeca90fad83dd776730e7c13271d6.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/3c6/3c6c721cd7e18ab1f5951a0b2428e048.jpg"
+        },
+        {
+          "id": 2107671,
+          "image": "https://media.rawg.io/media/screenshots/fb7/fb7d0a664b5c562f19cfc1717a685f1c.jpg"
+        },
+        {
+          "id": 2107672,
+          "image": "https://media.rawg.io/media/screenshots/d54/d54e7bfd857c7115dabd82413be36b33.jpg"
+        },
+        {
+          "id": 2107673,
+          "image": "https://media.rawg.io/media/screenshots/2ab/2abc2ef30b0cba4b51582c6766a98c30.jpg"
+        },
+        {
+          "id": 2107674,
+          "image": "https://media.rawg.io/media/screenshots/8af/8af2f50f0a941d855f890be8bec8917a.jpg"
+        },
+        {
+          "id": 2107675,
+          "image": "https://media.rawg.io/media/screenshots/3c6/3c6c721cd7e18ab1f5951a0b2428e048.jpg"
+        }
+      ]
+    },
+    {
+      "id": 359286,
+      "slug": "gravity-control-2",
+      "name": "Gravity Control",
+      "released": "2019-08-13",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/157/1570385ac579d2a64421430b3213a8ff.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 95,
+      "updated": "2019-08-28T21:43:54",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2019-08-13",
+          "requirements_en": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 7<br></li><li><strong>Processor:</strong> 1 Ghz<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> 256MB Graphics<br></li><li><strong>Storage:</strong> 208 MB available space</li></ul>"
+          },
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 79334,
+            "image_background": "https://media.rawg.io/media/games/9fa/9fa63622543e5d4f6d99aa9d73b043de.jpg"
+          },
+          "released_at": "2019-08-13",
+          "requirements_en": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 18.04.2 LTS<br></li><li><strong>Processor:</strong> Intel(R) Core(TM) i7-3632QM CPU @ 2.20GHz<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> AMD Radeon HD 7500M/7600M Series<br></li><li><strong>Storage:</strong> 208 MB available space<br></li><li><strong>Additional Notes:</strong> Tested on a laptop with these specs</li></ul>",
+            "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 18.04.2 LTS<br></li><li><strong>Processor:</strong> Intel Core I5-6300HQ CPU @ 2.30GHz x 4<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> Intel HD Graphics 530 (Skylake GT2)<br></li><li><strong>Storage:</strong> 208 MB available space<br></li><li><strong>Additional Notes:</strong> Tested on a laptop with these specs</li></ul>"
+          },
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        },
+        {
+          "id": 40,
+          "name": "Casual",
+          "slug": "casual",
+          "games_count": 63679,
+          "image_background": "https://media.rawg.io/media/games/388/388935d851846f8ec747fffc7c765800.jpg"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie",
+          "games_count": 80396,
+          "image_background": "https://media.rawg.io/media/games/e04/e04963f3ac4c4fa83a1dc0b9231e50db.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 348148,
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "domain": "store.steampowered.com",
+            "games_count": 115017,
+            "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer",
+          "slug": "singleplayer",
+          "language": "eng",
+          "games_count": 243001,
+          "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+        },
+        {
+          "id": 40847,
+          "name": "Steam Achievements",
+          "slug": "steam-achievements",
+          "language": "eng",
+          "games_count": 47389,
+          "image_background": "https://media.rawg.io/media/games/713/713269608dc8f2f40f5a670a14b2de94.jpg"
+        },
+        {
+          "id": 40836,
+          "name": "Full controller support",
+          "slug": "full-controller-support",
+          "language": "eng",
+          "games_count": 22310,
+          "image_background": "https://media.rawg.io/media/games/49c/49c3dfa4ce2f6f140cc4825868e858cb.jpg"
+        },
+        {
+          "id": 40849,
+          "name": "Steam Cloud",
+          "slug": "steam-cloud",
+          "language": "eng",
+          "games_count": 23227,
+          "image_background": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/157/1570385ac579d2a64421430b3213a8ff.jpg"
+        },
+        {
+          "id": 2107626,
+          "image": "https://media.rawg.io/media/screenshots/493/493ea52ce7bb53472e93a0b8a907409c.jpg"
+        },
+        {
+          "id": 2107627,
+          "image": "https://media.rawg.io/media/screenshots/45e/45ef9ec28115817418d24cd162e73c5c.jpg"
+        },
+        {
+          "id": 2107628,
+          "image": "https://media.rawg.io/media/screenshots/7d5/7d55e32a1ba6eda23851222a634d8d05.jpg"
+        },
+        {
+          "id": 2107629,
+          "image": "https://media.rawg.io/media/screenshots/c99/c9910d354969093da21713df6c6d07ad.jpg"
+        },
+        {
+          "id": 2107630,
+          "image": "https://media.rawg.io/media/screenshots/ab6/ab65278cf75e0a26ac7653e707c2b802.jpg"
+        },
+        {
+          "id": 2107631,
+          "image": "https://media.rawg.io/media/screenshots/3de/3de3d0965d23323dfc9040233aab19ea.jpg"
+        }
+      ]
+    },
+    {
+      "id": 359249,
+      "slug": "sigil-2",
+      "name": "Sigil",
+      "released": null,
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/e90/e90dee7b0f9eb4c5f28664d326fe8150.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "toplay": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 208,
+      "updated": "2019-08-28T21:43:56",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": null,
+          "requirements_en": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 7, Windows 8, Windows 10<br></li><li><strong>Processor:</strong> Intel Core i5-2400 @ 3.1 GHz or AMD FX-6300 @ 3.5 GHz or equivalent<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 670 or AMD R9 270 (2GB VRAM with Shader Model 5.0 or better)<br></li><li><strong>DirectX:</strong> Version 9.0<br></li><li><strong>Storage:</strong> 6 GB available space</li></ul>",
+            "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 7, Windows 8, Windows 10<br></li><li><strong>Memory:</strong> 8 MB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 970 or AMD R9 290X (4GB VRAM with Shader Model 5.0 or better)<br></li><li><strong>DirectX:</strong> Version 10<br></li><li><strong>Storage:</strong> 6 MB available space</li></ul>"
+          },
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 5,
+          "name": "RPG",
+          "slug": "role-playing-games-rpg",
+          "games_count": 60287,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 348109,
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "domain": "store.steampowered.com",
+            "games_count": 115017,
+            "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer",
+          "slug": "singleplayer",
+          "language": "eng",
+          "games_count": 243001,
+          "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+        },
+        {
+          "id": 40847,
+          "name": "Steam Achievements",
+          "slug": "steam-achievements",
+          "language": "eng",
+          "games_count": 47389,
+          "image_background": "https://media.rawg.io/media/games/713/713269608dc8f2f40f5a670a14b2de94.jpg"
+        },
+        {
+          "id": 24,
+          "name": "RPG",
+          "slug": "rpg",
+          "language": "eng",
+          "games_count": 25007,
+          "image_background": "https://media.rawg.io/media/games/d82/d82990b9c67ba0d2d09d4e6fa88885a7.jpg"
+        },
+        {
+          "id": 26,
+          "name": "Gore",
+          "slug": "gore",
+          "language": "eng",
+          "games_count": 6332,
+          "image_background": "https://media.rawg.io/media/games/8d4/8d46786ca86b1d95f3dc7e700e2dc4dd.jpg"
+        },
+        {
+          "id": 34,
+          "name": "Violent",
+          "slug": "violent",
+          "language": "eng",
+          "games_count": 7477,
+          "image_background": "https://media.rawg.io/media/games/21a/21ad672cedee9b4378abb6c2d2e626ee.jpg"
+        },
+        {
+          "id": 44,
+          "name": "Nudity",
+          "slug": "nudity",
+          "language": "eng",
+          "games_count": 8088,
+          "image_background": "https://media.rawg.io/media/games/473/473bd9a5e9522629d6cb28b701fb836a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/e90/e90dee7b0f9eb4c5f28664d326fe8150.jpg"
+        },
+        {
+          "id": 2107360,
+          "image": "https://media.rawg.io/media/screenshots/0fd/0fdadc8d52b680ba2fdc3b72866948b0.jpg"
+        },
+        {
+          "id": 2107361,
+          "image": "https://media.rawg.io/media/screenshots/ab0/ab08a398fefc7ea02249b015d0058be9.jpg"
+        },
+        {
+          "id": 2107362,
+          "image": "https://media.rawg.io/media/screenshots/adb/adba10fd28de1f1a6474985f52ae6c33.jpg"
+        },
+        {
+          "id": 2107363,
+          "image": "https://media.rawg.io/media/screenshots/162/162ba9909abcbe735dada43468fc59ca.jpg"
+        },
+        {
+          "id": 2107364,
+          "image": "https://media.rawg.io/media/screenshots/e90/e90dee7b0f9eb4c5f28664d326fe8150.jpg"
+        }
+      ]
+    },
+    {
+      "id": 359222,
+      "slug": "memory-leak-cyberpunk-hentai",
+      "name": "Memory leak: Cyberpunk hentai",
+      "released": "2019-08-26",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/782/782b3b1ae8d4209216dfb83106d98f5b.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "toplay": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 34,
+      "updated": "2019-08-28T21:43:57",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2019-08-26",
+          "requirements_en": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows XP, 7, Vista, 8, 8.1, 10<br></li><li><strong>Processor:</strong> Intel Celeron 1800 MHz<br></li><li><strong>Memory:</strong> 256 MB RAM<br></li><li><strong>Graphics:</strong> Intel HD Graphics<br></li><li><strong>DirectX:</strong> Version 9.0<br></li><li><strong>Storage:</strong> 100 MB available space</li></ul>",
+            "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows XP, 7, Vista, 8, 8.1, 10<br></li><li><strong>Processor:</strong> Intel Core i3<br></li><li><strong>Memory:</strong> 256 MB RAM<br></li><li><strong>Graphics:</strong> Intel HD Graphics<br></li><li><strong>DirectX:</strong> Version 9.0<br></li><li><strong>Storage:</strong> 100 MB available space</li></ul>"
+          },
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 40,
+          "name": "Casual",
+          "slug": "casual",
+          "games_count": 63679,
+          "image_background": "https://media.rawg.io/media/games/388/388935d851846f8ec747fffc7c765800.jpg"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie",
+          "games_count": 80396,
+          "image_background": "https://media.rawg.io/media/games/e04/e04963f3ac4c4fa83a1dc0b9231e50db.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 348078,
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "domain": "store.steampowered.com",
+            "games_count": 115017,
+            "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer",
+          "slug": "singleplayer",
+          "language": "eng",
+          "games_count": 243001,
+          "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/782/782b3b1ae8d4209216dfb83106d98f5b.jpg"
+        },
+        {
+          "id": 2107187,
+          "image": "https://media.rawg.io/media/screenshots/925/925374d1b4b2945aa5e688128abd81bc.jpg"
+        },
+        {
+          "id": 2107188,
+          "image": "https://media.rawg.io/media/screenshots/735/735916b24947282df980c968f15f959c.jpg"
+        },
+        {
+          "id": 2107189,
+          "image": "https://media.rawg.io/media/screenshots/c89/c89ecfcd8f28380ea8bf75e65e469afa.jpg"
+        },
+        {
+          "id": 2107190,
+          "image": "https://media.rawg.io/media/screenshots/30f/30fac8ab0f137240f707ba45db17b936.jpg"
+        },
+        {
+          "id": 2107191,
+          "image": "https://media.rawg.io/media/screenshots/782/782b3b1ae8d4209216dfb83106d98f5b.jpg"
+        }
+      ]
+    },
+    {
+      "id": 359219,
+      "slug": "the-sword-and-the-slime",
+      "name": "The Sword and the Slime",
+      "released": "2019-10-04",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/aa3/aa3c501d5e561d51ee6227df813a8bae.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "yet": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 316,
+      "updated": "2020-02-13T14:31:23",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2019-10-04",
+          "requirements_en": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> 7</li></ul>"
+          },
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie",
+          "games_count": 80396,
+          "image_background": "https://media.rawg.io/media/games/e04/e04963f3ac4c4fa83a1dc0b9231e50db.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Puzzle",
+          "slug": "puzzle",
+          "games_count": 97350,
+          "image_background": "https://media.rawg.io/media/games/852/8522935d8ab27b610a254b52de0da212.jpg"
+        },
+        {
+          "id": 83,
+          "name": "Platformer",
+          "slug": "platformer",
+          "games_count": 100885,
+          "image_background": "https://media.rawg.io/media/games/e0f/e0f05a97ff926acf4c8f43e0849b6832.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 348075,
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "domain": "store.steampowered.com",
+            "games_count": 115017,
+            "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+          }
+        },
+        {
+          "id": 401775,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer",
+          "slug": "singleplayer",
+          "language": "eng",
+          "games_count": 243001,
+          "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+        },
+        {
+          "id": 45,
+          "name": "2D",
+          "slug": "2d",
+          "language": "eng",
+          "games_count": 204129,
+          "image_background": "https://media.rawg.io/media/games/b6b/b6b20bfc4b34e312dbc8aac53c95a348.jpg"
+        },
+        {
+          "id": 122,
+          "name": "Pixel Graphics",
+          "slug": "pixel-graphics",
+          "language": "eng",
+          "games_count": 97590,
+          "image_background": "https://media.rawg.io/media/screenshots/604/6046ad65ac38adfe0553823489bb7ed4.jpg"
+        },
+        {
+          "id": 83,
+          "name": "Puzzle-Platformer",
+          "slug": "puzzle-platformer",
+          "language": "eng",
+          "games_count": 9498,
+          "image_background": "https://media.rawg.io/media/games/a91/a917f41bb87e4b9e7a762ac87d97a9dc.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/aa3/aa3c501d5e561d51ee6227df813a8bae.jpg"
+        },
+        {
+          "id": 2107167,
+          "image": "https://media.rawg.io/media/screenshots/cc6/cc6047451cf701111c50cd802f3cac53.jpg"
+        },
+        {
+          "id": 2107168,
+          "image": "https://media.rawg.io/media/screenshots/4b8/4b87edcc8c498c80919bccae274672c6.jpg"
+        },
+        {
+          "id": 2107169,
+          "image": "https://media.rawg.io/media/screenshots/eb2/eb21dff0f8e52a7732f23045747584a5.jpg"
+        },
+        {
+          "id": 2107170,
+          "image": "https://media.rawg.io/media/screenshots/052/0520fc598a0003103dda7f92df444da7.jpg"
+        },
+        {
+          "id": 2107171,
+          "image": "https://media.rawg.io/media/screenshots/969/969665bc9bc955c6cb8ac30e8f1d545f.jpg"
+        },
+        {
+          "id": 2197740,
+          "image": "https://media.rawg.io/media/screenshots/938/9382ce4c492ec3cd278715a5eeb28358.jpg"
+        }
+      ]
+    },
+    {
+      "id": 359212,
+      "slug": "the-magicians-academy",
+      "name": "The Magician's Academy",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2019-09-12T06:38:43",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 359211,
+      "slug": "kenran-butou-sai-the-mars-daybreak",
+      "name": "Kenran Butou Sai: The Mars Daybreak",
+      "released": "2005-07-07",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/f8d/f8d68ea627865da5ffb61efe1f08f51d.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 281,
+      "updated": "2023-10-17T11:29:19",
+      "user_game": null,
+      "reviews_count": 1,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": "2005-07-07",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 148382,
+          "image_background": "https://media.rawg.io/media/games/879/879c930f9c6787c920153fa2df452eb3.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": {
+        "id": 3,
+        "name": "Teen",
+        "slug": "teen"
+      },
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/f8d/f8d68ea627865da5ffb61efe1f08f51d.jpg"
+        },
+        {
+          "id": 3937788,
+          "image": "https://media.rawg.io/media/screenshots/03d/03dc3dea876155925232bf4e4415df3d.jpg"
+        },
+        {
+          "id": 3937789,
+          "image": "https://media.rawg.io/media/screenshots/126/1269aae08b6f1ed3808820c560f2da53.jpg"
+        },
+        {
+          "id": 3937790,
+          "image": "https://media.rawg.io/media/screenshots/a9e/a9e74380d4a615e44311876d7df2b419.jpg"
+        },
+        {
+          "id": 3937791,
+          "image": "https://media.rawg.io/media/screenshots/5bf/5bf340abc523d058cb1fee5927170814.jpg"
+        },
+        {
+          "id": 3937792,
+          "image": "https://media.rawg.io/media/screenshots/23f/23ffe5a7b7c64f2d51bb1981bed94d2e.jpg"
+        },
+        {
+          "id": 3937793,
+          "image": "https://media.rawg.io/media/screenshots/759/7592d08eaf30350a40014acb55c6422e.jpg"
+        }
+      ]
+    },
+    {
+      "id": 359208,
+      "slug": "metal-slug-2006",
+      "name": "Metal Slug (2006)",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2019-09-12T06:38:43",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 359205,
+      "slug": "metropolismania-2",
+      "name": "MetropolisMania 2",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2019-09-12T06:38:43",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 359204,
+      "slug": "metropolismania",
+      "name": "MetropolisMania",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2019-09-12T06:38:43",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 359203,
+      "slug": "mobile-suit-gundam-encounters-in-space",
+      "name": "Mobile Suit Gundam: Encounters in Space",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2019-09-12T06:38:43",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 359202,
+      "slug": "mobile-suit-gundam-lost-war-chronicles",
+      "name": "Mobile Suit Gundam: Lost War Chronicles",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2019-09-12T06:38:44",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 359200,
+      "slug": "kidou-shinsengumi-moeyo-ken",
+      "name": "Kidou Shinsengumi: Moeyo Ken",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2019-09-12T06:38:44",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 359198,
+      "slug": "motogp-07-2007",
+      "name": "MotoGP 07 (2007)",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2019-09-12T06:38:44",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 359196,
+      "slug": "motogp-2-2001",
+      "name": "MotoGP 2 (2001)",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2019-09-12T06:38:44",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 359195,
+      "slug": "motogp-2000",
+      "name": "MotoGP (2000)",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2019-09-12T06:38:45",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 359189,
+      "slug": "myself-yourself-sorezore-no-finale",
+      "name": "Myself; Yourself: Sorezore no Finale",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2019-09-12T06:38:45",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 359188,
+      "slug": "myself-yourself",
+      "name": "Myself; Yourself",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2019-09-12T06:38:45",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 359186,
+      "slug": "namcollection",
+      "name": "namCollection",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2019-09-12T06:38:45",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 359183,
+      "slug": "espn-college-hoops",
+      "name": "ESPN College Hoops",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2019-08-04T06:11:48",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 80,
+            "name": "Xbox",
+            "slug": "xbox-old",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 744,
+            "image_background": "https://media.rawg.io/media/games/99b/99b39612e864d6ddfdb2c407fd9010a1.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 359182,
+      "slug": "neogeo-online-collection-complete-box-joukan",
+      "name": "NeoGeo Online Collection Complete Box Joukan",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2019-09-12T06:38:45",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 359181,
+      "slug": "neogeo-online-collection-complete-box-gekkan",
+      "name": "NeoGeo Online Collection Complete Box Gekkan",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2019-09-12T06:38:46",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 359179,
+      "slug": "nhl-faceoff-2003",
+      "name": "NHL FaceOff 2003",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 1,
+          "percent": 100.0
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2023-04-25T17:24:35",
+      "user_game": null,
+      "reviews_count": 1,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 359174,
+      "slug": "nra-gun-club",
+      "name": "NRA Gun Club",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2019-09-12T06:38:46",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 359173,
+      "slug": "online-pro-wrestling",
+      "name": "Online Pro Wrestling",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2019-09-12T06:38:46",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 359171,
+      "slug": "panzer-front-ausfb",
+      "name": "Panzer Front Ausf.B",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2019-09-12T06:38:46",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 359170,
+      "slug": "pride-fc-fighting-championships",
+      "name": "Pride FC: Fighting Championships",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2019-09-12T06:38:46",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 359169,
+      "slug": "pridegp-grand-prix-2003",
+      "name": "PrideGP Grand Prix 2003",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2019-09-12T06:38:46",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 359168,
+      "slug": "princess-princess-2006",
+      "name": "Princess Princess (2006)",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2019-09-12T06:38:46",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 359166,
+      "slug": "rahxephon-soukyuu-gensoukyoku",
+      "name": "Rahxephon: Soukyuu Gensoukyoku",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2019-09-12T06:38:46",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 359165,
+      "slug": "rakushou-pachi-slot-sengen",
+      "name": "Rakushou! Pachi-Slot Sengen",
+      "released": "2003-10-23",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/e0c/e0cba8f5025f09e47688c9e2d2fc27a0.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2023-04-21T07:36:11",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": "2003-10-23",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": {
+        "id": 3,
+        "name": "Teen",
+        "slug": "teen"
+      },
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/e0c/e0cba8f5025f09e47688c9e2d2fc27a0.jpg"
+        }
+      ]
+    },
+    {
+      "id": 359163,
+      "slug": "rec-dokidoki-seiyuu-paradise",
+      "name": "REC * DokiDoki Seiyuu Paradise",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2019-09-12T06:38:46",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 359162,
+      "slug": "riding-spirits",
+      "name": "Riding Spirits",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "owned": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2019-09-12T06:38:47",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 15,
+            "name": "PlayStation 2",
+            "slug": "playstation2",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2065,
+            "image_background": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 359158,
+      "slug": "rosario-to-vampire",
+      "name": "Rosario to Vampire",
+      "released": null,
+      "tba": true,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 1,
+      "added_by_status": {
+        "yet": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2019-09-12T06:37:13",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 9,
+            "name": "Nintendo DS",
+            "slug": "nintendo-ds",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2484,
+            "image_background": "https://media.rawg.io/media/screenshots/157/1571cdfb52888191eabaf53c2b897240.jpg"
+          },
+          "released_at": null,
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo",
+            "slug": "nintendo"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [
+        {
+          "id": 37796,
+          "name": "exclusive",
+          "slug": "exclusive",
+          "language": "eng",
+          "games_count": 4491,
+          "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+        },
+        {
+          "id": 37797,
+          "name": "true exclusive",
+          "slug": "true-exclusive",
+          "language": "eng",
+          "games_count": 3980,
+          "image_background": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    }
+  ],
+  "seo_title": "All Games",
+  "seo_description": "",
+  "seo_keywords": "",
+  "seo_h1": "All Games",
+  "noindex": false,
+  "nofollow": false,
+  "description": "",
+  "filters": {
+    "years": [
+      {
+        "from": 2020,
+        "to": 2025,
+        "filter": "2020-01-01,2025-12-31",
+        "decade": 2020,
+        "years": [
+          {
+            "year": 2025,
+            "count": 10372,
+            "nofollow": false
+          },
+          {
+            "year": 2024,
+            "count": 17527,
+            "nofollow": false
+          },
+          {
+            "year": 2023,
+            "count": 61989,
+            "nofollow": false
+          },
+          {
+            "year": 2022,
+            "count": 168188,
+            "nofollow": false
+          },
+          {
+            "year": 2021,
+            "count": 158708,
+            "nofollow": false
+          },
+          {
+            "year": 2020,
+            "count": 121373,
+            "nofollow": false
+          }
+        ],
+        "nofollow": true,
+        "count": 538157
+      },
+      {
+        "from": 2010,
+        "to": 2019,
+        "filter": "2010-01-01,2019-12-31",
+        "decade": 2010,
+        "years": [
+          {
+            "year": 2019,
+            "count": 73700,
+            "nofollow": false
+          },
+          {
+            "year": 2018,
+            "count": 67948,
+            "nofollow": false
+          },
+          {
+            "year": 2017,
+            "count": 54588,
+            "nofollow": true
+          },
+          {
+            "year": 2016,
+            "count": 40245,
+            "nofollow": true
+          },
+          {
+            "year": 2015,
+            "count": 25898,
+            "nofollow": true
+          },
+          {
+            "year": 2014,
+            "count": 15360,
+            "nofollow": true
+          },
+          {
+            "year": 2013,
+            "count": 6346,
+            "nofollow": true
+          },
+          {
+            "year": 2012,
+            "count": 5393,
+            "nofollow": true
+          },
+          {
+            "year": 2011,
+            "count": 4330,
+            "nofollow": true
+          },
+          {
+            "year": 2010,
+            "count": 3902,
+            "nofollow": true
+          }
+        ],
+        "nofollow": true,
+        "count": 297710
+      },
+      {
+        "from": 2000,
+        "to": 2009,
+        "filter": "2000-01-01,2009-12-31",
+        "decade": 2000,
+        "years": [
+          {
+            "year": 2009,
+            "count": 3124,
+            "nofollow": true
+          },
+          {
+            "year": 2008,
+            "count": 2043,
+            "nofollow": true
+          },
+          {
+            "year": 2007,
+            "count": 1600,
+            "nofollow": true
+          },
+          {
+            "year": 2006,
+            "count": 1314,
+            "nofollow": true
+          },
+          {
+            "year": 2005,
+            "count": 1205,
+            "nofollow": true
+          },
+          {
+            "year": 2004,
+            "count": 1198,
+            "nofollow": true
+          },
+          {
+            "year": 2003,
+            "count": 1179,
+            "nofollow": true
+          },
+          {
+            "year": 2002,
+            "count": 1036,
+            "nofollow": true
+          },
+          {
+            "year": 2001,
+            "count": 1151,
+            "nofollow": true
+          },
+          {
+            "year": 2000,
+            "count": 1058,
+            "nofollow": true
+          }
+        ],
+        "nofollow": true,
+        "count": 14908
+      },
+      {
+        "from": 1990,
+        "to": 1999,
+        "filter": "1990-01-01,1999-12-31",
+        "decade": 1990,
+        "years": [
+          {
+            "year": 1999,
+            "count": 826,
+            "nofollow": true
+          },
+          {
+            "year": 1998,
+            "count": 756,
+            "nofollow": true
+          },
+          {
+            "year": 1997,
+            "count": 885,
+            "nofollow": true
+          },
+          {
+            "year": 1996,
+            "count": 796,
+            "nofollow": true
+          },
+          {
+            "year": 1995,
+            "count": 884,
+            "nofollow": true
+          },
+          {
+            "year": 1994,
+            "count": 850,
+            "nofollow": true
+          },
+          {
+            "year": 1993,
+            "count": 768,
+            "nofollow": true
+          },
+          {
+            "year": 1992,
+            "count": 681,
+            "nofollow": true
+          },
+          {
+            "year": 1991,
+            "count": 597,
+            "nofollow": true
+          },
+          {
+            "year": 1990,
+            "count": 554,
+            "nofollow": true
+          }
+        ],
+        "nofollow": true,
+        "count": 7597
+      },
+      {
+        "from": 1980,
+        "to": 1989,
+        "filter": "1980-01-01,1989-12-31",
+        "decade": 1980,
+        "years": [
+          {
+            "year": 1989,
+            "count": 448,
+            "nofollow": true
+          },
+          {
+            "year": 1988,
+            "count": 326,
+            "nofollow": true
+          },
+          {
+            "year": 1987,
+            "count": 351,
+            "nofollow": true
+          },
+          {
+            "year": 1986,
+            "count": 257,
+            "nofollow": true
+          },
+          {
+            "year": 1985,
+            "count": 230,
+            "nofollow": true
+          },
+          {
+            "year": 1984,
+            "count": 188,
+            "nofollow": true
+          },
+          {
+            "year": 1983,
+            "count": 211,
+            "nofollow": true
+          },
+          {
+            "year": 1982,
+            "count": 154,
+            "nofollow": true
+          },
+          {
+            "year": 1981,
+            "count": 66,
+            "nofollow": true
+          },
+          {
+            "year": 1980,
+            "count": 35,
+            "nofollow": true
+          }
+        ],
+        "nofollow": true,
+        "count": 2266
+      },
+      {
+        "from": 1970,
+        "to": 1979,
+        "filter": "1970-01-01,1979-12-31",
+        "decade": 1970,
+        "years": [
+          {
+            "year": 1979,
+            "count": 15,
+            "nofollow": true
+          },
+          {
+            "year": 1978,
+            "count": 17,
+            "nofollow": true
+          },
+          {
+            "year": 1977,
+            "count": 13,
+            "nofollow": true
+          },
+          {
+            "year": 1976,
+            "count": 7,
+            "nofollow": true
+          },
+          {
+            "year": 1975,
+            "count": 3,
+            "nofollow": true
+          },
+          {
+            "year": 1974,
+            "count": 2,
+            "nofollow": true
+          },
+          {
+            "year": 1973,
+            "count": 1,
+            "nofollow": true
+          },
+          {
+            "year": 1972,
+            "count": 2,
+            "nofollow": true
+          },
+          {
+            "year": 1971,
+            "count": 6,
+            "nofollow": true
+          },
+          {
+            "year": 1970,
+            "count": 1,
+            "nofollow": true
+          }
+        ],
+        "nofollow": true,
+        "count": 67
+      },
+      {
+        "from": 1960,
+        "to": 1969,
+        "filter": "1960-01-01,1969-12-31",
+        "decade": 1960,
+        "years": [
+          {
+            "year": 1962,
+            "count": 1,
+            "nofollow": true
+          }
+        ],
+        "nofollow": true,
+        "count": 1
+      },
+      {
+        "from": 1950,
+        "to": 1959,
+        "filter": "1950-01-01,1959-12-31",
+        "decade": 1950,
+        "years": [
+          {
+            "year": 1958,
+            "count": 1,
+            "nofollow": true
+          },
+          {
+            "year": 1954,
+            "count": 1,
+            "nofollow": true
+          }
+        ],
+        "nofollow": true,
+        "count": 2
+      }
+    ]
+  },
+  "nofollow_collections": [
+    "stores"
+  ]
+}

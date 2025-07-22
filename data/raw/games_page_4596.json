@@ -1,0 +1,5083 @@
+{
+  "count": 889938,
+  "next": "https://api.rawg.io/api/games?key=474cddd382814f4b94a7fdde4f77166d&page=4597&page_size=40",
+  "previous": "https://api.rawg.io/api/games?key=474cddd382814f4b94a7fdde4f77166d&page=4595&page_size=40",
+  "results": [
+    {
+      "id": 915498,
+      "slug": "canterz-paranormies-2-itch",
+      "name": "Canterz Paranormies 2 (itch)",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/fa9/fa90d1c8a7a6ef6407860cb47280f3f6.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 112,
+      "updated": "2023-01-27T09:21:42",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 79334,
+            "image_background": "https://media.rawg.io/media/games/9fa/9fa63622543e5d4f6d99aa9d73b043de.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 148382,
+          "image_background": "https://media.rawg.io/media/games/879/879c930f9c6787c920153fa2df452eb3.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 913813,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer",
+          "slug": "singleplayer",
+          "language": "eng",
+          "games_count": 243001,
+          "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+        },
+        {
+          "id": 45,
+          "name": "2D",
+          "slug": "2d",
+          "language": "eng",
+          "games_count": 204129,
+          "image_background": "https://media.rawg.io/media/games/b6b/b6b20bfc4b34e312dbc8aac53c95a348.jpg"
+        },
+        {
+          "id": 16,
+          "name": "Horror",
+          "slug": "horror",
+          "language": "eng",
+          "games_count": 47751,
+          "image_background": "https://media.rawg.io/media/games/be0/be01c3d7d8795a45615da139322ca080.jpg"
+        },
+        {
+          "id": 74,
+          "name": "Retro",
+          "slug": "retro",
+          "language": "eng",
+          "games_count": 43696,
+          "image_background": "https://media.rawg.io/media/screenshots/2fc/2fc6994425146f9dba3133400b414e29.jpg"
+        },
+        {
+          "id": 134,
+          "name": "Anime",
+          "slug": "anime",
+          "language": "eng",
+          "games_count": 15930,
+          "image_background": "https://media.rawg.io/media/games/3ea/3ea0e57ede873970c0f1130e30d88749.jpg"
+        },
+        {
+          "id": 17,
+          "name": "Survival Horror",
+          "slug": "survival-horror",
+          "language": "eng",
+          "games_count": 9508,
+          "image_background": "https://media.rawg.io/media/games/ae1/ae1518c3dc1e847344661905fd2a8d16.jpg"
+        },
+        {
+          "id": 61,
+          "name": "Top-Down",
+          "slug": "top-down",
+          "language": "eng",
+          "games_count": 27707,
+          "image_background": "https://media.rawg.io/media/screenshots/71c/71c015df012029897e87ac00b7a8de4c.jpg"
+        },
+        {
+          "id": 624,
+          "name": "Monsters",
+          "slug": "monsters",
+          "language": "eng",
+          "games_count": 9636,
+          "image_background": "https://media.rawg.io/media/screenshots/53a/53a98929b8c944db6522487896fd9264.jpg"
+        },
+        {
+          "id": 663,
+          "name": "Ghosts",
+          "slug": "ghosts",
+          "language": "eng",
+          "games_count": 3246,
+          "image_background": "https://media.rawg.io/media/screenshots/95d/95d9f091c6f3f60789ef993c9931b8c1.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/fa9/fa90d1c8a7a6ef6407860cb47280f3f6.jpg"
+        },
+        {
+          "id": 3750950,
+          "image": "https://media.rawg.io/media/screenshots/d59/d59b60722be966102c3ec155f4d2f527.jpg"
+        },
+        {
+          "id": 3750951,
+          "image": "https://media.rawg.io/media/screenshots/9a3/9a3273a68bb98e16a467240059a90874.jpg"
+        },
+        {
+          "id": 3750952,
+          "image": "https://media.rawg.io/media/screenshots/87b/87bc8df7b8220716c8b6c6045be5c029.jpg"
+        },
+        {
+          "id": 3750953,
+          "image": "https://media.rawg.io/media/screenshots/237/237c39b7b090ab303855af9833d0822b.jpg"
+        },
+        {
+          "id": 3750954,
+          "image": "https://media.rawg.io/media/screenshots/26d/26d2e028b0af75aaec5b6ff949d4f4d9.jpg"
+        },
+        {
+          "id": 3750955,
+          "image": "https://media.rawg.io/media/screenshots/4e7/4e746b82ebc7426e7d24f31f9a784eff.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915497,
+      "slug": "game-7qwerty",
+      "name": "Game (7Qwerty)",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/952/952a4c98bada5d5dc98769f43d85057f.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 19,
+      "updated": "2023-01-27T09:21:02",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 171,
+            "name": "Web",
+            "slug": "web",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 260076,
+            "image_background": "https://media.rawg.io/media/screenshots/092/0922422089a8962bba5fb3b35d402714.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 14,
+            "name": "Web",
+            "slug": "web"
+          }
+        }
+      ],
+      "genres": [],
+      "stores": [
+        {
+          "id": 913812,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/952/952a4c98bada5d5dc98769f43d85057f.jpg"
+        },
+        {
+          "id": 3750949,
+          "image": "https://media.rawg.io/media/screenshots/952/952a4c98bada5d5dc98769f43d85057f.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915495,
+      "slug": "lander-web-18",
+      "name": "Lander Web 18",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/182/182c80cdce0a76d4e521877aa950ca97.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 3,
+      "updated": "2023-01-27T09:19:55",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 171,
+            "name": "Web",
+            "slug": "web",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 260076,
+            "image_background": "https://media.rawg.io/media/screenshots/092/0922422089a8962bba5fb3b35d402714.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 14,
+            "name": "Web",
+            "slug": "web"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 148382,
+          "image_background": "https://media.rawg.io/media/games/879/879c930f9c6787c920153fa2df452eb3.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 913810,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 406,
+          "name": "Story",
+          "slug": "story",
+          "language": "eng",
+          "games_count": 11517,
+          "image_background": "https://media.rawg.io/media/games/08e/08e8d09cd5aae30959c4486649fda3e6.jpg"
+        },
+        {
+          "id": 2191,
+          "name": "alien",
+          "slug": "alien",
+          "language": "eng",
+          "games_count": 1219,
+          "image_background": "https://media.rawg.io/media/screenshots/085/08553ac02c3d79bba1703dd4dc967b68.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/182/182c80cdce0a76d4e521877aa950ca97.jpg"
+        },
+        {
+          "id": 3750941,
+          "image": "https://media.rawg.io/media/screenshots/182/182c80cdce0a76d4e521877aa950ca97.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915494,
+      "slug": "umaru-chan-yummy",
+      "name": "Umaru-Chan Yummy",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/10c/10c28fa49a41f583b029e1181a6394e3.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 2,
+      "updated": "2023-01-27T09:19:38",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android",
+            "slug": "android",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 52463,
+            "image_background": "https://media.rawg.io/media/games/5fa/5fae5fec3c943179e09da67a4427d68f.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 8,
+            "name": "Android",
+            "slug": "android"
+          }
+        }
+      ],
+      "genres": [],
+      "stores": [
+        {
+          "id": 913809,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 134,
+          "name": "Anime",
+          "slug": "anime",
+          "language": "eng",
+          "games_count": 15930,
+          "image_background": "https://media.rawg.io/media/games/3ea/3ea0e57ede873970c0f1130e30d88749.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/10c/10c28fa49a41f583b029e1181a6394e3.jpg"
+        },
+        {
+          "id": 3750940,
+          "image": "https://media.rawg.io/media/screenshots/10c/10c28fa49a41f583b029e1181a6394e3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915493,
+      "slug": "q-tal",
+      "name": "¿Q Tal?",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/7e6/7e6032676e82947d69dbc123aa66c8cb.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 46,
+      "updated": "2023-01-27T09:19:20",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 79334,
+            "image_background": "https://media.rawg.io/media/games/9fa/9fa63622543e5d4f6d99aa9d73b043de.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 106817,
+            "image_background": "https://media.rawg.io/media/games/7a2/7a2500ee8b2c0e1ff268bb4479463dea.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        }
+      ],
+      "genres": [],
+      "stores": [
+        {
+          "id": 913808,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer",
+          "slug": "singleplayer",
+          "language": "eng",
+          "games_count": 243001,
+          "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+        },
+        {
+          "id": 111,
+          "name": "Short",
+          "slug": "short",
+          "language": "eng",
+          "games_count": 58060,
+          "image_background": "https://media.rawg.io/media/games/8e4/8e4de3f54ac659e08a7ba6a2b731682a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/7e6/7e6032676e82947d69dbc123aa66c8cb.jpg"
+        },
+        {
+          "id": 3750937,
+          "image": "https://media.rawg.io/media/screenshots/4d2/4d26907f5b2589de6f51660349616dbf.jpg"
+        },
+        {
+          "id": 3750938,
+          "image": "https://media.rawg.io/media/screenshots/6ea/6ea2122808d1be1a7423c6745c53916c.jpg"
+        },
+        {
+          "id": 3750939,
+          "image": "https://media.rawg.io/media/screenshots/7e6/7e6032676e82947d69dbc123aa66c8cb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915492,
+      "slug": "the-secret-lab",
+      "name": "The Secret Lab",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/929/92979f86c9c99bdb67bc0a161ff414d2.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 11,
+      "updated": "2023-01-27T09:18:53",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 148382,
+          "image_background": "https://media.rawg.io/media/games/879/879c930f9c6787c920153fa2df452eb3.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Puzzle",
+          "slug": "puzzle",
+          "games_count": 97350,
+          "image_background": "https://media.rawg.io/media/games/852/8522935d8ab27b610a254b52de0da212.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 913807,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer",
+          "slug": "singleplayer",
+          "language": "eng",
+          "games_count": 243001,
+          "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+        },
+        {
+          "id": 571,
+          "name": "3D",
+          "slug": "3d",
+          "language": "eng",
+          "games_count": 90882,
+          "image_background": "https://media.rawg.io/media/screenshots/066/066eb1b7a3f332b8089645fbf8c3ebdc.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/929/92979f86c9c99bdb67bc0a161ff414d2.jpg"
+        },
+        {
+          "id": 3750936,
+          "image": "https://media.rawg.io/media/screenshots/929/92979f86c9c99bdb67bc0a161ff414d2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915491,
+      "slug": "galaga-unity",
+      "name": "Galaga - Unity",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/791/791b4ca14fa40f2576055394b5f64366.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 41,
+      "updated": "2023-01-27T09:18:31",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 2,
+          "name": "Shooter",
+          "slug": "shooter",
+          "games_count": 59577,
+          "image_background": "https://media.rawg.io/media/games/120/1201a40e4364557b124392ee50317b99.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 913806,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 45,
+          "name": "2D",
+          "slug": "2d",
+          "language": "eng",
+          "games_count": 204129,
+          "image_background": "https://media.rawg.io/media/games/b6b/b6b20bfc4b34e312dbc8aac53c95a348.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/791/791b4ca14fa40f2576055394b5f64366.jpg"
+        },
+        {
+          "id": 3750932,
+          "image": "https://media.rawg.io/media/screenshots/c20/c20adb5e4fd103d1fb7d395fe3a9dafc.jpg"
+        },
+        {
+          "id": 3750933,
+          "image": "https://media.rawg.io/media/screenshots/2d6/2d6cb01d8a70b57db8fbc507017e0ec3.jpg"
+        },
+        {
+          "id": 3750934,
+          "image": "https://media.rawg.io/media/screenshots/56c/56c06ba58a713604aebac9679cced91e.jpg"
+        },
+        {
+          "id": 3750935,
+          "image": "https://media.rawg.io/media/screenshots/791/791b4ca14fa40f2576055394b5f64366.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915490,
+      "slug": "clickergame-metalfurius",
+      "name": "ClickerGame (Metalfurius)",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/4e2/4e2c4155769293f3fa101c7a0342cb1b.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 67,
+      "updated": "2023-01-27T09:17:54",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [],
+      "stores": [
+        {
+          "id": 913805,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 246,
+          "name": "Clicker",
+          "slug": "clicker",
+          "language": "eng",
+          "games_count": 9325,
+          "image_background": "https://media.rawg.io/media/screenshots/94a/94a57ad88333a8682f6fcc19b4b6dcbe.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/4e2/4e2c4155769293f3fa101c7a0342cb1b.jpg"
+        },
+        {
+          "id": 3750930,
+          "image": "https://media.rawg.io/media/screenshots/ef4/ef446f5ec2998f47adc2035440652074.jpg"
+        },
+        {
+          "id": 3750931,
+          "image": "https://media.rawg.io/media/screenshots/4e2/4e2c4155769293f3fa101c7a0342cb1b.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915489,
+      "slug": "animal-kingdom-coin-raid-itch",
+      "name": "Animal Kingdom: Coin Raid (itch)",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/7ce/7ce180b69e75aced08c1b5ce4bf3f17d.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 20,
+      "updated": "2023-01-27T09:17:27",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 83,
+          "name": "Platformer",
+          "slug": "platformer",
+          "games_count": 100885,
+          "image_background": "https://media.rawg.io/media/games/e0f/e0f05a97ff926acf4c8f43e0849b6832.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 913804,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 45,
+          "name": "2D",
+          "slug": "2d",
+          "language": "eng",
+          "games_count": 204129,
+          "image_background": "https://media.rawg.io/media/games/b6b/b6b20bfc4b34e312dbc8aac53c95a348.jpg"
+        },
+        {
+          "id": 1787,
+          "name": "mobile",
+          "slug": "mobile",
+          "language": "eng",
+          "games_count": 4592,
+          "image_background": "https://media.rawg.io/media/screenshots/452/45212651232aa13fbed24a6a925bf1f5.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/7ce/7ce180b69e75aced08c1b5ce4bf3f17d.jpg"
+        },
+        {
+          "id": 3750929,
+          "image": "https://media.rawg.io/media/screenshots/7ce/7ce180b69e75aced08c1b5ce4bf3f17d.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915488,
+      "slug": "10-seconds-itch-metalfurius",
+      "name": "10 seconds (itch) (Metalfurius)",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/262/26267f1238b1ad3e6fe14317b8a7d0b0.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 4,
+      "updated": "2023-01-27T09:17:06",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 83,
+          "name": "Platformer",
+          "slug": "platformer",
+          "games_count": 100885,
+          "image_background": "https://media.rawg.io/media/games/e0f/e0f05a97ff926acf4c8f43e0849b6832.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 913803,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 8609,
+          "name": "practice",
+          "slug": "practice",
+          "language": "eng",
+          "games_count": 256,
+          "image_background": "https://media.rawg.io/media/screenshots/063/063fa9eff430a281fb5d7dd12d360de7.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/262/26267f1238b1ad3e6fe14317b8a7d0b0.jpg"
+        },
+        {
+          "id": 3750927,
+          "image": "https://media.rawg.io/media/screenshots/4bf/4bf44c55158cad05eb383bc6fb43b704.jpg"
+        },
+        {
+          "id": 3750928,
+          "image": "https://media.rawg.io/media/screenshots/262/26267f1238b1ad3e6fe14317b8a7d0b0.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915487,
+      "slug": "amongshoot",
+      "name": "amongshoot",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/20e/20ed5a4e22f5a169ff7417cc11f4fd24.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 5,
+      "updated": "2023-01-27T09:16:39",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [],
+      "stores": [
+        {
+          "id": 913802,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/20e/20ed5a4e22f5a169ff7417cc11f4fd24.jpg"
+        },
+        {
+          "id": 3750926,
+          "image": "https://media.rawg.io/media/screenshots/20e/20ed5a4e22f5a169ff7417cc11f4fd24.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915486,
+      "slug": "pollo-del-desierto",
+      "name": "Pollo Del Desierto",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/cad/cadc0fe159c2e62414a7619b9bdbe51c.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 68,
+      "updated": "2023-01-27T09:16:20",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 7,
+          "name": "Puzzle",
+          "slug": "puzzle",
+          "games_count": 97350,
+          "image_background": "https://media.rawg.io/media/games/852/8522935d8ab27b610a254b52de0da212.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 913801,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer",
+          "slug": "singleplayer",
+          "language": "eng",
+          "games_count": 243001,
+          "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+        },
+        {
+          "id": 111,
+          "name": "Short",
+          "slug": "short",
+          "language": "eng",
+          "games_count": 58060,
+          "image_background": "https://media.rawg.io/media/games/8e4/8e4de3f54ac659e08a7ba6a2b731682a.jpg"
+        },
+        {
+          "id": 571,
+          "name": "3D",
+          "slug": "3d",
+          "language": "eng",
+          "games_count": 90882,
+          "image_background": "https://media.rawg.io/media/screenshots/066/066eb1b7a3f332b8089645fbf8c3ebdc.jpg"
+        },
+        {
+          "id": 631,
+          "name": "Low-poly",
+          "slug": "low-poly",
+          "language": "eng",
+          "games_count": 12081,
+          "image_background": "https://media.rawg.io/media/screenshots/b02/b02c8f7cc53dfa98a35552916c02fe6e.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/cad/cadc0fe159c2e62414a7619b9bdbe51c.jpg"
+        },
+        {
+          "id": 3750921,
+          "image": "https://media.rawg.io/media/screenshots/49c/49cb8adc1483fe17f577dbc10d091aa9.jpg"
+        },
+        {
+          "id": 3750922,
+          "image": "https://media.rawg.io/media/screenshots/442/44235fbc9fa25b8eddb6be14a5a39527.jpg"
+        },
+        {
+          "id": 3750923,
+          "image": "https://media.rawg.io/media/screenshots/953/953c01dc5fc40e97d5613a7f238826b0.jpg"
+        },
+        {
+          "id": 3750924,
+          "image": "https://media.rawg.io/media/screenshots/54b/54b89d3675dd9c81fe1ae8aff7afa187.jpg"
+        },
+        {
+          "id": 3750925,
+          "image": "https://media.rawg.io/media/screenshots/cad/cadc0fe159c2e62414a7619b9bdbe51c.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915485,
+      "slug": "tiles-of-fortune-itch",
+      "name": "Tiles of Fortune (itch)",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/14d/14dbeae04e8925f176ac4131a22af252.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 12,
+      "updated": "2023-01-27T09:15:51",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 83,
+          "name": "Platformer",
+          "slug": "platformer",
+          "games_count": 100885,
+          "image_background": "https://media.rawg.io/media/games/e0f/e0f05a97ff926acf4c8f43e0849b6832.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 913800,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 45,
+          "name": "2D",
+          "slug": "2d",
+          "language": "eng",
+          "games_count": 204129,
+          "image_background": "https://media.rawg.io/media/games/b6b/b6b20bfc4b34e312dbc8aac53c95a348.jpg"
+        },
+        {
+          "id": 1787,
+          "name": "mobile",
+          "slug": "mobile",
+          "language": "eng",
+          "games_count": 4592,
+          "image_background": "https://media.rawg.io/media/screenshots/452/45212651232aa13fbed24a6a925bf1f5.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/14d/14dbeae04e8925f176ac4131a22af252.jpg"
+        },
+        {
+          "id": 3750920,
+          "image": "https://media.rawg.io/media/screenshots/14d/14dbeae04e8925f176ac4131a22af252.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915484,
+      "slug": "space-ace-teste-123456",
+      "name": "SPACE ACE TESTE 123456",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/8b7/8b7fa97547caf971b8079641e6754d28.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 13,
+      "updated": "2023-01-27T09:15:30",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 171,
+            "name": "Web",
+            "slug": "web",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 260076,
+            "image_background": "https://media.rawg.io/media/screenshots/092/0922422089a8962bba5fb3b35d402714.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 14,
+            "name": "Web",
+            "slug": "web"
+          }
+        }
+      ],
+      "genres": [],
+      "stores": [
+        {
+          "id": 913799,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 45,
+          "name": "2D",
+          "slug": "2d",
+          "language": "eng",
+          "games_count": 204129,
+          "image_background": "https://media.rawg.io/media/games/b6b/b6b20bfc4b34e312dbc8aac53c95a348.jpg"
+        },
+        {
+          "id": 16,
+          "name": "Horror",
+          "slug": "horror",
+          "language": "eng",
+          "games_count": 47751,
+          "image_background": "https://media.rawg.io/media/games/be0/be01c3d7d8795a45615da139322ca080.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/8b7/8b7fa97547caf971b8079641e6754d28.jpg"
+        },
+        {
+          "id": 3750919,
+          "image": "https://media.rawg.io/media/screenshots/8b7/8b7fa97547caf971b8079641e6754d28.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915483,
+      "slug": "the-epic-alien-rebellion-game",
+      "name": "THE EPIC ALIEN REBELLION GAME",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/547/5479715ee7cc33326df1788ec0d5fb4e.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 17,
+      "updated": "2023-01-27T09:15:10",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 171,
+            "name": "Web",
+            "slug": "web",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 260076,
+            "image_background": "https://media.rawg.io/media/screenshots/092/0922422089a8962bba5fb3b35d402714.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 14,
+            "name": "Web",
+            "slug": "web"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 913798,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer",
+          "slug": "singleplayer",
+          "language": "eng",
+          "games_count": 243001,
+          "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+        },
+        {
+          "id": 672,
+          "name": "High Score",
+          "slug": "high-score",
+          "language": "eng",
+          "games_count": 6565,
+          "image_background": "https://media.rawg.io/media/screenshots/7e8/7e8e901d8d3a9450f83038956e5cdc1a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/547/5479715ee7cc33326df1788ec0d5fb4e.jpg"
+        },
+        {
+          "id": 3750918,
+          "image": "https://media.rawg.io/media/screenshots/547/5479715ee7cc33326df1788ec0d5fb4e.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915482,
+      "slug": "pat-the-pupuce",
+      "name": "Pat the Pupuce",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/676/6762aaafb4b07a249562c8966aec56b6.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 39,
+      "updated": "2023-01-27T09:14:49",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 171,
+            "name": "Web",
+            "slug": "web",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 260076,
+            "image_background": "https://media.rawg.io/media/screenshots/092/0922422089a8962bba5fb3b35d402714.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 14,
+            "name": "Web",
+            "slug": "web"
+          }
+        }
+      ],
+      "genres": [],
+      "stores": [
+        {
+          "id": 913797,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 1063,
+          "name": "html",
+          "slug": "html",
+          "language": "eng",
+          "games_count": 2201,
+          "image_background": "https://media.rawg.io/media/screenshots/3fa/3fabef986557b5a1bc94861852e7065e_k1ICJLW.jpg"
+        },
+        {
+          "id": 2859,
+          "name": "io",
+          "slug": "io",
+          "language": "eng",
+          "games_count": 2565,
+          "image_background": "https://media.rawg.io/media/screenshots/d38/d389c1106ead0a7686050b27b9987ffd.jpg"
+        },
+        {
+          "id": 1745,
+          "name": "chat",
+          "slug": "chat",
+          "language": "eng",
+          "games_count": 203,
+          "image_background": "https://media.rawg.io/media/screenshots/733/733b9be99ce0aade0c2902e615595632.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/676/6762aaafb4b07a249562c8966aec56b6.jpg"
+        },
+        {
+          "id": 3750914,
+          "image": "https://media.rawg.io/media/screenshots/7c2/7c287127bc7b52d9a4dc31f8be10a2be.jpg"
+        },
+        {
+          "id": 3750915,
+          "image": "https://media.rawg.io/media/screenshots/cfa/cfa161a1e99b87df7a889a1a5d307ee4.jpg"
+        },
+        {
+          "id": 3750916,
+          "image": "https://media.rawg.io/media/screenshots/e02/e02019392fd86c1a2c61c06babebf882.jpg"
+        },
+        {
+          "id": 3750917,
+          "image": "https://media.rawg.io/media/screenshots/676/6762aaafb4b07a249562c8966aec56b6.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915481,
+      "slug": "roll-a-ball-annairda",
+      "name": "Roll a ball (annairda)",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/7ac/7ace8ec56842a62c52a0ef92c588bf8f.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 79,
+      "updated": "2023-01-27T09:14:14",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 171,
+            "name": "Web",
+            "slug": "web",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 260076,
+            "image_background": "https://media.rawg.io/media/screenshots/092/0922422089a8962bba5fb3b35d402714.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 14,
+            "name": "Web",
+            "slug": "web"
+          }
+        }
+      ],
+      "genres": [],
+      "stores": [
+        {
+          "id": 913796,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 571,
+          "name": "3D",
+          "slug": "3d",
+          "language": "eng",
+          "games_count": 90882,
+          "image_background": "https://media.rawg.io/media/screenshots/066/066eb1b7a3f332b8089645fbf8c3ebdc.jpg"
+        },
+        {
+          "id": 607,
+          "name": "Unity",
+          "slug": "unity",
+          "language": "eng",
+          "games_count": 70823,
+          "image_background": "https://media.rawg.io/media/games/ab5/ab58f8d099d65779e353fa8889fff4e4.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/7ac/7ace8ec56842a62c52a0ef92c588bf8f.jpg"
+        },
+        {
+          "id": 3750907,
+          "image": "https://media.rawg.io/media/screenshots/66e/66e6aedf576938832c8019b82e76aafa.jpg"
+        },
+        {
+          "id": 3750908,
+          "image": "https://media.rawg.io/media/screenshots/0fa/0fa35839eba7913ea673594a91684d93.jpg"
+        },
+        {
+          "id": 3750909,
+          "image": "https://media.rawg.io/media/screenshots/7c0/7c06468b1e599778abdf4461a2562b44.jpg"
+        },
+        {
+          "id": 3750910,
+          "image": "https://media.rawg.io/media/screenshots/e4a/e4a20829d13a12f4fff7889e623da896.jpg"
+        },
+        {
+          "id": 3750911,
+          "image": "https://media.rawg.io/media/screenshots/103/10398a1a396eedf8c38047ca610d0592.jpg"
+        },
+        {
+          "id": 3750912,
+          "image": "https://media.rawg.io/media/screenshots/e9e/e9ef269a5aefa8ec562e044c2e015842.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915480,
+      "slug": "alien-xenocide-kickstarter-demo",
+      "name": "ALIEN XENOCIDE Kickstarter Demo",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/15a/15ac7501d5482d24f57f09bf35df50fa.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 184,
+      "updated": "2023-01-27T09:13:37",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 148382,
+          "image_background": "https://media.rawg.io/media/games/879/879c930f9c6787c920153fa2df452eb3.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Puzzle",
+          "slug": "puzzle",
+          "games_count": 97350,
+          "image_background": "https://media.rawg.io/media/games/852/8522935d8ab27b610a254b52de0da212.jpg"
+        },
+        {
+          "id": 83,
+          "name": "Platformer",
+          "slug": "platformer",
+          "games_count": 100885,
+          "image_background": "https://media.rawg.io/media/games/e0f/e0f05a97ff926acf4c8f43e0849b6832.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 913795,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 4,
+          "name": "Funny",
+          "slug": "funny",
+          "language": "eng",
+          "games_count": 27685,
+          "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+        },
+        {
+          "id": 74,
+          "name": "Retro",
+          "slug": "retro",
+          "language": "eng",
+          "games_count": 43696,
+          "image_background": "https://media.rawg.io/media/screenshots/2fc/2fc6994425146f9dba3133400b414e29.jpg"
+        },
+        {
+          "id": 172,
+          "name": "Aliens",
+          "slug": "aliens",
+          "language": "eng",
+          "games_count": 7322,
+          "image_background": "https://media.rawg.io/media/games/e3d/e3ddc524c6292a435d01d97cc5f42ea7.jpg"
+        },
+        {
+          "id": 721,
+          "name": "silly",
+          "slug": "silly",
+          "language": "eng",
+          "games_count": 410,
+          "image_background": "https://media.rawg.io/media/screenshots/0f8/0f8665a2f66388338c59c523383d19dd.jpg"
+        },
+        {
+          "id": 48645,
+          "name": "pizza-tower",
+          "slug": "pizza-tower",
+          "language": "eng",
+          "games_count": 38,
+          "image_background": "https://media.rawg.io/media/screenshots/dd5/dd537a68fd2b7d68771805d7ea209cff.jpg"
+        },
+        {
+          "id": 88412,
+          "name": "alien-xeno",
+          "slug": "alien-xeno",
+          "language": "eng",
+          "games_count": 1,
+          "image_background": "https://media.rawg.io/media/screenshots/15a/15ac7501d5482d24f57f09bf35df50fa.jpg"
+        },
+        {
+          "id": 88413,
+          "name": "alien-xenocide",
+          "slug": "alien-xenocide",
+          "language": "eng",
+          "games_count": 1,
+          "image_background": "https://media.rawg.io/media/screenshots/15a/15ac7501d5482d24f57f09bf35df50fa.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/15a/15ac7501d5482d24f57f09bf35df50fa.jpg"
+        },
+        {
+          "id": 3750902,
+          "image": "https://media.rawg.io/media/screenshots/5f3/5f3f7a2b51b9b72a2110e9da62068b94.jpg"
+        },
+        {
+          "id": 3750903,
+          "image": "https://media.rawg.io/media/screenshots/66f/66f2fad2e0aaa8d0d8b981a779c44c11.jpg"
+        },
+        {
+          "id": 3750904,
+          "image": "https://media.rawg.io/media/screenshots/944/9440b82265634729f655e4749e699579.jpg"
+        },
+        {
+          "id": 3750905,
+          "image": "https://media.rawg.io/media/screenshots/a7b/a7b231f524ca2b19860c9b2883ca9130.jpg"
+        },
+        {
+          "id": 3750906,
+          "image": "https://media.rawg.io/media/screenshots/15a/15ac7501d5482d24f57f09bf35df50fa.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915479,
+      "slug": "sento",
+      "name": "SenTo",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/677/67700fc838ee2df825efd434d2c91970.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 9,
+      "updated": "2023-01-27T09:12:57",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 171,
+            "name": "Web",
+            "slug": "web",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 260076,
+            "image_background": "https://media.rawg.io/media/screenshots/092/0922422089a8962bba5fb3b35d402714.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 14,
+            "name": "Web",
+            "slug": "web"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 83,
+          "name": "Platformer",
+          "slug": "platformer",
+          "games_count": 100885,
+          "image_background": "https://media.rawg.io/media/games/e0f/e0f05a97ff926acf4c8f43e0849b6832.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 913794,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 45,
+          "name": "2D",
+          "slug": "2d",
+          "language": "eng",
+          "games_count": 204129,
+          "image_background": "https://media.rawg.io/media/games/b6b/b6b20bfc4b34e312dbc8aac53c95a348.jpg"
+        },
+        {
+          "id": 111,
+          "name": "Short",
+          "slug": "short",
+          "language": "eng",
+          "games_count": 58060,
+          "image_background": "https://media.rawg.io/media/games/8e4/8e4de3f54ac659e08a7ba6a2b731682a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/677/67700fc838ee2df825efd434d2c91970.jpg"
+        },
+        {
+          "id": 3750901,
+          "image": "https://media.rawg.io/media/screenshots/677/67700fc838ee2df825efd434d2c91970.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915478,
+      "slug": "the-ardens-project",
+      "name": "The Arden´s Project",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/a98/a984d20c8e4408f0cd37826c787ba3c3.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 49,
+      "updated": "2023-01-27T09:12:41",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 171,
+            "name": "Web",
+            "slug": "web",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 260076,
+            "image_background": "https://media.rawg.io/media/screenshots/092/0922422089a8962bba5fb3b35d402714.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 14,
+            "name": "Web",
+            "slug": "web"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 83,
+          "name": "Platformer",
+          "slug": "platformer",
+          "games_count": 100885,
+          "image_background": "https://media.rawg.io/media/games/e0f/e0f05a97ff926acf4c8f43e0849b6832.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 913793,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 1105,
+          "name": "planet",
+          "slug": "planet",
+          "language": "eng",
+          "games_count": 3020,
+          "image_background": "https://media.rawg.io/media/screenshots/cd1/cd1dedeafe91fa1d9034dba0c3dcb1f7.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/a98/a984d20c8e4408f0cd37826c787ba3c3.jpg"
+        },
+        {
+          "id": 3750900,
+          "image": "https://media.rawg.io/media/screenshots/a98/a984d20c8e4408f0cd37826c787ba3c3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915477,
+      "slug": "happyinc-a-social-media-simulator",
+      "name": "Happy,Inc - A social media simulator",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/783/7830706716ee22c0f21a5bfef7d89718.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 9,
+      "updated": "2023-01-27T09:12:24",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 171,
+            "name": "Web",
+            "slug": "web",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 260076,
+            "image_background": "https://media.rawg.io/media/screenshots/092/0922422089a8962bba5fb3b35d402714.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 14,
+            "name": "Web",
+            "slug": "web"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 14,
+          "name": "Simulation",
+          "slug": "simulation",
+          "games_count": 74679,
+          "image_background": "https://media.rawg.io/media/games/78d/78dfae12fb8c5b16cd78648553071e0a.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Puzzle",
+          "slug": "puzzle",
+          "games_count": 97350,
+          "image_background": "https://media.rawg.io/media/games/852/8522935d8ab27b610a254b52de0da212.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 913792,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 4,
+          "name": "Funny",
+          "slug": "funny",
+          "language": "eng",
+          "games_count": 27685,
+          "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+        },
+        {
+          "id": 607,
+          "name": "Unity",
+          "slug": "unity",
+          "language": "eng",
+          "games_count": 70823,
+          "image_background": "https://media.rawg.io/media/games/ab5/ab58f8d099d65779e353fa8889fff4e4.jpg"
+        },
+        {
+          "id": 1020,
+          "name": "serious-game",
+          "slug": "serious-game",
+          "language": "eng",
+          "games_count": 174,
+          "image_background": "https://media.rawg.io/media/screenshots/7e1/7e117cf1ed08b2ed9312ed4836add4b9.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/783/7830706716ee22c0f21a5bfef7d89718.jpg"
+        },
+        {
+          "id": 3750899,
+          "image": "https://media.rawg.io/media/screenshots/783/7830706716ee22c0f21a5bfef7d89718.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915476,
+      "slug": "desafio-quadrado-magico",
+      "name": "Desafio Quadrado Mágico",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/df5/df5a7aad19c081b063417a937f008ba6.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 9,
+      "updated": "2023-01-27T09:11:59",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 171,
+            "name": "Web",
+            "slug": "web",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 260076,
+            "image_background": "https://media.rawg.io/media/screenshots/092/0922422089a8962bba5fb3b35d402714.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 14,
+            "name": "Web",
+            "slug": "web"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 7,
+          "name": "Puzzle",
+          "slug": "puzzle",
+          "games_count": 97350,
+          "image_background": "https://media.rawg.io/media/games/852/8522935d8ab27b610a254b52de0da212.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 913791,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 2876,
+          "name": "square",
+          "slug": "square",
+          "language": "eng",
+          "games_count": 1395,
+          "image_background": "https://media.rawg.io/media/games/f17/f17cb19c5e9b30e378e5f9ba1cc74df3.jpg"
+        },
+        {
+          "id": 1787,
+          "name": "mobile",
+          "slug": "mobile",
+          "language": "eng",
+          "games_count": 4592,
+          "image_background": "https://media.rawg.io/media/screenshots/452/45212651232aa13fbed24a6a925bf1f5.jpg"
+        },
+        {
+          "id": 1269,
+          "name": "Construct 2",
+          "slug": "construct-2",
+          "language": "eng",
+          "games_count": 2070,
+          "image_background": "https://media.rawg.io/media/screenshots/7f3/7f3feac5fc2f7590da361f67e4673200.jpg"
+        },
+        {
+          "id": 10340,
+          "name": "mobilegames",
+          "slug": "mobilegames",
+          "language": "eng",
+          "games_count": 17,
+          "image_background": "https://media.rawg.io/media/screenshots/514/51419b018e548b26b6fdac05e9d36b38.jpg"
+        },
+        {
+          "id": 82009,
+          "name": "suliberati",
+          "slug": "suliberati",
+          "language": "eng",
+          "games_count": 23,
+          "image_background": "https://media.rawg.io/media/screenshots/283/2833010efba2ffba011f1223aa195c22.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/df5/df5a7aad19c081b063417a937f008ba6.jpg"
+        },
+        {
+          "id": 3750898,
+          "image": "https://media.rawg.io/media/screenshots/df5/df5a7aad19c081b063417a937f008ba6.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915475,
+      "slug": "robot-runner-v2",
+      "name": "Robot Runner V2",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/655/6558e887f9e28af553b352fe6bc7ed71.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 4,
+      "updated": "2023-01-27T09:10:45",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 148382,
+          "image_background": "https://media.rawg.io/media/games/879/879c930f9c6787c920153fa2df452eb3.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 913790,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer",
+          "slug": "singleplayer",
+          "language": "eng",
+          "games_count": 243001,
+          "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+        },
+        {
+          "id": 45,
+          "name": "2D",
+          "slug": "2d",
+          "language": "eng",
+          "games_count": 204129,
+          "image_background": "https://media.rawg.io/media/games/b6b/b6b20bfc4b34e312dbc8aac53c95a348.jpg"
+        },
+        {
+          "id": 111,
+          "name": "Short",
+          "slug": "short",
+          "language": "eng",
+          "games_count": 58060,
+          "image_background": "https://media.rawg.io/media/games/8e4/8e4de3f54ac659e08a7ba6a2b731682a.jpg"
+        },
+        {
+          "id": 197,
+          "name": "Robots",
+          "slug": "robots",
+          "language": "eng",
+          "games_count": 8681,
+          "image_background": "https://media.rawg.io/media/games/9da/9da42a4da370cc386c8578f0b2578e2c.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/655/6558e887f9e28af553b352fe6bc7ed71.jpg"
+        },
+        {
+          "id": 3750897,
+          "image": "https://media.rawg.io/media/screenshots/655/6558e887f9e28af553b352fe6bc7ed71.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915474,
+      "slug": "snowie-snow",
+      "name": "Snowie Snow",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/d0a/d0a918187189bf20b166145ad49c0f64.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 34,
+      "updated": "2023-01-27T09:10:25",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 1,
+          "name": "Racing",
+          "slug": "racing",
+          "games_count": 25533,
+          "image_background": "https://media.rawg.io/media/screenshots/c02/c02c64324edc2045ea1fc0601cdaaa0c.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 913789,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 198,
+          "name": "Split Screen",
+          "slug": "split-screen",
+          "language": "eng",
+          "games_count": 7654,
+          "image_background": "https://media.rawg.io/media/games/07a/07a74470a2618fd71945db0619602baf.jpg"
+        },
+        {
+          "id": 115,
+          "name": "Controller",
+          "slug": "controller",
+          "language": "eng",
+          "games_count": 14072,
+          "image_background": "https://media.rawg.io/media/screenshots/2fc/2fc6994425146f9dba3133400b414e29.jpg"
+        },
+        {
+          "id": 72,
+          "name": "Local Multiplayer",
+          "slug": "local-multiplayer",
+          "language": "eng",
+          "games_count": 13776,
+          "image_background": "https://media.rawg.io/media/games/fc8/fc838d98c9b944e6a15176eabf40bee8.jpg"
+        },
+        {
+          "id": 486,
+          "name": "versus",
+          "slug": "versus",
+          "language": "eng",
+          "games_count": 1797,
+          "image_background": "https://media.rawg.io/media/games/f78/f7809ab885f7464845681e5931aabeb8.jpg"
+        },
+        {
+          "id": 706,
+          "name": "gamepad",
+          "slug": "gamepad",
+          "language": "eng",
+          "games_count": 2457,
+          "image_background": "https://media.rawg.io/media/screenshots/75d/75d8e5ed7536427f9f08ec58ffcb1246.jpg"
+        },
+        {
+          "id": 1485,
+          "name": "Christmas",
+          "slug": "christmas",
+          "language": "eng",
+          "games_count": 3312,
+          "image_background": "https://media.rawg.io/media/screenshots/87e/87e61b469e877aa9cbc64a2be9f45acd.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/d0a/d0a918187189bf20b166145ad49c0f64.jpg"
+        },
+        {
+          "id": 3750896,
+          "image": "https://media.rawg.io/media/screenshots/d0a/d0a918187189bf20b166145ad49c0f64.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915473,
+      "slug": "run-10-2",
+      "name": "Run! 1.0",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2023-01-27T09:10:04",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [],
+      "stores": [
+        {
+          "id": 913788,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 915472,
+      "slug": "happy-a-platformer-beta",
+      "name": "Happy - A Platformer (Beta)",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": null,
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 0,
+      "updated": "2023-01-27T09:09:56",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 171,
+            "name": "Web",
+            "slug": "web",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 260076,
+            "image_background": "https://media.rawg.io/media/screenshots/092/0922422089a8962bba5fb3b35d402714.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 14,
+            "name": "Web",
+            "slug": "web"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 83,
+          "name": "Platformer",
+          "slug": "platformer",
+          "games_count": 100885,
+          "image_background": "https://media.rawg.io/media/games/e0f/e0f05a97ff926acf4c8f43e0849b6832.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 913787,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 7942,
+          "name": "scratch",
+          "slug": "scratch",
+          "language": "eng",
+          "games_count": 2173,
+          "image_background": "https://media.rawg.io/media/screenshots/471/47138dfaf3865699a2cf2561e15f659e.jpg"
+        },
+        {
+          "id": 6214,
+          "name": "beta",
+          "slug": "beta",
+          "language": "eng",
+          "games_count": 1239,
+          "image_background": "https://media.rawg.io/media/screenshots/c9a/c9a9424dbd9e9eef723e7f1babe1f557.jpg"
+        },
+        {
+          "id": 2277,
+          "name": "code",
+          "slug": "code",
+          "language": "eng",
+          "games_count": 1431,
+          "image_background": "https://media.rawg.io/media/screenshots/0d3/0d337bc2e90a19eab58d1f31b21c1f1c.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": []
+    },
+    {
+      "id": 915471,
+      "slug": "ct6122-personal-portfolio-blood-forge-animation",
+      "name": "CT6122 Personal Portfolio - Blood Forge Animation",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/ac8/ac88fbedd2f9c744d8482d9cb647e318.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 46,
+      "updated": "2023-01-27T09:09:42",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [],
+      "stores": [
+        {
+          "id": 913786,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 270,
+          "name": "Blood",
+          "slug": "blood",
+          "language": "eng",
+          "games_count": 2129,
+          "image_background": "https://media.rawg.io/media/games/686/686909717c3aa01518bc42ae2bf4259e.jpg"
+        },
+        {
+          "id": 878,
+          "name": "sword",
+          "slug": "sword",
+          "language": "eng",
+          "games_count": 1426,
+          "image_background": "https://media.rawg.io/media/games/f87/f87de0e93f02007fd044e4bf04d453d8.jpg"
+        },
+        {
+          "id": 1530,
+          "name": "animation",
+          "slug": "animation",
+          "language": "eng",
+          "games_count": 3298,
+          "image_background": "https://media.rawg.io/media/games/692/692b1f6ce7d6701883fdce88051a32b7.jpg"
+        },
+        {
+          "id": 4834,
+          "name": "blender",
+          "slug": "blender",
+          "language": "eng",
+          "games_count": 1122,
+          "image_background": "https://media.rawg.io/media/screenshots/18d/18dfe16935557d80864b73230a9f77ef.jpg"
+        },
+        {
+          "id": 2768,
+          "name": "unreal",
+          "slug": "unreal",
+          "language": "eng",
+          "games_count": 207,
+          "image_background": "https://media.rawg.io/media/screenshots/c6e/c6e38dccf3f2b67818daaf9ffba79dbf.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/ac8/ac88fbedd2f9c744d8482d9cb647e318.jpg"
+        },
+        {
+          "id": 3750893,
+          "image": "https://media.rawg.io/media/screenshots/ac8/ac88fbedd2f9c744d8482d9cb647e318.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915470,
+      "slug": "vampirix-real-time-strategy",
+      "name": "Vampirix - real time strategy",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/d18/d181ddbe15a7c2257393421d4c732dfa.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 98,
+      "updated": "2023-01-27T09:09:16",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 10,
+          "name": "Strategy",
+          "slug": "strategy",
+          "games_count": 60716,
+          "image_background": "https://media.rawg.io/media/games/af7/af7a831001c5c32c46e950cc883b8cb7.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 913785,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 300,
+          "name": "Vampire",
+          "slug": "vampire",
+          "language": "eng",
+          "games_count": 1727,
+          "image_background": "https://media.rawg.io/media/games/ba9/ba981ea851b2a85b78d63d9ec53c19e5.jpg"
+        },
+        {
+          "id": 1333,
+          "name": "android",
+          "slug": "android",
+          "language": "eng",
+          "games_count": 3365,
+          "image_background": "https://media.rawg.io/media/screenshots/4a1/4a194da0aa322a24fa8cdeb060323fd5.jpg"
+        },
+        {
+          "id": 81698,
+          "name": "transylvania",
+          "slug": "transylvania",
+          "language": "eng",
+          "games_count": 2,
+          "image_background": "https://media.rawg.io/media/screenshots/d18/d181ddbe15a7c2257393421d4c732dfa.jpg"
+        },
+        {
+          "id": 88411,
+          "name": "vampirix",
+          "slug": "vampirix",
+          "language": "eng",
+          "games_count": 1,
+          "image_background": "https://media.rawg.io/media/screenshots/d18/d181ddbe15a7c2257393421d4c732dfa.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/d18/d181ddbe15a7c2257393421d4c732dfa.jpg"
+        },
+        {
+          "id": 3750887,
+          "image": "https://media.rawg.io/media/screenshots/059/059a47baad799b93d5c5c50f801d0fef.jpg"
+        },
+        {
+          "id": 3750888,
+          "image": "https://media.rawg.io/media/screenshots/d9a/d9afa610ffc0de90a5eeecc358c249ef.jpg"
+        },
+        {
+          "id": 3750889,
+          "image": "https://media.rawg.io/media/screenshots/479/47996c2740eadeb7ef2d66a7ddef0184.jpg"
+        },
+        {
+          "id": 3750890,
+          "image": "https://media.rawg.io/media/screenshots/d0b/d0b76fefb6d00924d0bb63e69c6442d1.jpg"
+        },
+        {
+          "id": 3750891,
+          "image": "https://media.rawg.io/media/screenshots/74a/74ad723e7763ff3da8dd38976662159d.jpg"
+        },
+        {
+          "id": 3750892,
+          "image": "https://media.rawg.io/media/screenshots/d18/d181ddbe15a7c2257393421d4c732dfa.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915469,
+      "slug": "gravelbox",
+      "name": "Gravelbox",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/b84/b8438d21db1b8d575046fb13af7dc1d5.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 25,
+      "updated": "2023-01-27T09:08:22",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 79334,
+            "image_background": "https://media.rawg.io/media/games/9fa/9fa63622543e5d4f6d99aa9d73b043de.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 83,
+          "name": "Platformer",
+          "slug": "platformer",
+          "games_count": 100885,
+          "image_background": "https://media.rawg.io/media/games/e0f/e0f05a97ff926acf4c8f43e0849b6832.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 913784,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 7,
+          "name": "Multiplayer",
+          "slug": "multiplayer",
+          "language": "eng",
+          "games_count": 41244,
+          "image_background": "https://media.rawg.io/media/games/737/737ea5662211d2e0bbd6f5989189e4f1.jpg"
+        },
+        {
+          "id": 45,
+          "name": "2D",
+          "slug": "2d",
+          "language": "eng",
+          "games_count": 204129,
+          "image_background": "https://media.rawg.io/media/games/b6b/b6b20bfc4b34e312dbc8aac53c95a348.jpg"
+        },
+        {
+          "id": 37,
+          "name": "Sandbox",
+          "slug": "sandbox",
+          "language": "eng",
+          "games_count": 8042,
+          "image_background": "https://media.rawg.io/media/games/15c/15c95a4915f88a3e89c821526afe05fc.jpg"
+        },
+        {
+          "id": 122,
+          "name": "Pixel Graphics",
+          "slug": "pixel-graphics",
+          "language": "eng",
+          "games_count": 97590,
+          "image_background": "https://media.rawg.io/media/screenshots/604/6046ad65ac38adfe0553823489bb7ed4.jpg"
+        },
+        {
+          "id": 112,
+          "name": "Minimalist",
+          "slug": "minimalist",
+          "language": "eng",
+          "games_count": 16759,
+          "image_background": "https://media.rawg.io/media/games/6c8/6c8cb4780ce30b76b944cf656e8fff49.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/b84/b8438d21db1b8d575046fb13af7dc1d5.jpg"
+        },
+        {
+          "id": 3750884,
+          "image": "https://media.rawg.io/media/screenshots/e98/e98c8205e61c9e398a4a0cd06eec2ae9.jpg"
+        },
+        {
+          "id": 3750885,
+          "image": "https://media.rawg.io/media/screenshots/e75/e753db2156a06db2f9f03de82987391a.jpg"
+        },
+        {
+          "id": 3750886,
+          "image": "https://media.rawg.io/media/screenshots/b84/b8438d21db1b8d575046fb13af7dc1d5.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915468,
+      "slug": "pizza-conservatore",
+      "name": "Pizza conservatore",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/655/6554fa6aaecf85195fa355c7ffb2899d.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 16,
+      "updated": "2023-01-27T09:07:55",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 21,
+            "name": "Android",
+            "slug": "android",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 52463,
+            "image_background": "https://media.rawg.io/media/games/5fa/5fae5fec3c943179e09da67a4427d68f.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 8,
+            "name": "Android",
+            "slug": "android"
+          }
+        }
+      ],
+      "genres": [],
+      "stores": [
+        {
+          "id": 913783,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 2489,
+          "name": "dodge",
+          "slug": "dodge",
+          "language": "eng",
+          "games_count": 2981,
+          "image_background": "https://media.rawg.io/media/screenshots/1ae/1aef4421d7f96e4fb8bb8d121cd3e703_SS9Fznj.jpg"
+        },
+        {
+          "id": 1783,
+          "name": "pizza",
+          "slug": "pizza",
+          "language": "eng",
+          "games_count": 871,
+          "image_background": "https://media.rawg.io/media/screenshots/d07/d078272dfdbc14b00954d58b0c9ad7b7.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/655/6554fa6aaecf85195fa355c7ffb2899d.jpg"
+        },
+        {
+          "id": 3750883,
+          "image": "https://media.rawg.io/media/screenshots/655/6554fa6aaecf85195fa355c7ffb2899d.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915467,
+      "slug": "how-do-i-get-out-of-this-bar",
+      "name": "How do I get out of this bar?",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/2aa/2aa1f02e2b0094cc21ab9d5ff3d9160b.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 103,
+      "updated": "2023-01-27T09:07:37",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 5,
+          "name": "RPG",
+          "slug": "role-playing-games-rpg",
+          "games_count": 60287,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 913782,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 4880,
+          "name": "tabletop",
+          "slug": "tabletop",
+          "language": "eng",
+          "games_count": 2700,
+          "image_background": "https://media.rawg.io/media/screenshots/717/7174bad575e50aa602734d87caad02bf.jpg"
+        },
+        {
+          "id": 4073,
+          "name": "Dice",
+          "slug": "dice",
+          "language": "eng",
+          "games_count": 3346,
+          "image_background": "https://media.rawg.io/media/screenshots/d1d/d1d3ce2300ad10c9027e56139cef900e.jpg"
+        },
+        {
+          "id": 1220,
+          "name": "bar",
+          "slug": "bar",
+          "language": "eng",
+          "games_count": 1128,
+          "image_background": "https://media.rawg.io/media/screenshots/4ea/4ead5620bbc512d788e651d0f8dac24d.jpg"
+        },
+        {
+          "id": 79985,
+          "name": "Tabletop role-playing game",
+          "slug": "tabletop-role-playing-game-2",
+          "language": "eng",
+          "games_count": 306,
+          "image_background": "https://media.rawg.io/media/screenshots/478/478d28a4ddf7aa73c857a1a7be2df934.jpg"
+        },
+        {
+          "id": 13070,
+          "name": "alcohol",
+          "slug": "alcohol",
+          "language": "eng",
+          "games_count": 45,
+          "image_background": "https://media.rawg.io/media/screenshots/4d9/4d9c9adcb8ca86186f9a432518b7e418.jpg"
+        },
+        {
+          "id": 2566,
+          "name": "drinking",
+          "slug": "drinking",
+          "language": "eng",
+          "games_count": 45,
+          "image_background": "https://media.rawg.io/media/screenshots/bde/bde9e8f0be1d6a7f9dbda462875f2d2d.jpg"
+        },
+        {
+          "id": 85940,
+          "name": "tabletoproleplayinggame",
+          "slug": "tabletoproleplayinggame",
+          "language": "eng",
+          "games_count": 2,
+          "image_background": "https://media.rawg.io/media/screenshots/f66/f665ea325381f4a870004f625db7fc01.jpg"
+        },
+        {
+          "id": 88410,
+          "name": "sourcebook",
+          "slug": "sourcebook",
+          "language": "eng",
+          "games_count": 1,
+          "image_background": "https://media.rawg.io/media/screenshots/2aa/2aa1f02e2b0094cc21ab9d5ff3d9160b.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/2aa/2aa1f02e2b0094cc21ab9d5ff3d9160b.jpg"
+        },
+        {
+          "id": 3750880,
+          "image": "https://media.rawg.io/media/screenshots/2ce/2ce0d432e0c4f624ffc96c663193610a.jpg"
+        },
+        {
+          "id": 3750881,
+          "image": "https://media.rawg.io/media/screenshots/3c8/3c832ad198fc865df245bc3e38f0b242.jpg"
+        },
+        {
+          "id": 3750882,
+          "image": "https://media.rawg.io/media/screenshots/2aa/2aa1f02e2b0094cc21ab9d5ff3d9160b.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915466,
+      "slug": "superdeep",
+      "name": "SUPERDEEP",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/c40/c40db50d3d9304ba03390d1af6111465.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 72,
+      "updated": "2023-01-27T09:06:46",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 79334,
+            "image_background": "https://media.rawg.io/media/games/9fa/9fa63622543e5d4f6d99aa9d73b043de.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 106817,
+            "image_background": "https://media.rawg.io/media/games/7a2/7a2500ee8b2c0e1ff268bb4479463dea.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 2,
+          "name": "Shooter",
+          "slug": "shooter",
+          "games_count": 59577,
+          "image_background": "https://media.rawg.io/media/games/120/1201a40e4364557b124392ee50317b99.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Puzzle",
+          "slug": "puzzle",
+          "games_count": 97350,
+          "image_background": "https://media.rawg.io/media/games/852/8522935d8ab27b610a254b52de0da212.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 913781,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer",
+          "slug": "singleplayer",
+          "language": "eng",
+          "games_count": 243001,
+          "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+        },
+        {
+          "id": 13,
+          "name": "Atmospheric",
+          "slug": "atmospheric",
+          "language": "eng",
+          "games_count": 37800,
+          "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+        },
+        {
+          "id": 111,
+          "name": "Short",
+          "slug": "short",
+          "language": "eng",
+          "games_count": 58060,
+          "image_background": "https://media.rawg.io/media/games/8e4/8e4de3f54ac659e08a7ba6a2b731682a.jpg"
+        },
+        {
+          "id": 1067,
+          "name": "Fangame",
+          "slug": "fangame",
+          "language": "eng",
+          "games_count": 3348,
+          "image_background": "https://media.rawg.io/media/screenshots/a19/a1987e04397f118560b81c8445f3588a.jpg"
+        },
+        {
+          "id": 11502,
+          "name": "slowmotion",
+          "slug": "slowmotion",
+          "language": "eng",
+          "games_count": 17,
+          "image_background": "https://media.rawg.io/media/screenshots/679/679f85abb62f69b5d8c6849f3ed64eb7.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/c40/c40db50d3d9304ba03390d1af6111465.jpg"
+        },
+        {
+          "id": 3750875,
+          "image": "https://media.rawg.io/media/screenshots/c1e/c1ef9486caf383d5177629379be9c6fd.jpg"
+        },
+        {
+          "id": 3750876,
+          "image": "https://media.rawg.io/media/screenshots/83e/83e91f633e583a767cc93cbd69ad4095.jpg"
+        },
+        {
+          "id": 3750877,
+          "image": "https://media.rawg.io/media/screenshots/882/882ddf2774f6316baf2e1482af3f9f3d.jpg"
+        },
+        {
+          "id": 3750878,
+          "image": "https://media.rawg.io/media/screenshots/558/558f8f663d9506f67889cfb8460d84c0.jpg"
+        },
+        {
+          "id": 3750879,
+          "image": "https://media.rawg.io/media/screenshots/c40/c40db50d3d9304ba03390d1af6111465.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915464,
+      "slug": "3d-pong-tem10x",
+      "name": "3D Pong (Tem10X)",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/c1e/c1e9d211977452b11403c4916325bbba.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 1,
+      "updated": "2023-01-27T09:05:23",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 171,
+            "name": "Web",
+            "slug": "web",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 260076,
+            "image_background": "https://media.rawg.io/media/screenshots/092/0922422089a8962bba5fb3b35d402714.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 14,
+            "name": "Web",
+            "slug": "web"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 15,
+          "name": "Sports",
+          "slug": "sports",
+          "games_count": 22320,
+          "image_background": "https://media.rawg.io/media/games/11f/11fd681c312c14644ab360888dba3486.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 913779,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 18,
+          "name": "Co-op",
+          "slug": "co-op",
+          "language": "eng",
+          "games_count": 13564,
+          "image_background": "https://media.rawg.io/media/games/55e/55ee6432ac2bf224610fa17e4c652107.jpg"
+        },
+        {
+          "id": 75,
+          "name": "Local Co-Op",
+          "slug": "local-co-op",
+          "language": "eng",
+          "games_count": 5892,
+          "image_background": "https://media.rawg.io/media/games/fc8/fc838d98c9b944e6a15176eabf40bee8.jpg"
+        },
+        {
+          "id": 571,
+          "name": "3D",
+          "slug": "3d",
+          "language": "eng",
+          "games_count": 90882,
+          "image_background": "https://media.rawg.io/media/screenshots/066/066eb1b7a3f332b8089645fbf8c3ebdc.jpg"
+        },
+        {
+          "id": 607,
+          "name": "Unity",
+          "slug": "unity",
+          "language": "eng",
+          "games_count": 70823,
+          "image_background": "https://media.rawg.io/media/games/ab5/ab58f8d099d65779e353fa8889fff4e4.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/c1e/c1e9d211977452b11403c4916325bbba.jpg"
+        },
+        {
+          "id": 3750870,
+          "image": "https://media.rawg.io/media/screenshots/c1e/c1e9d211977452b11403c4916325bbba.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915463,
+      "slug": "faj-tech-home-entertainment-early-test-demo-teaser",
+      "name": "F.A.J. Tech. Home Entertainment early test demo (teaser Game)",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/cc9/cc93e8cfa2d10bfd43bf5a3148aa7d94.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 30,
+      "updated": "2023-01-27T09:05:03",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [],
+      "stores": [
+        {
+          "id": 913778,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 16,
+          "name": "Horror",
+          "slug": "horror",
+          "language": "eng",
+          "games_count": 47751,
+          "image_background": "https://media.rawg.io/media/games/be0/be01c3d7d8795a45615da139322ca080.jpg"
+        },
+        {
+          "id": 122,
+          "name": "Pixel Graphics",
+          "slug": "pixel-graphics",
+          "language": "eng",
+          "games_count": 97590,
+          "image_background": "https://media.rawg.io/media/screenshots/604/6046ad65ac38adfe0553823489bb7ed4.jpg"
+        },
+        {
+          "id": 74,
+          "name": "Retro",
+          "slug": "retro",
+          "language": "eng",
+          "games_count": 43696,
+          "image_background": "https://media.rawg.io/media/screenshots/2fc/2fc6994425146f9dba3133400b414e29.jpg"
+        },
+        {
+          "id": 111,
+          "name": "Short",
+          "slug": "short",
+          "language": "eng",
+          "games_count": 58060,
+          "image_background": "https://media.rawg.io/media/games/8e4/8e4de3f54ac659e08a7ba6a2b731682a.jpg"
+        },
+        {
+          "id": 668,
+          "name": "creepy",
+          "slug": "creepy",
+          "language": "eng",
+          "games_count": 7581,
+          "image_background": "https://media.rawg.io/media/screenshots/0a2/0a2085ed3bc671519644f71c9d797ebf.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/cc9/cc93e8cfa2d10bfd43bf5a3148aa7d94.jpg"
+        },
+        {
+          "id": 3750868,
+          "image": "https://media.rawg.io/media/screenshots/50d/50d3a370dea2aa071b09395612972bc8.jpg"
+        },
+        {
+          "id": 3750869,
+          "image": "https://media.rawg.io/media/screenshots/cc9/cc93e8cfa2d10bfd43bf5a3148aa7d94.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915462,
+      "slug": "touhou-bardicol-project",
+      "name": "Touhou Bardicol Project",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/181/181e466a8dc9c77d565b743588018ea3.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 4,
+      "updated": "2023-01-27T09:04:33",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 171,
+            "name": "Web",
+            "slug": "web",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 260076,
+            "image_background": "https://media.rawg.io/media/screenshots/092/0922422089a8962bba5fb3b35d402714.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 14,
+            "name": "Web",
+            "slug": "web"
+          }
+        }
+      ],
+      "genres": [],
+      "stores": [
+        {
+          "id": 913777,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/181/181e466a8dc9c77d565b743588018ea3.jpg"
+        },
+        {
+          "id": 3750867,
+          "image": "https://media.rawg.io/media/screenshots/181/181e466a8dc9c77d565b743588018ea3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915461,
+      "slug": "slendow",
+      "name": "SLENDOW",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/dea/dea7b161d70573018b00c9ca653e77ad.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 67,
+      "updated": "2023-01-27T09:04:15",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 148382,
+          "image_background": "https://media.rawg.io/media/games/879/879c930f9c6787c920153fa2df452eb3.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 913776,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 13,
+          "name": "Atmospheric",
+          "slug": "atmospheric",
+          "language": "eng",
+          "games_count": 37800,
+          "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+        },
+        {
+          "id": 16,
+          "name": "Horror",
+          "slug": "horror",
+          "language": "eng",
+          "games_count": 47751,
+          "image_background": "https://media.rawg.io/media/games/be0/be01c3d7d8795a45615da139322ca080.jpg"
+        },
+        {
+          "id": 74,
+          "name": "Retro",
+          "slug": "retro",
+          "language": "eng",
+          "games_count": 43696,
+          "image_background": "https://media.rawg.io/media/screenshots/2fc/2fc6994425146f9dba3133400b414e29.jpg"
+        },
+        {
+          "id": 17,
+          "name": "Survival Horror",
+          "slug": "survival-horror",
+          "language": "eng",
+          "games_count": 9508,
+          "image_background": "https://media.rawg.io/media/games/ae1/ae1518c3dc1e847344661905fd2a8d16.jpg"
+        },
+        {
+          "id": 571,
+          "name": "3D",
+          "slug": "3d",
+          "language": "eng",
+          "games_count": 90882,
+          "image_background": "https://media.rawg.io/media/screenshots/066/066eb1b7a3f332b8089645fbf8c3ebdc.jpg"
+        },
+        {
+          "id": 608,
+          "name": "Forest",
+          "slug": "forest",
+          "language": "eng",
+          "games_count": 1953,
+          "image_background": "https://media.rawg.io/media/screenshots/078/0786762dfc194d4ed5847b8698b95cda.jpg"
+        },
+        {
+          "id": 668,
+          "name": "creepy",
+          "slug": "creepy",
+          "language": "eng",
+          "games_count": 7581,
+          "image_background": "https://media.rawg.io/media/screenshots/0a2/0a2085ed3bc671519644f71c9d797ebf.jpg"
+        },
+        {
+          "id": 1067,
+          "name": "Fangame",
+          "slug": "fangame",
+          "language": "eng",
+          "games_count": 3348,
+          "image_background": "https://media.rawg.io/media/screenshots/a19/a1987e04397f118560b81c8445f3588a.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/dea/dea7b161d70573018b00c9ca653e77ad.jpg"
+        },
+        {
+          "id": 3750861,
+          "image": "https://media.rawg.io/media/screenshots/7bd/7bd01a378cb26b81fc53fd035874f54b.jpg"
+        },
+        {
+          "id": 3750862,
+          "image": "https://media.rawg.io/media/screenshots/6ca/6ca841c71058639906069a3adb7c7a8d.jpg"
+        },
+        {
+          "id": 3750863,
+          "image": "https://media.rawg.io/media/screenshots/274/2745b8a51dcf347bd5eef44cb56d3745.jpg"
+        },
+        {
+          "id": 3750864,
+          "image": "https://media.rawg.io/media/screenshots/6b1/6b1448ef307e87fd4db10f40483951f5.jpg"
+        },
+        {
+          "id": 3750865,
+          "image": "https://media.rawg.io/media/screenshots/460/46093fcfb81b25b6919fcf3ab544d0ec.jpg"
+        },
+        {
+          "id": 3750866,
+          "image": "https://media.rawg.io/media/screenshots/dea/dea7b161d70573018b00c9ca653e77ad.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915460,
+      "slug": "slime-masters-mab0r0shi",
+      "name": "Slime Masters (Mab0r0shi)",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/bf2/bf2d5b153137afbbcf3e74bcaeeeea30.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 41,
+      "updated": "2023-01-27T09:03:36",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 913775,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 640,
+          "name": "Roguelite",
+          "slug": "roguelite",
+          "language": "eng",
+          "games_count": 7931,
+          "image_background": "https://media.rawg.io/media/screenshots/f7b/f7be8b51b1f9d94ddeac27f7b7229440.jpg"
+        },
+        {
+          "id": 56,
+          "name": "Shoot 'Em Up",
+          "slug": "shoot-em-up",
+          "language": "eng",
+          "games_count": 12143,
+          "image_background": "https://media.rawg.io/media/games/d81/d81c9725b1da073e7ba036bdca8528f7.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/bf2/bf2d5b153137afbbcf3e74bcaeeeea30.jpg"
+        },
+        {
+          "id": 3750860,
+          "image": "https://media.rawg.io/media/screenshots/bf2/bf2d5b153137afbbcf3e74bcaeeeea30.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915459,
+      "slug": "escapethehedgemaze",
+      "name": "EscapeTheHedgemaze",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/7b1/7b1bae4d444c2f2bba4d848c4bbfd413.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 19,
+      "updated": "2023-01-27T09:03:08",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [],
+      "stores": [
+        {
+          "id": 913774,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 31,
+          "name": "Singleplayer",
+          "slug": "singleplayer",
+          "language": "eng",
+          "games_count": 243001,
+          "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+        },
+        {
+          "id": 8,
+          "name": "First-Person",
+          "slug": "first-person",
+          "language": "eng",
+          "games_count": 35725,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        },
+        {
+          "id": 16,
+          "name": "Horror",
+          "slug": "horror",
+          "language": "eng",
+          "games_count": 47751,
+          "image_background": "https://media.rawg.io/media/games/be0/be01c3d7d8795a45615da139322ca080.jpg"
+        },
+        {
+          "id": 571,
+          "name": "3D",
+          "slug": "3d",
+          "language": "eng",
+          "games_count": 90882,
+          "image_background": "https://media.rawg.io/media/screenshots/066/066eb1b7a3f332b8089645fbf8c3ebdc.jpg"
+        },
+        {
+          "id": 607,
+          "name": "Unity",
+          "slug": "unity",
+          "language": "eng",
+          "games_count": 70823,
+          "image_background": "https://media.rawg.io/media/games/ab5/ab58f8d099d65779e353fa8889fff4e4.jpg"
+        },
+        {
+          "id": 668,
+          "name": "creepy",
+          "slug": "creepy",
+          "language": "eng",
+          "games_count": 7581,
+          "image_background": "https://media.rawg.io/media/screenshots/0a2/0a2085ed3bc671519644f71c9d797ebf.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/7b1/7b1bae4d444c2f2bba4d848c4bbfd413.jpg"
+        },
+        {
+          "id": 3750859,
+          "image": "https://media.rawg.io/media/screenshots/7b1/7b1bae4d444c2f2bba4d848c4bbfd413.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915458,
+      "slug": "reir-ii",
+      "name": "R.E.I.R II",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/e6c/e6c6fab278979d5b04e00e729d442855.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 55,
+      "updated": "2023-01-27T09:02:41",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 188403,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 913773,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/e6c/e6c6fab278979d5b04e00e729d442855.jpg"
+        },
+        {
+          "id": 3750855,
+          "image": "https://media.rawg.io/media/screenshots/66b/66b2e9620b9b21c20ee4fc7aa90c3e8b.jpg"
+        },
+        {
+          "id": 3750856,
+          "image": "https://media.rawg.io/media/screenshots/91a/91aeeade8b9814a33295883c6853803e.jpg"
+        },
+        {
+          "id": 3750857,
+          "image": "https://media.rawg.io/media/screenshots/69c/69c1a0068434efd88fe8e91c84eee9ba.jpg"
+        },
+        {
+          "id": 3750858,
+          "image": "https://media.rawg.io/media/screenshots/e6c/e6c6fab278979d5b04e00e729d442855.jpg"
+        }
+      ]
+    },
+    {
+      "id": 915457,
+      "slug": "the-blanc-hack-a-whitehack-fkr",
+      "name": "THE BLANC HACK: A WHITEHACK FKR",
+      "released": "2023-01-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/d7c/d7cbe70e9e0fd6d039b6b56063851889.jpg",
+      "rating": 0.0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 0,
+      "added_by_status": null,
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 12,
+      "updated": "2023-01-27T09:02:08",
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 552097,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2023-01-25",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 5,
+          "name": "RPG",
+          "slug": "role-playing-games-rpg",
+          "games_count": 60287,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 913772,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 654175,
+            "image_background": "https://media.rawg.io/media/games/67a/67aef58e8ead90609f7adbd20d72a033.jpg"
+          }
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 79985,
+          "name": "Tabletop role-playing game",
+          "slug": "tabletop-role-playing-game-2",
+          "language": "eng",
+          "games_count": 306,
+          "image_background": "https://media.rawg.io/media/screenshots/478/478d28a4ddf7aa73c857a1a7be2df934.jpg"
+        },
+        {
+          "id": 23786,
+          "name": "osr",
+          "slug": "osr",
+          "language": "eng",
+          "games_count": 165,
+          "image_background": "https://media.rawg.io/media/screenshots/478/478d28a4ddf7aa73c857a1a7be2df934.jpg"
+        },
+        {
+          "id": 88407,
+          "name": "fantasy-adventure",
+          "slug": "fantasy-adventure",
+          "language": "epo",
+          "games_count": 2,
+          "image_background": "https://media.rawg.io/media/screenshots/368/368d3bcfd29f8bd62ea0573f874b3a4d.jpg"
+        },
+        {
+          "id": 19464,
+          "name": "fkr",
+          "slug": "fkr",
+          "language": "eng",
+          "games_count": 64,
+          "image_background": "https://media.rawg.io/media/screenshots/fc9/fc939b7e770cb44a6da48f4009bb228f.jpg"
+        },
+        {
+          "id": 88408,
+          "name": "whitehack",
+          "slug": "whitehack",
+          "language": "eng",
+          "games_count": 1,
+          "image_background": "https://media.rawg.io/media/screenshots/d7c/d7cbe70e9e0fd6d039b6b56063851889.jpg"
+        }
+      ],
+      "esrb_rating": null,
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/d7c/d7cbe70e9e0fd6d039b6b56063851889.jpg"
+        },
+        {
+          "id": 3750854,
+          "image": "https://media.rawg.io/media/screenshots/d7c/d7cbe70e9e0fd6d039b6b56063851889.jpg"
+        }
+      ]
+    }
+  ],
+  "seo_title": "All Games",
+  "seo_description": "",
+  "seo_keywords": "",
+  "seo_h1": "All Games",
+  "noindex": false,
+  "nofollow": false,
+  "description": "",
+  "filters": {
+    "years": [
+      {
+        "from": 2020,
+        "to": 2025,
+        "filter": "2020-01-01,2025-12-31",
+        "decade": 2020,
+        "years": [
+          {
+            "year": 2025,
+            "count": 10372,
+            "nofollow": false
+          },
+          {
+            "year": 2024,
+            "count": 17527,
+            "nofollow": false
+          },
+          {
+            "year": 2023,
+            "count": 61989,
+            "nofollow": false
+          },
+          {
+            "year": 2022,
+            "count": 168188,
+            "nofollow": false
+          },
+          {
+            "year": 2021,
+            "count": 158708,
+            "nofollow": false
+          },
+          {
+            "year": 2020,
+            "count": 121373,
+            "nofollow": false
+          }
+        ],
+        "nofollow": true,
+        "count": 538157
+      },
+      {
+        "from": 2010,
+        "to": 2019,
+        "filter": "2010-01-01,2019-12-31",
+        "decade": 2010,
+        "years": [
+          {
+            "year": 2019,
+            "count": 73700,
+            "nofollow": false
+          },
+          {
+            "year": 2018,
+            "count": 67948,
+            "nofollow": false
+          },
+          {
+            "year": 2017,
+            "count": 54588,
+            "nofollow": true
+          },
+          {
+            "year": 2016,
+            "count": 40245,
+            "nofollow": true
+          },
+          {
+            "year": 2015,
+            "count": 25898,
+            "nofollow": true
+          },
+          {
+            "year": 2014,
+            "count": 15360,
+            "nofollow": true
+          },
+          {
+            "year": 2013,
+            "count": 6346,
+            "nofollow": true
+          },
+          {
+            "year": 2012,
+            "count": 5393,
+            "nofollow": true
+          },
+          {
+            "year": 2011,
+            "count": 4330,
+            "nofollow": true
+          },
+          {
+            "year": 2010,
+            "count": 3902,
+            "nofollow": true
+          }
+        ],
+        "nofollow": true,
+        "count": 297710
+      },
+      {
+        "from": 2000,
+        "to": 2009,
+        "filter": "2000-01-01,2009-12-31",
+        "decade": 2000,
+        "years": [
+          {
+            "year": 2009,
+            "count": 3124,
+            "nofollow": true
+          },
+          {
+            "year": 2008,
+            "count": 2043,
+            "nofollow": true
+          },
+          {
+            "year": 2007,
+            "count": 1600,
+            "nofollow": true
+          },
+          {
+            "year": 2006,
+            "count": 1314,
+            "nofollow": true
+          },
+          {
+            "year": 2005,
+            "count": 1205,
+            "nofollow": true
+          },
+          {
+            "year": 2004,
+            "count": 1198,
+            "nofollow": true
+          },
+          {
+            "year": 2003,
+            "count": 1179,
+            "nofollow": true
+          },
+          {
+            "year": 2002,
+            "count": 1036,
+            "nofollow": true
+          },
+          {
+            "year": 2001,
+            "count": 1151,
+            "nofollow": true
+          },
+          {
+            "year": 2000,
+            "count": 1058,
+            "nofollow": true
+          }
+        ],
+        "nofollow": true,
+        "count": 14908
+      },
+      {
+        "from": 1990,
+        "to": 1999,
+        "filter": "1990-01-01,1999-12-31",
+        "decade": 1990,
+        "years": [
+          {
+            "year": 1999,
+            "count": 826,
+            "nofollow": true
+          },
+          {
+            "year": 1998,
+            "count": 756,
+            "nofollow": true
+          },
+          {
+            "year": 1997,
+            "count": 885,
+            "nofollow": true
+          },
+          {
+            "year": 1996,
+            "count": 796,
+            "nofollow": true
+          },
+          {
+            "year": 1995,
+            "count": 884,
+            "nofollow": true
+          },
+          {
+            "year": 1994,
+            "count": 850,
+            "nofollow": true
+          },
+          {
+            "year": 1993,
+            "count": 768,
+            "nofollow": true
+          },
+          {
+            "year": 1992,
+            "count": 681,
+            "nofollow": true
+          },
+          {
+            "year": 1991,
+            "count": 597,
+            "nofollow": true
+          },
+          {
+            "year": 1990,
+            "count": 554,
+            "nofollow": true
+          }
+        ],
+        "nofollow": true,
+        "count": 7597
+      },
+      {
+        "from": 1980,
+        "to": 1989,
+        "filter": "1980-01-01,1989-12-31",
+        "decade": 1980,
+        "years": [
+          {
+            "year": 1989,
+            "count": 448,
+            "nofollow": true
+          },
+          {
+            "year": 1988,
+            "count": 326,
+            "nofollow": true
+          },
+          {
+            "year": 1987,
+            "count": 351,
+            "nofollow": true
+          },
+          {
+            "year": 1986,
+            "count": 257,
+            "nofollow": true
+          },
+          {
+            "year": 1985,
+            "count": 230,
+            "nofollow": true
+          },
+          {
+            "year": 1984,
+            "count": 188,
+            "nofollow": true
+          },
+          {
+            "year": 1983,
+            "count": 211,
+            "nofollow": true
+          },
+          {
+            "year": 1982,
+            "count": 154,
+            "nofollow": true
+          },
+          {
+            "year": 1981,
+            "count": 66,
+            "nofollow": true
+          },
+          {
+            "year": 1980,
+            "count": 35,
+            "nofollow": true
+          }
+        ],
+        "nofollow": true,
+        "count": 2266
+      },
+      {
+        "from": 1970,
+        "to": 1979,
+        "filter": "1970-01-01,1979-12-31",
+        "decade": 1970,
+        "years": [
+          {
+            "year": 1979,
+            "count": 15,
+            "nofollow": true
+          },
+          {
+            "year": 1978,
+            "count": 17,
+            "nofollow": true
+          },
+          {
+            "year": 1977,
+            "count": 13,
+            "nofollow": true
+          },
+          {
+            "year": 1976,
+            "count": 7,
+            "nofollow": true
+          },
+          {
+            "year": 1975,
+            "count": 3,
+            "nofollow": true
+          },
+          {
+            "year": 1974,
+            "count": 2,
+            "nofollow": true
+          },
+          {
+            "year": 1973,
+            "count": 1,
+            "nofollow": true
+          },
+          {
+            "year": 1972,
+            "count": 2,
+            "nofollow": true
+          },
+          {
+            "year": 1971,
+            "count": 6,
+            "nofollow": true
+          },
+          {
+            "year": 1970,
+            "count": 1,
+            "nofollow": true
+          }
+        ],
+        "nofollow": true,
+        "count": 67
+      },
+      {
+        "from": 1960,
+        "to": 1969,
+        "filter": "1960-01-01,1969-12-31",
+        "decade": 1960,
+        "years": [
+          {
+            "year": 1962,
+            "count": 1,
+            "nofollow": true
+          }
+        ],
+        "nofollow": true,
+        "count": 1
+      },
+      {
+        "from": 1950,
+        "to": 1959,
+        "filter": "1950-01-01,1959-12-31",
+        "decade": 1950,
+        "years": [
+          {
+            "year": 1958,
+            "count": 1,
+            "nofollow": true
+          },
+          {
+            "year": 1954,
+            "count": 1,
+            "nofollow": true
+          }
+        ],
+        "nofollow": true,
+        "count": 2
+      }
+    ]
+  },
+  "nofollow_collections": [
+    "stores"
+  ]
+}
