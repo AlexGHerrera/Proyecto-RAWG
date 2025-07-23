@@ -56,7 +56,7 @@ def save_page_to_file(data, page):
     except Exception as e:
         logging.error(f"No se pudo guardar la página {page}: {e}")
 
-def extract_all_games_resume_safe():
+def extract_all_games():
     logging.info("Iniciando extracción RAWG ...")
 
     page = 1
@@ -87,10 +87,11 @@ def extract_all_games_resume_safe():
             continue
 
         save_page_to_file(data, page)
+        logging.info(f"Página {page} guardada correctamente.")
         time.sleep(WAIT_BETWEEN_CALLS)
-amph
+    
     logging.info("Extracción finalizada con éxito.")
 
 # ========= EJECUCIÓN =========
 if __name__ == "__main__":
-    extract_all_games_resume_safe()
+    extract_all_games()
