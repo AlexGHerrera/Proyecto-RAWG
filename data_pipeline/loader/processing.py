@@ -1,6 +1,5 @@
 # data_pipeline/loader/processing.py
 
-import psycopg
 import logging
 
 # Logger compartido por todas las funciones de procesamiento

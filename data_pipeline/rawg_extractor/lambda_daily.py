@@ -5,10 +5,10 @@ import boto3
 import json
 from botocore.exceptions import ClientError
 import requests
-from rawg.rawg_api import fetch_new_games
 from dotenv import load_dotenv # Quitar en Lambda
 from io import BytesIO
 from dateutil import parser
+from datetime import timezone
 
 load_dotenv() # Quitar en Lambda
 logger = logging.getLogger(__name__)
@@ -51,7 +51,8 @@ def get_last_updated(conn):
         cur.execute(
             "SELECT COALESCE(MAX(updated), '1970-01-01T00:00:00Z'::timestamptz) FROM games;"
         )
-        return cur.fetchone()[0] or 0
+        last = cur.fetchone()[0] or 0
+        return last if last.tzinfo else last.replace(tzinfo=timezone.utc)
 
 
 def fetch_new_games(last_updated, page_size=40):
@@ -94,11 +95,13 @@ def fetch_new_games(last_updated, page_size=40):
         # Recorremos y solo añadimos los que realmente son más recientes
         for g in results:
             updated_dt = parser.isoparse(g['updated'])
+            if updated_dt.tzinfo is None:
+                updated_dt = updated_dt.replace(tzinfo=timezone.utc)
+            if last_updated.tzinfo is None:
+                last_updated = last_updated.replace(tzinfo=timezone.utc)
             if updated_dt > last_updated:
                 new_games.append(g)
-            else:                
-                # En cuanto encontramos uno viejo, no hay más nuevos en esta
-                # ni en siguientes páginas ya que vienen ordenados de más reciente a menos.
+            else:
                 logger.info("Encontrado juego ≤ last_updated; terminando búsqueda.")
                 return new_games
 
@@ -183,3 +186,6 @@ def lambda_handler(event, context):
                 logger.info("Conexión a RDS cerrada")
             except Exception:
                 logger.warning("Error cerrando la conexión a RDS", exc_info=True)
+
+if __name__ == "__main__":
+    lambda_handler(event={"source": "local"}, context={})
