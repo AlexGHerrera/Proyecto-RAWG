@@ -14,7 +14,7 @@ S3_BUCKET = os.getenv("S3_BUCKET")
 if not S3_BUCKET:
     raise ValueError("❌ La variable de entorno S3_BUCKET no está definida. Verifica tu archivo .env.")
 LOCAL_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'data', 'raw', 'games_pages'))
-BATCH_SIZE = 1000
+BATCH_SIZE = 60
 SLEEP_SECONDS = 10
 STATUS_FILE = os.path.join(os.path.dirname(__file__), 'uploaded_files.txt')
 
