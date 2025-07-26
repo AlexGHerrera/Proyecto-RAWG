@@ -5,15 +5,17 @@ import glob
 import json
 import logging
 import psycopg2
+from psycopg2.extras import execute_values
 from dotenv import load_dotenv
 from tqdm import tqdm
 import time
+import boto3
 
 # Importar funciones de procesamiento modular
 from processing import (
     procesar_esrb,
-    procesar_platforms,
-    procesar_parent_platforms,
+    procesar_platforms_batch,
+    procesar_parent_platforms_batch,
     procesar_tags,
     procesar_genres,
     procesar_stores,
@@ -46,6 +48,7 @@ DB_NAME = os.getenv("DB_NAME")
 DB_USER = os.getenv("DB_USER")
 DB_PASS = os.getenv("DB_PASS")
 DB_PORT = os.getenv("DB_PORT")
+S3_BUCKET = os.getenv("S3_BUCKET")
 
 # Directorio donde están los JSON
 DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../data/raw"))
@@ -86,102 +89,133 @@ def main():
             "ratings": set()
         }
 
-        json_file = os.path.join(DATA_DIR, "games_all.json")
-        logger.info("Cargando archivo único: %s", json_file)
+        s3 = boto3.client('s3')
+        S3_PREFIX = "games_pages/"
+        logger.info("Listando archivos JSON en S3 bajo %s", S3_PREFIX)
+        response = s3.list_objects_v2(Bucket=S3_BUCKET, Prefix=S3_PREFIX)
+        s3_files = [obj["Key"] for obj in response.get("Contents", []) if obj["Key"].endswith(".json")]
 
-        try:
-            with open(json_file, "r", encoding="utf-8") as f:
-                payload = json.load(f)
-        except Exception as e:
-            logger.error("Error leyendo JSON principal: %s", e)
-            return
+        for i, key in enumerate(tqdm(s3_files[start_index:], desc="Procesando archivos desde S3")):
+            try:
+                obj = s3.get_object(Bucket=S3_BUCKET, Key=key)
+                payload = json.loads(obj["Body"].read().decode("utf-8"))
+                all_games = payload.get("results", [])
+                logger.info("Archivo %s contiene %d juegos", key, len(all_games))
+            except Exception as e:
+                logger.error("Error leyendo archivo %s: %s", key, e)
+                continue
 
-        all_games = payload.get("results", [])
-        logger.info("Total de juegos a procesar: %d", len(all_games))
+            with conn.cursor() as cur:
+                insert_values = []
+                for game in all_games:
+                    insert_values.append((
+                        game.get("id"),
+                        game.get("slug"),
+                        game.get("name"),
+                        game.get("released"),
+                        game.get("playtime"),
+                        game.get("tba"),
+                        game.get("background_image"),
+                        game.get("rating"),
+                        game.get("rating_top"),
+                        game.get("ratings_count"),
+                        game.get("reviews_text_count"),
+                        game.get("added"),
+                        game.get("suggestions_count"),
+                        game.get("metacritic"),
+                        game.get("reviews_count"),
+                        game.get("saturated_color"),
+                        game.get("dominant_color"),
+                        game.get("updated"),
+                        game.get("user_game"),
+                        game.get("clip"),
+                        (game.get("esrb_rating") or {}).get("id")
+                    ))
 
-        with conn.cursor() as cur:
-            for i in tqdm(range(start_index, len(all_games), 5000), desc="Procesando por lotes"):
-                batch = all_games[i:i+5000]
-                for game in batch:
+                execute_values(cur, """
+                    INSERT INTO games (
+                        id_game, slug, name, released, playtime, tba,
+                        background_image, rating, rating_top, ratings_count,
+                        reviews_text_count, added, suggestions_count,
+                        metacritic, reviews_count, saturated_color,
+                        dominant_color, updated, user_game, clip,
+                        esrb_rating_id
+                    ) VALUES %s
+                    ON CONFLICT (id_game) DO UPDATE SET
+                        slug = EXCLUDED.slug,
+                        name = EXCLUDED.name,
+                        released = EXCLUDED.released,
+                        playtime = EXCLUDED.playtime,
+                        tba = EXCLUDED.tba,
+                        background_image = EXCLUDED.background_image,
+                        rating = EXCLUDED.rating,
+                        rating_top = EXCLUDED.rating_top,
+                        ratings_count = EXCLUDED.ratings_count,
+                        reviews_text_count = EXCLUDED.reviews_text_count,
+                        added = EXCLUDED.added,
+                        suggestions_count = EXCLUDED.suggestions_count,
+                        metacritic = EXCLUDED.metacritic,
+                        reviews_count = EXCLUDED.reviews_count,
+                        saturated_color = EXCLUDED.saturated_color,
+                        dominant_color = EXCLUDED.dominant_color,
+                        updated = EXCLUDED.updated,
+                        user_game = EXCLUDED.user_game,
+                        clip = EXCLUDED.clip,
+                        esrb_rating_id = EXCLUDED.esrb_rating_id;
+                """, insert_values)
+
+                # Procesar ESRB individualmente y agrupar plataformas
+                platforms_data = []
+                parent_platforms_data = []
+
+                for game in all_games:
                     game_id = game.get("id")
                     try:
-                        cur.execute("""
-                            INSERT INTO games (
-                                id_game, slug, name, released, playtime, tba,
-                                background_image, rating, rating_top, ratings_count,
-                                reviews_text_count, added, suggestions_count,
-                                metacritic, reviews_count, saturated_color,
-                                dominant_color, updated, user_game, clip,
-                                esrb_rating_id
-                            ) VALUES (
-                                %(id)s, %(slug)s, %(name)s, %(released)s, %(playtime)s, %(tba)s,
-                                %(background_image)s, %(rating)s, %(rating_top)s, %(ratings_count)s,
-                                %(reviews_text_count)s, %(added)s, %(suggestions_count)s,
-                                %(metacritic)s, %(reviews_count)s, %(saturated_color)s,
-                                %(dominant_color)s, %(updated)s, %(user_game)s, %(clip)s,
-                                %(esrb_id)s
-                            )
-                            ON CONFLICT (id_game) DO UPDATE
-                              SET slug = EXCLUDED.slug,
-                                  name = EXCLUDED.name,
-                                  released = EXCLUDED.released,
-                                  playtime = EXCLUDED.playtime,
-                                  tba = EXCLUDED.tba,
-                                  background_image = EXCLUDED.background_image,
-                                  rating = EXCLUDED.rating,
-                                  rating_top = EXCLUDED.rating_top,
-                                  ratings_count = EXCLUDED.ratings_count,
-                                  reviews_text_count = EXCLUDED.reviews_text_count,
-                                  added = EXCLUDED.added,
-                                  suggestions_count = EXCLUDED.suggestions_count,
-                                  metacritic = EXCLUDED.metacritic,
-                                  reviews_count = EXCLUDED.reviews_count,
-                                  saturated_color = EXCLUDED.saturated_color,
-                                  dominant_color = EXCLUDED.dominant_color,
-                                  updated = EXCLUDED.updated,
-                                  user_game = EXCLUDED.user_game,
-                                  clip = EXCLUDED.clip,
-                                  esrb_rating_id = EXCLUDED.esrb_rating_id;
-                        """, {
-                            "id": game_id,
-                            "slug": game.get("slug"),
-                            "name": game.get("name"),
-                            "released": game.get("released"),
-                            "playtime": game.get("playtime"),
-                            "tba": game.get("tba"),
-                            "background_image": game.get("background_image"),
-                            "rating": game.get("rating"),
-                            "rating_top": game.get("rating_top"),
-                            "ratings_count": game.get("ratings_count"),
-                            "reviews_text_count": game.get("reviews_text_count"),
-                            "added": game.get("added"),
-                            "suggestions_count": game.get("suggestions_count"),
-                            "metacritic": game.get("metacritic"),
-                            "reviews_count": game.get("reviews_count"),
-                            "saturated_color": game.get("saturated_color"),
-                            "dominant_color": game.get("dominant_color"),
-                            "updated": game.get("updated"),
-                            "user_game": game.get("user_game"),
-                            "clip": game.get("clip"),
-                            "esrb_id": (game.get("esrb_rating") or {}).get("id")
-                        })
-
-                        # Procesar entidades relacionadas
                         procesar_esrb(cur, game.get("esrb_rating"), cache)
-                        procesar_platforms(cur, game_id, game.get("platforms"), cache)
-                        procesar_parent_platforms(cur, game_id, game.get("parent_platforms"), cache)
-                        procesar_tags(cur, game_id, game.get("tags"), cache)
-                        procesar_genres(cur, game_id, game.get("genres"), cache)
-                        procesar_stores(cur, game_id, game.get("stores"), cache)
-                        procesar_screenshots(cur, game_id, game.get("short_screenshots"), cache)
-                        procesar_ratings(cur, game_id, game.get("ratings"), cache)
-                        procesar_game_status(cur, game_id, game.get("added_by_status"))
                     except Exception as e:
-                        logger.exception(f"Error procesando juego {game_id}: {e}")
+                        logger.exception(f"Error procesando ESRB del juego {game_id}: {e}")
+                    platforms_data.append((game_id, game.get("platforms")))
+                    parent_platforms_data.append((game_id, game.get("parent_platforms")))
+
+                try:
+                    procesar_platforms_batch(cur, platforms_data, cache)
+                    procesar_parent_platforms_batch(cur, parent_platforms_data, cache)
+                except Exception as e:
+                    logger.exception(f"Error procesando plataformas por lote: {e}")
+
+                # Agrupación por tipo de entidad relacionada
+                from collections import defaultdict
+
+                tags_data = []
+                genres_data = []
+                stores_data = []
+                screenshots_data = []
+                ratings_data = []
+                game_status_data = []
+
+                for game in all_games:
+                    game_id = game.get("id")
+                    tags_data.append((game_id, game.get("tags")))
+                    genres_data.append((game_id, game.get("genres")))
+                    stores_data.append((game_id, game.get("stores")))
+                    screenshots_data.append((game_id, game.get("short_screenshots")))
+                    ratings_data.append((game_id, game.get("ratings")))
+                    game_status_data.append((game_id, game.get("added_by_status")))
+
+                try:
+                    procesar_tags(cur, tags_data, cache)
+                    procesar_genres(cur, genres_data, cache)
+                    procesar_stores(cur, stores_data, cache)
+                    procesar_screenshots(cur, screenshots_data, cache)
+                    procesar_ratings(cur, ratings_data, cache)
+                    procesar_game_status(cur, game_status_data)
+                except Exception as e:
+                    logger.exception(f"Error procesando entidades relacionadas por lote: {e}")
+
                 conn.commit()
-                with open("resume_state.txt", "w") as f:
-                    f.write(str(i + 5000))
-                logger.info("Lote %d-%d confirmado", i, i+len(batch))
+            with open("resume_state.txt", "w") as f:
+                f.write(str(i + 1))
+            logger.info("Archivo %s procesado correctamente", key)
 
         logger.info("Carga masiva completada exitosamente.")
 
