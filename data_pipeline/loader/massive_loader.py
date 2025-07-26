@@ -53,6 +53,21 @@ S3_BUCKET = os.getenv("S3_BUCKET")
 # Directorio donde están los JSON
 DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../data/raw"))
 
+def list_all_s3_files(bucket, prefix):
+    s3 = boto3.client('s3')
+    continuation_token = None
+    while True:
+        kwargs = {'Bucket': bucket, 'Prefix': prefix}
+        if continuation_token:
+            kwargs['ContinuationToken'] = continuation_token
+        response = s3.list_objects_v2(**kwargs)
+        for obj in response.get('Contents', []):
+            if obj["Key"].endswith(".json"):
+                yield obj["Key"]
+        if not response.get('IsTruncated'):
+            break
+        continuation_token = response['NextContinuationToken']
+
 def main():
     start_time = time.time()
     try:
@@ -92,8 +107,8 @@ def main():
         s3 = boto3.client('s3')
         S3_PREFIX = "games_pages/"
         logger.info("Listando archivos JSON en S3 bajo %s", S3_PREFIX)
-        response = s3.list_objects_v2(Bucket=S3_BUCKET, Prefix=S3_PREFIX)
-        s3_files = [obj["Key"] for obj in response.get("Contents", []) if obj["Key"].endswith(".json")]
+        s3_files = list(list_all_s3_files(S3_BUCKET, S3_PREFIX))
+        logger.info("Total de archivos JSON encontrados: %d", len(s3_files))
 
         for i, key in enumerate(tqdm(s3_files[start_index:], desc="Procesando archivos desde S3")):
             try:
