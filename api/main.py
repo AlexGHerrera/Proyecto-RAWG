@@ -11,16 +11,16 @@ from models import predict
 from models import ask_visual
 from models import ask_text
 
-# Cargar variables de entorno
+#Cargar variables de entorno
 load_dotenv()
 
-# Configurar el logger para que los mensajes aparezcan en CloudWatch
+#Configurar el logger para que los mensajes aparezcan en CloudWatch
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
 app = FastAPI(title="API RAWG HAB")
 
-# === MODELO ML ===
+#MODELO ML
 def load_model():
     try:
         with open("model.pkl", "br") as file:
@@ -78,7 +78,7 @@ class AskTextRequest(BaseModel):
 class AskVisualRequest(BaseModel):
     question: str
 
-# === ENDPOINTS ===
+#ENDPOINTS
 
 @app.post("/predict")
 def predict_endpoint(request: PredictRequest):
@@ -92,7 +92,6 @@ def predict_endpoint(request: PredictRequest):
     # result = predict_game(request.features)
     return {"message": "Predicción recibida. Falta implementar lógica."}
 
-
 @app.post("/ask-text")
 def ask_text_endpoint(request: AskTextRequest):
     logger.info("Endpoint /ask-text llamado")
@@ -105,7 +104,6 @@ def ask_text_endpoint(request: AskTextRequest):
     # sql = question_to_sql(request.question)
     # result = execute_sql(sql)
     return {"message": "Pregunta recibida. Falta implementar lógica."}
-
 
 @app.post("/ask-visual")
 def ask_visual_endpoint(request: AskVisualRequest):
