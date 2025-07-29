@@ -1,18 +1,39 @@
-# ignore macOS system files
+# macOS system files
 *.DS_Store
-# Ignore Python bytecode files
+
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-# Ignore Jupyter Notebook checkpoints
+
+# Jupyter
 .ipynb_checkpoints/
-# Ignore virtual environment directories
+
+# Virtual environments
 venv/
+.venv/
+env/
+
+# Environment variables
 .env
-# Ignore log files
+
+# Logs
 *.log
-# Ignore data files
+logs/
+
+# Data folders
 data/raw/
 data/cajon/
 
+# VSCode settings
+.vscode/
+
+# Security/keys
+loader-rawg-pass.pem
+
+# Model outputs
+model/
+
+# Windows system files
+Thumbs.db
