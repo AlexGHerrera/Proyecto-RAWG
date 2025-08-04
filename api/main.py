@@ -95,20 +95,26 @@ def predict_endpoint(request: PredictRequest):
 @app.post("/ask-text")
 def ask_text_endpoint(request: AskTextRequest):
     logger.info("Endpoint /ask-text llamado")
-     """
-    Convierte la pregunta a SQL, consulta la base de datos y devuelve el resultado.
-    Aquí se insertará la lógica de NLP + SQL.
-    """
-    # === Aquí insertas el código NLP → SQL y consulta DB ===
-    # Ejemplo futuro:
-    # sql = question_to_sql(request.question)
-    # result = execute_sql(sql)
-    return {"message": "Pregunta recibida. Falta implementar lógica."}
+    user_question = request.question
+    generated_sql = question_to_sql(user_question)
+    validar_sql_generada(generated_sql)
+    print("Pregunta:", user_question)
+    print("\nSQL generada:\n", generated_sql)
+
+    get_connection()
+    return execute_sql(generated_sql: str)
 
 @app.post("/ask-visual")
 def ask_visual_endpoint(request: AskVisualRequest):
     logger.info("Endpoint /ask-visual llamado")
-     """
+    generated_sql = question_to_sql(user_question)
+    validar_sql_generada(generated_sql)
+    print("Pregunta:", user_question)
+    print("\nSQL generada:\n", generated_sql)
+
+    df = pd.read_sql_query(generated_sql, get_connection())
+    
+    """
     Convierte la pregunta en visualización y retorna un gráfico como imagen.
     Aquí se insertará la lógica de visualización.
     """
