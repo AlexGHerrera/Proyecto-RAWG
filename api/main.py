@@ -6,6 +6,7 @@ import psycopg2
 import pickle
 import logging
 import os
+import numpy as np
 from dotenv import load_dotenv
 from models import predict
 from models import ask_visual
@@ -65,9 +66,13 @@ def execute_sql(sql: str):
 #ESQUEMAS
 
 class Data(BaseModel):
-    rating: float
-    playtime: str
-    # Agregar más campos si es necesario
+    # Features de diseño según el proyecto RAWG
+    n_genres: int
+    n_platforms: int
+    n_tags: int
+    esrb_rating_id: int
+    estimated_hours: float
+    planned_year: int
 
 class PredictRequest(BaseModel):
     features: Data
@@ -86,48 +91,86 @@ def predict_endpoint(request: PredictRequest):
     if model is None:
         return {"error": "El modelo no está disponible."}
     try:
-        input_data = np.array([["requests"]])
-    except KeyError:
-        return {"error": "Los campos introducidos son invalidos.."}
+        # Convertir las features de diseño a array numpy
+        features = request.features
+        input_data = np.array([[
+            features.n_genres,
+            features.n_platforms, 
+            features.n_tags,
+            features.esrb_rating_id,
+            features.estimated_hours,
+            features.planned_year
+        ]])
+    except Exception as e:
+        return {"error": f"Error procesando las features: {str(e)}"}
 
-    predict_proba = float(model.predict_proba(input_data)[0, 1])
-    threshold = 0.5
-    prediction = int(predict_proba > threshold)
-    return {
-        "input_data": request,
-        "prediction": prediction,
-        "proba": predict_proba
-    }
+    try:
+        prediction = model.predict(input_data)[0]
+        return {
+            "input_data": request.dict(),
+            "prediction": float(prediction)
+        }
+    except Exception as e:
+        return {"error": f"Error en la predicción: {str(e)}"}
 
 @app.post("/ask-text")
 def ask_text_endpoint(request: AskTextRequest):
     logger.info("Endpoint /ask-text llamado")
     user_question = request.question
-    generated_sql = question_to_sql(user_question)
-    validar_sql_generada(generated_sql)
-    print("Pregunta:", user_question)
-    print("\nSQL generada:\n", generated_sql)
-
-    get_connection()
-    return execute_sql(generated_sql)
+    
+    try:
+        generated_sql = ask_text.question_to_sql(user_question)
+        is_valid, validation_message = ask_text.validar_sql_generada(generated_sql)
+        
+        if not is_valid:
+            return {"error": f"SQL inválida: {validation_message}"}
+        
+        logger.info(f"Pregunta: {user_question}")
+        logger.info(f"SQL generada: {generated_sql}")
+        
+        result = execute_sql(generated_sql)
+        return {
+            "question": user_question,
+            "sql": generated_sql,
+            "result": result
+        }
+    except Exception as e:
+        logger.error(f"Error en ask-text: {str(e)}")
+        return {"error": f"Error procesando la pregunta: {str(e)}"}
 
 @app.post("/ask-visual")
 def ask_visual_endpoint(request: AskVisualRequest):
     logger.info("Endpoint /ask-visual llamado")
-    generated_sql = question_to_sql(user_question)
-    validar_sql_generada(generated_sql)
-    print("Pregunta:", user_question)
-    print("\nSQL generada:\n", generated_sql)
-
-    df = pd.read_sql_query(generated_sql, get_connection())
+    user_question = request.question
     
-    """
-    Convierte la pregunta en visualización y retorna un gráfico como imagen.
-    Aquí se insertará la lógica de visualización.
-    """
-    # === Aquí insertas el código que genera el gráfico ===
-    # Ejemplo futuro:
-    # image_path = generate_visual_from_question(request.question)
-    # return FileResponse(image_path, media_type="image/png")
-    return {"message": "Pregunta visual recibida. Falta implementar lógica."}
+    try:
+        generated_sql = ask_text.question_to_sql(user_question)
+        is_valid, validation_message = ask_text.validar_sql_generada(generated_sql)
+        
+        if not is_valid:
+            return {"error": f"SQL inválida: {validation_message}"}
+        
+        logger.info(f"Pregunta: {user_question}")
+        logger.info(f"SQL generada: {generated_sql}")
+        
+        df = pd.read_sql_query(generated_sql, get_connection())
+        
+        """
+        Convierte la pregunta en visualización y retorna un gráfico como imagen.
+        Aquí se insertará la lógica de visualización.
+        """
+        # === Aquí insertas el código que genera el gráfico ===
+        # Ejemplo futuro:
+        # image_path = ask_visual.generate_visual_from_question(request.question, df)
+        # return FileResponse(image_path, media_type="image/png")
+        
+        return {
+            "message": "Pregunta visual recibida. Falta implementar lógica.",
+            "question": user_question,
+            "sql": generated_sql,
+            "data_shape": df.shape
+        }
+    except Exception as e:
+        logger.error(f"Error en ask-visual: {str(e)}")
+        return {"error": f"Error procesando la pregunta visual: {str(e)}"}
 

@@ -99,9 +99,11 @@ def validar_sql_generada(sql_code):
 
     return True, "Consulta válida"
 
-#Prueba aquí tus preguntas
-question = "what are the best 10 rated games?"
-generated_sql = question_to_sql(question)
-print("Pregunta:", question)
-print("\nSQL generada:\n", generated_sql)
-print(validar_sql_generada(generated_sql))
+# Código de prueba - solo se ejecuta si se llama directamente
+if __name__ == "__main__":
+    # Prueba aquí tus preguntas
+    question = "what are the best 10 rated games?"
+    generated_sql = question_to_sql(question)
+    print("Pregunta:", question)
+    print("\nSQL generada:\n", generated_sql)
+    print(validar_sql_generada(generated_sql))
