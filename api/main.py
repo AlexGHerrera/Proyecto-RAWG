@@ -83,14 +83,21 @@ class AskVisualRequest(BaseModel):
 @app.post("/predict")
 def predict_endpoint(request: PredictRequest):
     logger.info("Endpoint /predict llamado")
-    """
-    Recibe características de un videojuego y devuelve la predicción del modelo.
-    Aquí se insertará la lógica del modelo ML.
-    """
-    # === Aquí insertas el código del modelo ML ===
-    # Ejemplo futuro:
-    # result = predict_game(request.features)
-    return {"message": "Predicción recibida. Falta implementar lógica."}
+    if model is None:
+        return {"error": "El modelo no está disponible."}
+    try:
+        input_data = np.array([["requests"]])
+    except KeyError:
+        return {"error": "Los campos introducidos son invalidos.."}
+
+    predict_proba = float(model.predict_proba(input_data)[0, 1])
+    threshold = 0.5
+    prediction = int(predict_proba > threshold)
+    return {
+        "input_data": request,
+        "prediction": prediction,
+        "proba": predict_proba
+    }
 
 @app.post("/ask-text")
 def ask_text_endpoint(request: AskTextRequest):
@@ -102,7 +109,7 @@ def ask_text_endpoint(request: AskTextRequest):
     print("\nSQL generada:\n", generated_sql)
 
     get_connection()
-    return execute_sql(generated_sql: str)
+    return execute_sql(generated_sql)
 
 @app.post("/ask-visual")
 def ask_visual_endpoint(request: AskVisualRequest):
