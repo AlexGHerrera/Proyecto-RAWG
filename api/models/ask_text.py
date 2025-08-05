@@ -5,12 +5,13 @@ import torch
 import re
 
 # Nombre del modelo
+def load_model_npl():
+    model_id = "PipableAI/pip-sql-1.3b"
 
-model_id = "PipableAI/pip-sql-1.3b"
-
-# Tokenizador y modelo
-tokenizer = AutoTokenizer.from_pretrained(model_id)
-model = AutoModelForCausalLM.from_pretrained(model_id)
+    # Tokenizador y modelo
+    tokenizer = AutoTokenizer.from_pretrained(model_id)
+    model = AutoModelForCausalLM.from_pretrained(model_id)
+    return model
 
 # Uso de CPU (compatible con EC2 t3.medium o Mac M2)
 device = torch.device("cpu")
@@ -99,6 +100,7 @@ def validar_sql_generada(sql_code):
 
     return True, "Consulta válida"
 
+<<<<<<< HEAD
 # Código de prueba - solo se ejecuta si se llama directamente
 if __name__ == "__main__":
     # Prueba aquí tus preguntas
@@ -107,3 +109,11 @@ if __name__ == "__main__":
     print("Pregunta:", question)
     print("\nSQL generada:\n", generated_sql)
     print(validar_sql_generada(generated_sql))
+=======
+#Prueba aquí tus preguntas
+# question = "what are the best 10 rated games?"
+# generated_sql = question_to_sql(question)
+# print("Pregunta:", question)
+# print("\nSQL generada:\n", generated_sql)
+# print(validar_sql_generada(generated_sql))
+>>>>>>> ae1be9c (si)
