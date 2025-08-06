@@ -31,8 +31,6 @@ def load_model():
         logger.error(f"Error al cargar el modelo: {e}")
         raise
 
-model = load_model()
-
 #CONEXIÓN A LA BASE DE DATOS
 def get_connection():
     try:
@@ -88,6 +86,7 @@ class AskVisualRequest(BaseModel):
 @app.post("/predict")
 def predict_endpoint(request: PredictRequest):
     logger.info("Endpoint /predict llamado")
+    model = load_model()
     if model is None:
         return {"error": "El modelo no está disponible."}
     try:
@@ -120,10 +119,7 @@ def ask_text_endpoint(request: AskTextRequest):
     
     try:
         generated_sql = ask_text.question_to_sql(user_question)
-        is_valid, validation_message = ask_text.validar_sql_generada(generated_sql)
-        
-        if not is_valid:
-            return {"error": f"SQL inválida: {validation_message}"}
+        validation_message = ask_text.validar_sql_generada(generated_sql)
         
         logger.info(f"Pregunta: {user_question}")
         logger.info(f"SQL generada: {generated_sql}")
