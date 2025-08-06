@@ -201,13 +201,17 @@ Para el modelo predictivo, seleccionamos features que estén disponibles durante
 - **n_genres**: Número de géneros asignados - Define la audiencia objetivo
 - **n_platforms**: Número de plataformas objetivo - Determina el alcance de mercado
 - **n_tags**: Número de etiquetas descriptivas - Indica riqueza de características
-- **esrb_rating_id**: Clasificación por edad - Segmenta el mercado objetivo
 - **release_year**: Año de lanzamiento planeado - Captura tendencias temporales
 
-#### Features Descartadas (Post-Lanzamiento):
+#### Features Descartadas:
+
+**Post-Lanzamiento:**
 - **rating**: Solo disponible después del lanzamiento
 - **added**: Métrica de engagement post-lanzamiento
 - **metacritic**: Puntuación de críticos posterior al lanzamiento
+
+**Datos Insuficientes:**
+- **esrb_rating_id**: 77.5% de valores faltantes (59,109 de 76,272 juegos). La alta proporción de datos faltantes hace que esta feature sea poco confiable para el modelado. La mayoría de juegos en la base de datos no tienen clasificación ESRB asignada, posiblemente por ser juegos independientes, de mercados internacionales, o por falta de proceso de clasificación formal.
 
 #### Justificación del Enfoque Numérico vs Categórico:
 
@@ -490,7 +494,7 @@ final_dataset AS (
     ) AS numeric), 4) as success_score
   FROM features_and_targets
 )
-SELECT id_game, name, n_genres, n_platforms, n_tags, esrb_rating_id, 
+SELECT id_game, name, n_genres, n_platforms, n_tags, 
        release_year, success_score
 FROM final_dataset
 ORDER BY success_score DESC;
@@ -575,6 +579,7 @@ try:
     print(f"   Dimensiones: {df_final.shape}")
     print(f"   Features de diseno: {list(df_final.columns[2:-1])}")
     print(f"   Target: success_score")
+    print(f"   Nota: esrb_rating_id eliminada por 77.5% de valores faltantes")
     
     print("\nMuestra del archivo CSV guardado:")
     display(df_csv_check)
@@ -595,11 +600,12 @@ except Exception as e:
 6. **Dataset final**: 76,000+ juegos listos para modelado
 
 ### Características del dataset final:
-- **Features de diseño**: n_genres, n_platforms, n_tags, esrb_rating_id, release_year
+- **Features de diseño**: n_genres, n_platforms, n_tags, release_year (4 variables)
 - **Target continuo**: success_score (0-1)
 - **Sin data leakage**: Solo información disponible en fase de diseño
 - **Calidad garantizada**: Filtros de completitud y relevancia temporal
 - **Tamaño optimizado**: ~76,000 juegos tras aplicar filtros de calidad
+- **Sin valores faltantes**: esrb_rating_id eliminada por alta proporción de NaNs (77.5%)
 
 ### Próximos pasos:
 1. **Entrenamiento de modelos**: XGBoost, Red Neuronal, Random Forest

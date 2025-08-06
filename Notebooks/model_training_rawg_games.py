@@ -7,7 +7,7 @@ Este notebook implementa un pipeline completo de machine learning para predecir 
 **Contexto de negocio**: Los estudios de videojuegos necesitan evaluar el potencial de éxito de sus proyectos antes del lanzamiento para optimizar recursos y tomar decisiones estratégicas.
 
 **Objetivo**: Comparar 4 algoritmos (Linear Regression, Random Forest, XGBoost, Red Neuronal) para predecir success_score.
-**Dataset**: 76,272 juegos filtrados por calidad con 5 features de diseño y target continuo (0-1).
+**Dataset**: 76,272 juegos filtrados por calidad con 4 features de diseño y target continuo (0-1).
 **Métricas**: RMSE, MAE, R², MAPE para evaluación integral del rendimiento.
 **Metodología**: Train/Validation/Test split + Hyperparameter tuning + Análisis interpretable.
 """
@@ -54,11 +54,12 @@ print("Librerías importadas correctamente")
 """
 ## 2. Carga y exploración del dataset
 
-Cargamos el dataset final procesado en el EDA que contiene únicamente las 5 features de diseño más predictivas y el target success_score. Este dataset ha sido filtrado por calidad (rating > 0, added > 0) y rango temporal (2010-2024) para asegurar datos confiables.
+Cargamos el dataset final procesado en el EDA que contiene únicamente las 4 features de diseño más predictivas y el target success_score. Este dataset ha sido filtrado por calidad (rating > 0, added > 0) y rango temporal (2010-2024) para asegurar datos confiables. La feature esrb_rating_id fue eliminada debido a que el 77.5% de los registros tenían valores faltantes.
 
-**Features de entrada**: n_genres, n_platforms, n_tags, esrb_rating_id, release_year
+**Features de entrada**: n_genres, n_platforms, n_tags, release_year (4 variables de diseño)
 **Target**: success_score (0-1) - métrica compuesta de rating, popularidad y engagement
 **Tamaño esperado**: ~76k juegos tras filtros de calidad
+**Nota**: esrb_rating_id eliminada por 77.5% de valores faltantes
 """
 
 # %%
@@ -141,7 +142,7 @@ Separamos features y target, dividimos en conjuntos de entrenamiento/validación
 
 # %%
 # Separar features y target
-feature_columns = ['n_genres', 'n_platforms', 'n_tags', 'esrb_rating_id', 'release_year']
+feature_columns = ['n_genres', 'n_platforms', 'n_tags', 'release_year']
 X = df[feature_columns].copy()
 y = df['success_score'].copy()
 
@@ -417,7 +418,7 @@ def create_neural_network(hidden_layers, dropout_rate=0.3, learning_rate=0.001):
     model = Sequential()
     
     # Primera capa oculta
-    model.add(Dense(hidden_layers[0], activation='relu', input_shape=(5,)))
+    model.add(Dense(hidden_layers[0], activation='relu', input_shape=(4,)))
     model.add(Dropout(dropout_rate))
     
     # Capas ocultas adicionales
@@ -799,7 +800,7 @@ print("\nModelos y artefactos guardados exitosamente para producción.")
 ### Características del modelo final:
 - **Algoritmo**: {best_model_name.split('(')[0].strip()}
 - **Performance**: R² = {test_metrics['R²']:.4f}, RMSE = {test_metrics['RMSE']:.6f}
-- **Features**: 5 variables de diseño (n_genres, n_platforms, n_tags, esrb_rating_id, release_year)
+- **Features**: 4 variables de diseño (n_genres, n_platforms, n_tags, release_year)
 - **Target**: success_score continuo (0-1)
 
 ### Próximos pasos:
