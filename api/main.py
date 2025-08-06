@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -11,6 +12,7 @@ from dotenv import load_dotenv
 from models import predict
 from models import ask_visual
 from models import ask_text
+
 
 #Cargar variables de entorno
 load_dotenv()
@@ -118,7 +120,7 @@ def ask_text_endpoint(request: AskTextRequest):
     user_question = request.question
     
     try:
-        generated_sql = ask_text.question_to_sql(user_question)
+        generated_sql = ask_text.question_to_sql(user_question, visual_mode = False)
         validation_message = ask_text.validar_sql_generada(generated_sql)
         
         logger.info(f"Pregunta: {user_question}")
@@ -140,7 +142,7 @@ def ask_visual_endpoint(request: AskVisualRequest):
     user_question = request.question
     
     try:
-        generated_sql = ask_text.question_to_sql(user_question)
+        generated_sql = ask_text.question_to_sql(user_question, visual_mode = True)
         is_valid, validation_message = ask_text.validar_sql_generada(generated_sql)
         
         if not is_valid:
@@ -150,23 +152,15 @@ def ask_visual_endpoint(request: AskVisualRequest):
         logger.info(f"SQL generada: {generated_sql}")
         
         df = pd.read_sql_query(generated_sql, get_connection())
-        
-        """
-        Convierte la pregunta en visualización y retorna un gráfico como imagen.
-        Aquí se insertará la lógica de visualización.
-        """
-        # === Aquí insertas el código que genera el gráfico ===
-        # Ejemplo futuro:
-        # image_path = ask_visual.generate_visual_from_question(request.question, df)
-        # return FileResponse(image_path, media_type="image/png")
-        
-        return {
-            "message": "Pregunta visual recibida. Falta implementar lógica.",
-            "question": user_question,
-            "sql": generated_sql,
-            "data_shape": df.shape
-        }
+        fig = ask_visual.auto_viz(df)
+        if fig:
+            fig.show()
+        else:
+            return {"error": f"Error procesando la figura"}
     except Exception as e:
         logger.error(f"Error en ask-visual: {str(e)}")
         return {"error": f"Error procesando la pregunta visual: {str(e)}"}
+
+
+
 
