@@ -118,12 +118,12 @@ Dense(3, Softmax)
 # Sistema de fallback de rutas - prioridad Kaggle → Local
 data_paths = [
     "/kaggle/input/rawg-games-classification/classification_dataset_v2.csv",  # Kaggle
-    "/Users/alexg.herrera/Desktop/HackABoss/Proyecto-RAWG/data/classification_dataset_v2.csv"  # Local
+    "../data/classification_dataset_v2.csv"  # Local
 ]
 
 models_dirs = [
     "/kaggle/working/",  # Kaggle
-    "/Users/alexg.herrera/Desktop/HackABoss/Proyecto-RAWG/models/"  # Local
+    "../models/"  # Local
 ]
 
 # Buscar dataset disponible

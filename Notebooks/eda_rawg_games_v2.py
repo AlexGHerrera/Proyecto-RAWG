@@ -404,7 +404,7 @@ selected_columns = ['id_game', 'name'] + final_features + ['success_category']
 df_export = df_base[selected_columns].copy(deep=True)
 
 # Exportar
-data_dir = "/Users/alexg.herrera/Desktop/HackABoss/Proyecto-RAWG/data"
+data_dir = "../data"
 os.makedirs(data_dir, exist_ok=True)
 
 csv_path = os.path.join(data_dir, "classification_dataset_v2.csv")

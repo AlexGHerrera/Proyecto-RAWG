@@ -1,0 +1,49 @@
+{
+  "model_name": "Random Forest",
+  "roc_auc_macro": 0.8789256967398339,
+  "f1_score_macro": 0.5726144304351692,
+  "accuracy": 0.8375575138423146,
+  "timestamp": "20250807_224107",
+  "features": [
+    "n_genres",
+    "n_platforms",
+    "n_tags",
+    "release_year",
+    "is_top_genre_1",
+    "is_top_genre_2",
+    "is_top_genre_3",
+    "is_top_genre_4",
+    "is_top_genre_5",
+    "is_top_platform_1",
+    "is_top_platform_2",
+    "is_top_platform_3",
+    "is_top_platform_4",
+    "is_top_platform_5",
+    "is_top_tag_1",
+    "is_top_tag_2",
+    "is_top_tag_3",
+    "is_top_tag_4",
+    "is_top_tag_5",
+    "is_optimal_duration",
+    "playtime"
+  ],
+  "target_classes": [
+    "high_success",
+    "low_success",
+    "moderate_success"
+  ],
+  "class_weights": {
+    "0": 5.416033113701639,
+    "1": 0.3898374132039449,
+    "2": 3.9969453275980302
+  },
+  "dataset_size": 64115,
+  "train_size": 38469,
+  "test_size": 12823,
+  "balance_distribution": {
+    "high_success": 0.06154566014193247,
+    "moderate_success": 0.08339702097793028,
+    "low_success": 0.8550573188801373
+  },
+  "model_format": "sklearn_pickle"
+}

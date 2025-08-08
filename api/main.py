@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from fastapi.responses import StreamingResponse
+from fastapi.responses import StreamingResponse, JSONResponse
 from pydantic import BaseModel
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -15,6 +15,7 @@ from models import ask_text
 from io import BytesIO
 import plotly.io as pio
 import kaleido
+from typing import List
 
 
 #Cargar variables de entorno
@@ -68,17 +69,15 @@ def execute_sql(sql: str):
 
 #ESQUEMAS
 
-class Data(BaseModel):
-    # Features de diseño según el proyecto RAWG
-    n_genres: int
-    n_platforms: int
-    n_tags: int
-    esrb_rating_id: int
+class GameInput(BaseModel):
+    genres: List[str]
+    platforms: List[str]
+    tags: List[str]
     estimated_hours: float
-    planned_year: int
+    release_year: int = 2024
 
 class PredictRequest(BaseModel):
-    features: Data
+    game: GameInput
 
 class AskTextRequest(BaseModel):
     question: str
@@ -91,30 +90,28 @@ class AskVisualRequest(BaseModel):
 @app.post("/predict")
 def predict_endpoint(request: PredictRequest):
     logger.info("Endpoint /predict llamado")
-    model = load_model()
-    if model is None:
-        return {"error": "El modelo no está disponible."}
+    
     try:
-        # Convertir las features de diseño a array numpy
-        features = request.features
-        input_data = np.array([[
-            features.n_genres,
-            features.n_platforms, 
-            features.n_tags,
-            features.esrb_rating_id,
-            features.estimated_hours,
-            features.planned_year
-        ]])
-    except Exception as e:
-        return {"error": f"Error procesando las features: {str(e)}"}
-
-    try:
-        prediction = model.predict(input_data)[0]
-        return {
-            "input_data": request.dict(),
-            "prediction": float(prediction)
+        # Preparar datos para el modelo v3
+        input_data = {
+            'genres': request.game.genres,
+            'platforms': request.game.platforms,
+            'tags': request.game.tags,
+            'estimated_hours': request.game.estimated_hours,
+            'release_year': request.game.release_year
         }
+        
+        # Realizar predicción
+        result = predict.predict(input_data)
+        
+        return {
+            "predicted_class": result["predicted_class"],
+            "confidence": result["confidence"],
+            "probabilities": result["probabilities"]
+        }
+        
     except Exception as e:
+        logger.error(f"Error en predicción: {e}")
         return {"error": f"Error en la predicción: {str(e)}"}
 
 @app.post("/ask-text")
