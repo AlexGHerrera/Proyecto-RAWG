@@ -311,5 +311,5 @@ Rellena con tus datos:
 | Nombre | Rol | Correo 📧 | LinkedIn 🔗 |
 |-------|-----|-----------|-------------|
 |[Alex G. Herrera](mailto:alexg.herrera@gmail.com) | Líder | alexg.herrera@gmail.com | [LinkedIn](https://www.linkedin.com/in/alexgherrera/) |
-|Ignacio Buhigas León (mailto:ignacio.buhigas@gmail.com) | Data Enginner | ignacio.buhigas@gmail.com | [LinkedIn](https://www.linkedin.com/in/ignaciobuhigas/) |
+|[Ignacio Buhigas León](mailto:ignacio.buhigas@gmail.com) | Data Enginner | ignacio.buhigas@gmail.com | [LinkedIn](https://www.linkedin.com/in/ignaciobuhigas/) |
 |[Nombre 3](mailto:correo@dominio.com) | [Rol] | correo@dominio.com | [LinkedIn](https://linkedin.com/in/usuario) |
