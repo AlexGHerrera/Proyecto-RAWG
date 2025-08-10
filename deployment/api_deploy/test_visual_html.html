@@ -66,9 +66,8 @@
         <h1>🎮 Test API v3 - Endpoint Visual HTML</h1>
         <p>Prueba el nuevo endpoint <code>/ask-visual-html</code> que devuelve gráficos directamente en el navegador.</p>
         
-        <form id="testForm" action="http://localhost:8000/ask-visual-html" method="POST" target="_blank">
-            <input type="hidden" name="Content-Type" value="application/json">
-            <input type="text" id="question" name="question" placeholder="Escribe tu pregunta aquí..." required>
+        <form id="testForm" onsubmit="submitQuestion(event)">
+            <input type="text" id="question" placeholder="Escribe tu pregunta aquí..." required>
             <button type="submit">🚀 Ver Gráfico</button>
         </form>
         
@@ -98,33 +97,49 @@
         function setQuestion(question) {
             document.getElementById('question').value = question;
         }
-        
-        // Manejar el envío del formulario con JSON
-        document.getElementById('testForm').addEventListener('submit', function(e) {
-            e.preventDefault();
+
+        async function submitQuestion(event) {
+            event.preventDefault(); // Prevenir envío normal del formulario
             
             const question = document.getElementById('question').value;
-            if (!question.trim()) {
-                alert('Por favor, escribe una pregunta');
-                return;
+            const button = document.querySelector('button[type="submit"]');
+            
+            // Mostrar estado de carga
+            button.disabled = true;
+            button.innerHTML = '⏳ Generando gráfico...';
+            
+            try {
+                // Enviar petición POST con JSON
+                const response = await fetch('http://localhost:8000/ask-visual-html', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        question: question
+                    })
+                });
+                
+                if (response.ok) {
+                    // Si la respuesta es exitosa, obtener el HTML y abrirlo en nueva pestaña
+                    const htmlContent = await response.text();
+                    const newWindow = window.open();
+                    newWindow.document.write(htmlContent);
+                    newWindow.document.close();
+                } else {
+                    // Si hay error, mostrar el mensaje
+                    const errorText = await response.text();
+                    alert('Error: ' + response.status + '\n' + errorText);
+                }
+                
+            } catch (error) {
+                alert('Error de conexión: ' + error.message);
+            } finally {
+                // Restaurar botón
+                button.disabled = false;
+                button.innerHTML = '🚀 Ver Gráfico';
             }
-            
-            // Crear formulario temporal para envío JSON
-            const form = document.createElement('form');
-            form.method = 'POST';
-            form.action = 'http://localhost:8000/ask-visual-html';
-            form.target = '_blank';
-            
-            const input = document.createElement('input');
-            input.type = 'hidden';
-            input.name = 'question';
-            input.value = question;
-            
-            form.appendChild(input);
-            document.body.appendChild(form);
-            form.submit();
-            document.body.removeChild(form);
-        });
+        }
     </script>
 </body>
 </html>
