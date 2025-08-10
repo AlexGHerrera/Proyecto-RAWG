@@ -4,7 +4,8 @@ import psycopg2
 from psycopg2.extras import RealDictCursor
 from dotenv import load_dotenv
 import hashlib
-from langdetect import detect, LangDetectError
+from langdetect import detect
+from langdetect.lang_detect_exception import LangDetectException as LangDetectError
 load_dotenv()
 
 logger = logging.getLogger(__name__); logging.basicConfig(level=logging.INFO)

@@ -27,7 +27,11 @@ from typing import Dict, List, Optional, Tuple
 
 # Importa el modelo SQL fine-tuned para satisfacer el requisito de que tanto ask_text como
 # ask_visual dependan de él.
-from . import sql_model_finetuned  # noqa: F401
+# Importación con fallback para compatibilidad local y EC2
+try:
+    from . import sql_model_finetuned  # noqa: F401
+except ImportError:
+    import sql_model_finetuned  # noqa: F401
 
 # Template oscuro optimizado
 pio.templates["enhanced_dark"] = go.layout.Template(

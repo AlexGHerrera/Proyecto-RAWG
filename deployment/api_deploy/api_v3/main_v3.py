@@ -22,6 +22,7 @@ Fecha: 2025-01-09
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import HTMLResponse
 from pydantic import BaseModel
 import logging
 from typing import Dict, Any, List, Optional
@@ -32,10 +33,21 @@ import json
 import numpy as np
 
 # Importar módulos internos v3
-from .models.sql_model_finetuned import question_to_sql_finetuned, get_model_info, test_model_connection, execute_sql_query
-from .models.ask_visual import auto_viz
-from .models import ask_text
-from .models import utility_endpoints  # Importar el módulo de utilidades
+# Importaciones con fallback para compatibilidad local y EC2
+try:
+    # Intentar importaciones relativas (funciona cuando se ejecuta como paquete)
+    from .models.sql_model_finetuned import question_to_sql_finetuned, get_model_info, test_model_connection, execute_sql_query
+    from .models.ask_visual import auto_viz
+    from .models.predict import predict
+    from .models import ask_text
+    from .models import utility_endpoints
+except ImportError:
+    # Fallback a importaciones absolutas (funciona cuando se ejecuta directamente)
+    from models.sql_model_finetuned import question_to_sql_finetuned, get_model_info, test_model_connection, execute_sql_query
+    from models.ask_visual import auto_viz
+    from models.predict import predict
+    from models import ask_text
+    from models import utility_endpoints
 
 # Configurar logging
 logging.basicConfig(level=logging.INFO)
@@ -82,6 +94,23 @@ class VisualResponse(BaseModel):
     data: List[Dict[str, Any]]
     visualization: Dict[str, Any]  # Plotly figure as dict
     metadata: Dict[str, Any]
+    execution_time: float
+    success: bool
+    error: Optional[str] = None
+
+class PredictionRequest(BaseModel):
+    """Modelo para solicitudes de predicción"""
+    genres: List[str]
+    platforms: List[str]
+    tags: List[str]
+    estimated_hours: float
+    release_year: int
+
+class PredictionResponse(BaseModel):
+    """Modelo para respuestas de predicción"""
+    predicted_class: str
+    confidence: float
+    probabilities: Dict[str, float]
     execution_time: float
     success: bool
     error: Optional[str] = None
@@ -227,10 +256,208 @@ async def ask_visual_endpoint(query: VisualQuery):
             error=str(e)
         )
 
+@app.post("/ask-visual-html")
+async def ask_visual_html_endpoint(query: VisualQuery):
+    """
+    Endpoint para consultas con visualización que devuelve HTML directamente.
+    
+    Perfecto para ver gráficos directamente en el navegador sin necesidad 
+    de JavaScript adicional.
+    """
+    start_time = time.time()
+    
+    try:
+        logger.info(f"Nueva consulta visual HTML: {query.question}")
+        
+        # Validar entrada
+        if not query.question or not query.question.strip():
+            error_html = """
+            <!DOCTYPE html>
+            <html><head><title>Error</title></head>
+            <body style="font-family: Arial, sans-serif; padding: 20px;">
+                <h2 style="color: red;">Error</h2>
+                <p>La pregunta no puede estar vacía.</p>
+            </body></html>
+            """
+            return HTMLResponse(content=error_html, status_code=400)
+        
+        # Procesar con modelo unificado
+        result = question_to_sql_finetuned(query.question)
+        
+        # Verificar si hubo error en la consulta SQL
+        if "error" in result:
+            execution_time = time.time() - start_time
+            logger.error(f"Error procesando consulta: {result['error']}")
+            
+            error_html = f"""
+            <!DOCTYPE html>
+            <html><head><title>Error en Consulta</title></head>
+            <body style="font-family: Arial, sans-serif; padding: 20px; background-color: #f8f9fa;">
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <h2 style="color: #dc3545;">Error en la Consulta</h2>
+                    <p><strong>Pregunta:</strong> {query.question}</p>
+                    <p><strong>Error:</strong> {result['error']}</p>
+                    <p><strong>Tiempo de ejecución:</strong> {execution_time:.2f}s</p>
+                    <hr>
+                    <p><em>Intenta reformular tu pregunta o verifica que esté relacionada con videojuegos.</em></p>
+                </div>
+            </body></html>
+            """
+            return HTMLResponse(content=error_html, status_code=400)
+        
+        # Generar visualización
+        try:
+            df = pd.DataFrame(result["data"])
+            
+            if df.empty:
+                # Sin datos para visualizar
+                empty_html = f"""
+                <!DOCTYPE html>
+                <html><head><title>Sin Datos</title></head>
+                <body style="font-family: Arial, sans-serif; padding: 20px; background-color: #f8f9fa;">
+                    <div style="max-width: 800px; margin: 0 auto;">
+                        <h2 style="color: #6c757d;">Sin Datos para Visualizar</h2>
+                        <p><strong>Pregunta:</strong> {query.question}</p>
+                        <p><strong>SQL generada:</strong> <code>{result['sql']}</code></p>
+                        <p>La consulta se ejecutó correctamente pero no devolvió resultados.</p>
+                    </div>
+                </body></html>
+                """
+                return HTMLResponse(content=empty_html)
+            else:
+                # Generar visualización automática
+                fig = auto_viz(df, query.question)
+                if fig:
+                    # Convertir a HTML completo
+                    html_content = fig.to_html(
+                        include_plotlyjs='cdn',
+                        div_id="visualization",
+                        config={'displayModeBar': True, 'responsive': True}
+                    )
+                    
+                    # Devolver solo el gráfico limpio
+                    clean_html = f"""
+                    <!DOCTYPE html>
+                    <html>
+                    <head>
+                        <title>{query.question}</title>
+                        <meta charset="utf-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <style>
+                            body {{ margin: 0; padding: 0; background-color: #111111; }}
+                            .plotly-graph-div {{ width: 100vw !important; height: 100vh !important; }}
+                        </style>
+                    </head>
+                    <body>
+                        {html_content.split('<body>')[1].split('</body>')[0]}
+                    </body>
+                    </html>
+                    """
+                    return HTMLResponse(content=clean_html)
+                else:
+                    # Error generando visualización
+                    error_html = f"""
+                    <!DOCTYPE html>
+                    <html><head><title>Error en Visualización</title></head>
+                    <body style="font-family: Arial, sans-serif; padding: 20px; background-color: #f8f9fa;">
+                        <div style="max-width: 800px; margin: 0 auto;">
+                            <h2 style="color: #ffc107;">Error Generando Visualización</h2>
+                            <p><strong>Pregunta:</strong> {query.question}</p>
+                            <p><strong>SQL:</strong> <code>{result['sql']}</code></p>
+                            <p>Los datos se obtuvieron correctamente ({len(df)} registros) pero no se pudo generar el gráfico.</p>
+                        </div>
+                    </body></html>
+                    """
+                    return HTMLResponse(content=error_html)
+            
+        except Exception as viz_error:
+            logger.warning(f"Error generando visualización HTML: {viz_error}")
+            error_html = f"""
+            <!DOCTYPE html>
+            <html><head><title>Error de Visualización</title></head>
+            <body style="font-family: Arial, sans-serif; padding: 20px; background-color: #f8f9fa;">
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <h2 style="color: #dc3545;">Error de Visualización</h2>
+                    <p><strong>Pregunta:</strong> {query.question}</p>
+                    <p><strong>Error técnico:</strong> {str(viz_error)}</p>
+                </div>
+            </body></html>
+            """
+            return HTMLResponse(content=error_html, status_code=500)
+        
+    except Exception as e:
+        execution_time = time.time() - start_time
+        logger.error(f"Error inesperado en ask_visual_html: {e}")
+        
+        error_html = f"""
+        <!DOCTYPE html>
+        <html><head><title>Error del Servidor</title></head>
+        <body style="font-family: Arial, sans-serif; padding: 20px; background-color: #f8f9fa;">
+            <div style="max-width: 800px; margin: 0 auto;">
+                <h2 style="color: #dc3545;">Error del Servidor</h2>
+                <p><strong>Pregunta:</strong> {query.question}</p>
+                <p><strong>Tiempo transcurrido:</strong> {execution_time:.2f}s</p>
+                <p>Ocurrió un error interno. Por favor, intenta nuevamente.</p>
+            </div>
+        </body></html>
+        """
+        return HTMLResponse(content=error_html, status_code=500)
+
+
+@app.post("/predict", response_model=PredictionResponse)
+async def predict_endpoint(request: PredictionRequest):
+    """
+    Endpoint para predicción de éxito de videojuegos.
+    
+    Utiliza el modelo v3 entrenado para predecir el éxito de un videojuego
+    basándose en sus características de diseño.
+    """
+    start_time = time.time()
+    
+    try:
+        logger.info(f"Nueva predicción: {len(request.genres)} géneros, {len(request.platforms)} plataformas")
+        
+        # Preparar datos de entrada
+        input_data = {
+            "genres": request.genres,
+            "platforms": request.platforms,
+            "tags": request.tags,
+            "estimated_hours": request.estimated_hours,
+            "release_year": request.release_year
+        }
+        
+        # Realizar predicción
+        result = predict(input_data)
+        
+        # Calcular tiempo de ejecución
+        execution_time = time.time() - start_time
+        
+        logger.info(f"Predicción completada: {result['predicted_class']} (confianza: {result['confidence']:.2f})")
+        
+        return PredictionResponse(
+            predicted_class=result["predicted_class"],
+            confidence=result["confidence"],
+            probabilities=result["probabilities"],
+            execution_time=execution_time,
+            success=True
+        )
+        
+    except Exception as e:
+        execution_time = time.time() - start_time
+        logger.error(f"Error en predicción: {e}")
+        
+        return PredictionResponse(
+            predicted_class="",
+            confidence=0.0,
+            probabilities={},
+            execution_time=execution_time,
+            success=False,
+            error=str(e)
+        )
+
 # ============================================================================
 # ENDPOINTS DE UTILIDAD
 # ============================================================================
-
 
 
 
@@ -248,7 +475,8 @@ async def root():
         "description": "Convert natural language questions about video games into SQL queries and visualizations",
         "endpoints": {
             "ask_text": "/ask-text - Natural language text queries",
-            "ask_visual": "/ask-visual - Queries with automatic visualizations", 
+            "ask_visual": "/ask-visual - Queries with automatic visualizations (JSON)", 
+            "ask_visual_html": "/ask-visual-html - Queries with visualizations (HTML for browser)",
             "predict": "/predict - Video game success predictions",
             "health": "/health - API health check",
             "model_info": "/model/info - Model information",

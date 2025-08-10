@@ -1,7 +1,11 @@
 import time
 import logging
 from fastapi import APIRouter, HTTPException
-from .sql_model_finetuned import get_model_info
+# Importación con fallback para compatibilidad local y EC2
+try:
+    from .sql_model_finetuned import get_model_info
+except ImportError:
+    from sql_model_finetuned import get_model_info
 
 # Configurar logging
 logger = logging.getLogger(__name__)

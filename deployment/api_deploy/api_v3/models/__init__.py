@@ -16,7 +16,8 @@ Fecha: 2025-01-09
 """
 
 # Importaciones principales
-from .ask_visual import auto_viz
+# Las importaciones se manejan directamente en main_v3.py para evitar conflictos
+# con el sistema de importaciones híbridas
 
 __version__ = "3.0.0"
 

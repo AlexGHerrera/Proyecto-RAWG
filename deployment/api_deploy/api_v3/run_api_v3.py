@@ -29,7 +29,7 @@ if __name__ == "__main__":
     
     # Configuración para desarrollo con reload automático
     uvicorn.run(
-        "api.api_v3.main_v3:app",  # Usar string de importación para reload
+        "main_v3:app",  # Importación relativa para el paquete de despliegue
         host="0.0.0.0",
         port=8000,
         reload=True,  # Activar reload para desarrollo

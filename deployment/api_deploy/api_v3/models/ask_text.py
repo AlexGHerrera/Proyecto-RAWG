@@ -24,7 +24,11 @@ from typing import Dict, Any, List
 import time
 
 # Importar el módulo unificado
-from .sql_model_finetuned import question_to_sql_finetuned, get_model_info
+# Importación con fallback para compatibilidad local y EC2
+try:
+    from .sql_model_finetuned import question_to_sql_finetuned, get_model_info
+except ImportError:
+    from sql_model_finetuned import question_to_sql_finetuned, get_model_info
 
 # Configurar logging
 logger = logging.getLogger(__name__)
