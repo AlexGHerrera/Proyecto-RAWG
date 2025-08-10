@@ -9,11 +9,13 @@ requests
 torch
 transformers
 sentencepiece
+scikit-learn==1.2.2
 
 # Data & Visualization
 pandas
-plotly
-numpy
+plotly>=5.18
+numpy==1.25.4
+kaleido
 
 # Language Detection
 langdetect
