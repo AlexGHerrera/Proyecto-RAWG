@@ -310,8 +310,6 @@ Pendiente de definir por el equipo. Añadir archivo `LICENSE` si aplica.
 
 ## Contacto del Equipo
 
-Rellena con tus datos:
-
 | Nombre | Correo 📧 | LinkedIn 🔗 |
 |-------|-----------|-------------|
 |[Alex G. Herrera](mailto:alex_gh@live.com) | alex_gh@live.com | [LinkedIn](https://www.linkedin.com/in/alejandro-guerra-herrera-a86053115/) |
