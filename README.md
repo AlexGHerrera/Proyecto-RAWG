@@ -315,5 +315,5 @@ Pendiente de definir por el equipo. Añadir archivo `LICENSE` si aplica.
 |[Alex G. Herrera](mailto:alex_gh@live.com) | alex_gh@live.com | [LinkedIn](https://www.linkedin.com/in/alejandro-guerra-herrera-a86053115/) |
 |[Ignacio Buhigas León](mailto:ignacio.buhigas@gmail.com) | ignacio.buhigas@gmail.com | [LinkedIn](https://www.linkedin.com/in/ignaciobuhigas/) |
 |[Sorrow Grajales Rufián](mailto:sforsorrow@outlook.com)| sforsorrow@outlook.com | [LinkedIn](https://www.linkedin.com/in/sforsorrow) |
-|[Nombre 4] | correo4@dominio.com | [LinkedIn](https://linkedin.com/in/usuario4) |
+|[Alejandro Cambón Sánchez] | alexcambonsanchez@gmail.com | [LinkedIn](https://www.linkedin.com/in/alejandro-camb%C3%B3n-s%C3%A1nchez-5322342b8/) |
 |[Nombre 5] | correo5@dominio.com | [LinkedIn](https://linkedin.com/in/usuario5) |
