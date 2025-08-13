@@ -269,7 +269,6 @@ Nota: las imágenes versionadas se almacenan en `docs/visuals/` y se actualizan 
 Paquete de despliegue listo en `deployment/api_deploy/` con:
 
 - Guía completa en `docs/EC2_DEPLOYMENT_GUIDE.md`: firewall UFW, Fail2Ban, systemd service, rotación de logs, monitoreo y troubleshooting.
-- `start_api.sh`, `rawg-api.service`, `.env.example`, `requirements.txt` y código fuente `api_v5/` empaquetado.
 - Configuración de seguridad y optimizaciones para producción.
 
 Sigue la guía paso a paso para una instancia EC2 (recomendado t3.medium) y valida los endpoints públicos.
