@@ -5,9 +5,9 @@
 [![Transformers](https://img.shields.io/badge/Transformers-T5-FF9A00)](https://huggingface.co/transformers/)
 [![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20Lambda%20%7C%20RDS-FF9900?logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13%2B-336791?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![Status](https://img.shields.io/badge/Status-Listo%20para%20Despliegue-success)](deployment/api_deploy/EC2_DEPLOYMENT_GUIDE.md)
+![Status](https://img.shields.io/badge/Status-Listo%20para%20Despliegue-success)
 
-Repositorio completo y listo para producción que cubre el ciclo de vida de datos con RAWG: ingesta escalable en AWS, definición de éxito de videojuegos, notebooks de modelado y una API FastAPI v3 que convierte lenguaje natural a SQL sobre una base de datos PostgreSQL.
+Repositorio completo y listo para producción que cubre el ciclo de vida de datos con RAWG: ingesta escalable en AWS, definición de éxito de videojuegos, notebooks de modelado optimizados para Kaggle y una API FastAPI v5 que convierte lenguaje natural a SQL sobre una base de datos PostgreSQL con predicción de éxito de videojuegos.
 
 Este repositorio está diseñado como carta de presentación profesional del equipo: código limpio, documentación sólida y despliegue reproducible.
 
@@ -20,7 +20,7 @@ Este repositorio está diseñado como carta de presentación profesional del equ
 - [Estructura del Repositorio](#estructura-del-repositorio)
 - [Pipeline de Datos (AWS)](#pipeline-de-datos-aws)
 - [Definición de Éxito y Ciencia de Datos](#definición-de-éxito-y-ciencia-de-datos)
-- [API v3: NL→SQL y Visualizaciones](#api-v3-nlsql-y-visualizaciones)
+- [API v5: NL→SQL y Predicción de Éxito](#api-v5-nlsql-y-predicción-de-éxito)
 - [Ejecución Local](#ejecución-local)
 - [Variables de entorno](#variables-de-entorno)
 - [Visualizaciones destacadas](#visualizaciones-destacadas)
@@ -34,9 +34,9 @@ Este repositorio está diseñado como carta de presentación profesional del equ
 
 ## Visión General
 
-- __Objetivo__: permitir a diseñadores y analistas consultar y explorar el catálogo de videojuegos y métricas de éxito, además de servir predicciones de éxito pre-lanzamiento.
-- __Pilares__: pipeline de ingesta en AWS, definición cuantitativa de éxito, notebooks de análisis/modelado y una API NL→SQL con visualizaciones automáticas.
-- __Tecnologías__: AWS (S3, Lambda, RDS), PostgreSQL, FastAPI, Python, Transformers (T5 fine-tuned), Plotly, Pandas.
+- __Objetivo__: permitir a diseñadores y analistas consultar y explorar el catálogo de videojuegos y métricas de éxito, además de servir predicciones de éxito pre-lanzamiento usando features de diseño (géneros, plataformas, tags, duración estimada).
+- __Pilares__: pipeline de ingesta en AWS, definición cuantitativa de éxito, notebooks de análisis/modelado optimizados para Kaggle y una API NL→SQL con predicción de éxito.
+- __Tecnologías__: AWS (S3, Lambda, RDS), PostgreSQL, FastAPI, Python, Transformers (T5 fine-tuned), Random Forest (Scikit-learn), Plotly, Pandas.
 
 ---
 
@@ -46,9 +46,9 @@ Este repositorio está diseñado como carta de presentación profesional del equ
    - Extracción masiva y diaria desde la API de RAWG (AWS Lambda + EventBridge) a `S3`.
    - Carga estructurada a `PostgreSQL` en `AWS RDS` mediante Lambda de loader.
 2. __Capa de servicio__
-   - API `FastAPI` v3 desplegada en `AWS EC2` con endpoints de NL→SQL y visualizaciones.
+   - API `FastAPI` v5 desplegada en `AWS EC2` con endpoints de NL→SQL, visualizaciones y predicción de éxito.
 3. __Ciencia de datos__
-   - Definición de métrica de éxito y notebooks de EDA/modelado.
+   - Definición de métrica de éxito, notebooks de EDA/modelado optimizados para Kaggle y modelo Random Forest para predicción de éxito.
 
 En `docs/` puedes ver el diagrama (`docs/arquitectura_aws.png`) y la documentación general (`docs/project_documentation.md`).
 
@@ -60,25 +60,26 @@ En `docs/` puedes ver el diagrama (`docs/arquitectura_aws.png`) y la documentaci
 
 ```text
 .
-├── api/                     # Código de la API (v1 legacy, v3 actual)
-│   ├── api_v3/
-│   │   ├── main_v3.py       # App FastAPI principal (NL→SQL + visual)
-│   │   └── run_api_v3.py    # Script de arranque local
+├── api/                     # Código de la API
+│   ├── api_v5/
+│   │   ├── api_v5/
+│   │   │   ├── main_v5.py   # App FastAPI principal (NL→SQL + predicción)
+│   │   │   └── run_api_v5.py # Script de arranque local
+│   │   └── data/model_v3/   # Modelo entrenado para predicción
 ├── data_pipeline/           # Código de extracción/carga (AWS Lambda, loader)
 │   ├── loader/
 │   └── rawg_extractor/
 ├── deployment/
 │   └── api_deploy/          # Paquete de despliegue listo para EC2
-│       ├── EC2_DEPLOYMENT_GUIDE.md
+│       ├── api_v5/          # API v5 empaquetada
 │       ├── start_api.sh
 │       ├── rawg-api.service
-│       └── nginx-rawg-api.conf
-├── docs/                    # Documentación funcional y técnica
-│   ├── success_score_definition.md
-│   ├── API_IMPROVEMENTS_v2.0.md
-│   └── project_documentation.md
-├── Notebooks/               # EDA y modelado (Kaggle/local)
-│   ├── model-training-rawg-games-v3.ipynb
+│       └── requirements.txt
+├── docs/                    # Documentación (movida desde deployment)
+│   └── EC2_DEPLOYMENT_GUIDE.md # Guía completa de despliegue
+├── Notebooks/               # EDA y modelado (optimizados para Kaggle)
+│   ├── model-training-rawg-games-v3.ipynb # Entrenamiento optimizado para Kaggle
+│   ├── eda_rawg_games_v3.ipynb # EDA balanceado con dataset v3
 │   ├── analisis_criterio_exito.ipynb
 │   └── modelo_asktosql.ipynb
 ├── requirements.txt         # Dependencias de la API v3
@@ -111,15 +112,16 @@ Datasets y consideraciones adicionales se documentan en `docs/project_documentat
 
 ---
 
-## API v3: NL→SQL y Visualizaciones
+## API v5: NL→SQL y Predicción de Éxito
 
-Código principal: `api/api_v3/main_v3.py`.
+Código principal: `api/api_v5/api_v5/main_v5.py`.
 
 - __Modelo__: `cssupport/t5-small-awesome-text-to-sql` (Transformers + SentencePiece).
 - __Endpoints clave__:
   - `GET /` estado y metadatos de la API.
-  - `POST /ask-text` consultas de texto a SQL (router en `api/api_v3/models/ask_text.py`).
+  - `POST /ask-text` consultas de texto a SQL.
   - `POST /ask-visual` NL→SQL + visualización automática (Plotly dict).
+  - `POST /predict` predicción de éxito usando features de diseño (géneros, plataformas, tags, duración).
   - `GET /test-model` verificación de disponibilidad del modelo.
   - `POST /test-fast-query` consulta SQL rápida para diagnóstico.
   - `GET /docs` documentación interactiva Swagger.
@@ -152,12 +154,12 @@ Ejemplo de petición/respuesta `ask-text`:
 ```json
 POST /ask-text
 {
-  "question": "¿Cuáles son los mejores juegos de acción?"
+  "question": "What are the best action games?"
 }
 
 Respuesta
 {
-  "question": "¿Cuáles son los mejores juegos de acción?",
+  "question": "What are the best action games?",
   "sql": "SELECT g.name, g.rating FROM games g JOIN game_genres gg ON g.id_game = gg.id_game JOIN genres gen ON gen.id_genre = gg.id_genre WHERE gen.name ILIKE '%Action%' ORDER BY g.rating DESC LIMIT 10;",
   "data": [
     {"name": "Grand Theft Auto V", "rating": 4.47},
@@ -188,13 +190,13 @@ Validaciones incluidas: sanitización básica de entrada, manejo de errores y co
 ```bash
 curl -X POST http://localhost:8000/ask-text \
   -H "Content-Type: application/json" \
-  -d '{"question": "Top 5 juegos por rating"}'
+  -d '{"question": "Top 5 games by rating"}'
 ```
 
 ```bash
 curl -X POST http://localhost:8000/ask-visual \
   -H "Content-Type: application/json" \
-  -d '{"question": "Distribución de juegos por año"}'
+  -d '{"question": "Distribution of games by year"}'
 ```
 
 ---
@@ -210,8 +212,8 @@ curl -X POST http://localhost:8000/ask-visual \
    - Claves o configuraciones necesarias para acceder a la base de datos RAWG derivada.
 
 3. __Arranque de la API__
-   - Opción A: `python api/api_v3/run_api_v3.py`
-   - Opción B: `uvicorn api.api_v3.main_v3:app --reload --host 0.0.0.0 --port 8000`
+   - Opción A: `python api/api_v5/api_v5/run_api_v5.py`
+   - Opción B: `uvicorn api.api_v5.api_v5.main_v5:app --reload --host 0.0.0.0 --port 8000`
 
 Abrir `http://localhost:8000/docs` para probar.
 
@@ -228,7 +230,7 @@ Abrir `http://localhost:8000/docs` para probar.
 | `DB_PASS` | Password DB | — |
 | `RAWG_API_KEY` | Clave de API RAWG (para extracción en `data_pipeline/`) | — |
 | `S3_BUCKET` | Bucket de destino (pipeline) | — |
-| `API_BASE_URL` | Base URL usada por `Notebooks/generate_readme_charts_db.py` | `http://localhost:8000` |
+| `API_BASE_URL` | Base URL de la API | `http://localhost:8000` |
 
 Sugerido: usar un archivo `.env` en la raíz y cargarlo antes de ejecutar. En el paquete de despliegue (`deployment/api_deploy/`) se incluye documentación y ejemplos de variables.
 
@@ -266,8 +268,9 @@ Nota: las imágenes versionadas se almacenan en `docs/visuals/` y se actualizan 
 
 Paquete de despliegue listo en `deployment/api_deploy/` con:
 
-- `EC2_DEPLOYMENT_GUIDE.md`: guía profesional, firewall UFW, Fail2Ban, Nginx reverse proxy, systemd service, rotación de logs, monitoreo y troubleshooting.
-- `start_api.sh`, `rawg-api.service`, `nginx-rawg-api.conf`, `.env.example`, `requirements.txt` y código fuente `api_v3/` empaquetado.
+- Guía completa en `docs/EC2_DEPLOYMENT_GUIDE.md`: firewall UFW, Fail2Ban, systemd service, rotación de logs, monitoreo y troubleshooting.
+- `start_api.sh`, `rawg-api.service`, `.env.example`, `requirements.txt` y código fuente `api_v5/` empaquetado.
+- Configuración de seguridad y optimizaciones para producción.
 
 Sigue la guía paso a paso para una instancia EC2 (recomendado t3.medium) y valida los endpoints públicos.
 
@@ -277,15 +280,17 @@ Sigue la guía paso a paso para una instancia EC2 (recomendado t3.medium) y vali
 
 - __Seguridad__: restricción de puertos, sanitización NL→SQL, servicio detrás de Nginx.
 - __Observabilidad__: logs estructurados, pruebas de conectividad (`/test-model`, `/test-fast-query`).
-- __Mantenibilidad__: módulos claros en `api/api_v3/models/` y documentación en `docs/`.
+- __Mantenibilidad__: módulos claros en `api/api_v5/api_v5/models/` y documentación completa.
+- __ML en Producción__: modelo de predicción integrado con validación de entrada y manejo de errores.
 
 ---
 
 ## Roadmap (alto nivel)
 
 - __API__: cache de resultados frecuentes, rate limiting, autenticación opcional.
-- __Modelado__: finetuning incremental NL→SQL con feedback; features adicionales para predicción de éxito.
+- __Modelado__: mejora del modelo de predicción con redes neuronales; finetuning incremental NL→SQL con feedback.
 - __Data__: nuevas fuentes complementarias y pipelines de calidad de datos.
+- __Kaggle Integration__: notebooks optimizados para competencias y colaboración.
 
 ---
 
@@ -308,8 +313,10 @@ Pendiente de definir por el equipo. Añadir archivo `LICENSE` si aplica.
 
 Rellena con tus datos:
 
-| Nombre | Rol | Correo 📧 | LinkedIn 🔗 |
-|-------|-----|-----------|-------------|
-|[Alex G. Herrera](mailto:alexg.herrera@gmail.com) | Líder | alexg.herrera@gmail.com | [LinkedIn](https://www.linkedin.com/in/alexgherrera/) |
-|[Ignacio Buhigas León](mailto:ignacio.buhigas@gmail.com) | Data Enginner | ignacio.buhigas@gmail.com | [LinkedIn](https://www.linkedin.com/in/ignaciobuhigas/) |
-|[Nombre 3](mailto:correo@dominio.com) | [Rol] | correo@dominio.com | [LinkedIn](https://linkedin.com/in/usuario) |
+| Nombre | Correo 📧 | LinkedIn 🔗 |
+|-------|-----------|-------------|
+|[Alex G. Herrera](mailto:alexg.herrera@gmail.com) | alexg.herrera@gmail.com | [LinkedIn](https://www.linkedin.com/in/alexgherrera/) |
+|[Ignacio Buhigas León](mailto:ignacio.buhigas@gmail.com) | ignacio.buhigas@gmail.com | [LinkedIn](https://www.linkedin.com/in/ignaciobuhigas/) |
+|[Nombre 3] | correo3@dominio.com | [LinkedIn](https://linkedin.com/in/usuario3) |
+|[Nombre 4] | correo4@dominio.com | [LinkedIn](https://linkedin.com/in/usuario4) |
+|[Nombre 5] | correo5@dominio.com | [LinkedIn](https://linkedin.com/in/usuario5) |
