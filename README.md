@@ -319,4 +319,4 @@ Pendiente de definir por el equipo. Añadir archivo `LICENSE` si aplica.
 |[Ignacio Buhigas León](mailto:ignacio.buhigas@gmail.com) | ignacio.buhigas@gmail.com | [LinkedIn](https://www.linkedin.com/in/ignaciobuhigas/) |
 |[Sorrow Grajales Rufián](mailto:sforsorrow@outlook.com)| sforsorrow@outlook.com | [LinkedIn](https://www.linkedin.com/in/sforsorrow) |
 |[Alejandro Cambón Sánchez](mailto:alexcambonsanchez@gmail.com) | alexcambonsanchez@gmail.com | [LinkedIn](https://www.linkedin.com/in/alejandro-camb%C3%B3n-s%C3%A1nchez-5322342b8/) |
-|[Nombre 5] | correo5@dominio.com | [LinkedIn](https://linkedin.com/in/usuario5) |
+|[Diego Cazalla Ortega](mailto:diegocazallaortega@gmail.com) | [LinkedIn](https://www.linkedin.com/in/diego-cazalla-ortega-109420188/) |
