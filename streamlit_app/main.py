@@ -7,6 +7,7 @@ from plotly.subplots import make_subplots
 import matplotlib.pyplot as plt
 import time
 import json
+import os
 try:
     import plotly.graph_objects as go
     PLOTLY_AVAILABLE = True
@@ -134,7 +135,10 @@ def check_api_status():
 @st.cache_data
 def load_dataset():
     try:
-        df = pd.read_csv("classification_dataset_v3.csv")
+        # Obtener ruta absoluta del dataset
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        dataset_path = os.path.join(current_dir, "classification_dataset_v3.csv")
+        df = pd.read_csv(dataset_path)
         return df
     except:
         return None
@@ -170,7 +174,10 @@ def api_get(endpoint, timeout=30):
 def show_portada():
     # Solo imagen de portada centrada
     try:
-        st.image("portada.png", use_container_width=True)
+        # Obtener ruta absoluta de la imagen
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        image_path = os.path.join(current_dir, "portada.png")
+        st.image(image_path, use_container_width=True)
     except:
         st.markdown("""
         <div class="main-header">
