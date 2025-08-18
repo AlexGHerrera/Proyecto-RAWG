@@ -255,7 +255,6 @@ def show_portada():
             <span class="tech-badge">AWS EC2</span>
             <span class="tech-badge">AWS Lambda</span>
             <span class="tech-badge">AWS S3</span>
-            <span class="tech-badge">Docker</span>
         </div>
         """, unsafe_allow_html=True)
 
@@ -959,12 +958,8 @@ def show_arquitectura():
         st.markdown("""
         <div class="feature-card">
             <h4>Despliegue EC2</h4>
-            <span class="tech-badge">Docker</span>
             <span class="tech-badge">Nginx</span>
             <span class="tech-badge">Systemd</span>
-            <span class="tech-badge">UFW Firewall</span>
-            <span class="tech-badge">Fail2Ban</span>
-            <span class="tech-badge">SSL/TLS</span>
         </div>
         """, unsafe_allow_html=True)
         
