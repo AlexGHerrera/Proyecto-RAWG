@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110%2B-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![Transformers](https://img.shields.io/badge/Transformers-T5-FF9A00)](https://huggingface.co/transformers/)
+[![Transformers](https://img.shields.io/badge/Transformers-SQLCoder--7B--2-FF9A00)](https://huggingface.co/transformers/)
 [![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20Lambda%20%7C%20RDS-FF9900?logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13%2B-336791?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 ![Status](https://img.shields.io/badge/Status-Listo%20para%20Despliegue-success)
@@ -36,7 +36,7 @@ Este repositorio está diseñado como carta de presentación profesional del equ
 
 - __Objetivo__: permitir a diseñadores y analistas consultar y explorar el catálogo de videojuegos y métricas de éxito, además de servir predicciones de éxito pre-lanzamiento usando features de diseño (géneros, plataformas, tags, duración estimada).
 - __Pilares__: pipeline de ingesta en AWS, definición cuantitativa de éxito, notebooks de análisis/modelado optimizados para Kaggle y una API NL→SQL con predicción de éxito.
-- __Tecnologías__: AWS (S3, Lambda, RDS), PostgreSQL, FastAPI, Python, Transformers (T5 fine-tuned), Random Forest (Scikit-learn), Plotly, Pandas.
+- __Tecnologías__: AWS (S3, Lambda, RDS), PostgreSQL, FastAPI, Python, SQLCoder-7B-2 (HuggingFace), Random Forest (Scikit-learn), Plotly, Pandas, Streamlit.
 
 ---
 
@@ -69,12 +69,6 @@ En `docs/` puedes ver el diagrama (`docs/arquitectura_aws.png`) y la documentaci
 ├── data_pipeline/           # Código de extracción/carga (AWS Lambda, loader)
 │   ├── loader/
 │   └── rawg_extractor/
-├── deployment/
-│   └── api_deploy/          # Paquete de despliegue listo para EC2
-│       ├── api_v5/          # API v5 empaquetada
-│       ├── start_api.sh
-│       ├── rawg-api.service
-│       └── requirements.txt
 ├── docs/                    # Documentación (movida desde deployment)
 │   └── EC2_DEPLOYMENT_GUIDE.md # Guía completa de despliegue
 ├── Notebooks/               # EDA y modelado (optimizados para Kaggle)
@@ -82,7 +76,10 @@ En `docs/` puedes ver el diagrama (`docs/arquitectura_aws.png`) y la documentaci
 │   ├── eda_rawg_games_v3.ipynb # EDA balanceado con dataset v3
 │   ├── analisis_criterio_exito.ipynb
 │   └── modelo_asktosql.ipynb
-├── requirements.txt         # Dependencias de la API v3
+├── streamlit_app/           # Aplicación Streamlit para demo interactiva
+│   ├── main.py              # App principal con NL→SQL, visualizaciones y predicción
+│   └── requirements.txt     # Dependencias específicas de Streamlit
+├── requirements.txt         # Dependencias de la API v5
 └── README.md                # Este documento
 ```
 
@@ -116,7 +113,8 @@ Datasets y consideraciones adicionales se documentan en `docs/project_documentat
 
 Código principal: `api/api_v5/api_v5/main_v5.py`.
 
-- __Modelo__: `cssupport/t5-small-awesome-text-to-sql` (Transformers + SentencePiece).
+- __Modelo NL→SQL__: SQLCoder-7B-2 vía HuggingFace endpoint (97.5% precisión).
+- __Modelo Predicción__: Random Forest con class weights balanceados para predicción de éxito.
 - __Endpoints clave__:
   - `GET /` estado y metadatos de la API.
   - `POST /ask-text` consultas de texto a SQL.
@@ -166,7 +164,7 @@ Respuesta
     {"name": "The Witcher 3: Wild Hunt", "rating": 4.66}
   ],
   "metadata": {
-    "model": "cssupport/t5-small-awesome-text-to-sql",
+    "model": "SQLCoder-7B-2",
     "rows_returned": 10,
     "columns": ["name", "rating"]
   },
@@ -215,7 +213,11 @@ curl -X POST http://localhost:8000/ask-visual \
    - Opción A: `python api/api_v5/api_v5/run_api_v5.py`
    - Opción B: `uvicorn api.api_v5.api_v5.main_v5:app --reload --host 0.0.0.0 --port 8000`
 
-Abrir `http://localhost:8000/docs` para probar.
+4. __Aplicación Streamlit__ (opcional)
+   - `cd streamlit_app && streamlit run main.py`
+   - Interfaz web interactiva en `http://localhost:8501`
+
+Abrir `http://localhost:8000/docs` para la documentación de la API.
 
 ---
 
@@ -231,6 +233,7 @@ Abrir `http://localhost:8000/docs` para probar.
 | `RAWG_API_KEY` | Clave de API RAWG (para extracción en `data_pipeline/`) | — |
 | `S3_BUCKET` | Bucket de destino (pipeline) | — |
 | `API_BASE_URL` | Base URL de la API | `http://localhost:8000` |
+| `SQLCODER_ENDPOINT` | Endpoint de SQLCoder-7B-2 | — |
 
 Sugerido: usar un archivo `.env` en la raíz y cargarlo antes de ejecutar. En el paquete de despliegue (`deployment/api_deploy/`) se incluye documentación y ejemplos de variables.
 

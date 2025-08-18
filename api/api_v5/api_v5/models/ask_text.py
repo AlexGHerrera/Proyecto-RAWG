@@ -3,13 +3,13 @@
 ask_text.py - API v5
 ====================
 
-Endpoint de consultas de texto usando modelo T5 fine-tuned.
+Endpoint de consultas de texto usando SQLCoder-7B-2.
 Arquitectura unificada con sql_model_finetuned.py
 
 Características v5:
-- Modelo fine-tuned: cssupport/t5-small-awesome-text-to-sql
-- Schema simplificado de RAWG
-- Prompt nativo del modelo
+- Modelo SQLCoder-7B-2 via HuggingFace Inference API
+- Esquema PostgreSQL normalizado
+- Soporte bilingüe (inglés y español)
 - Validación y seguridad SQL
 - Respuestas estructuradas
 
@@ -181,7 +181,7 @@ Respuesta típica:
     {"name": "The Witcher 3: Wild Hunt", "rating": 4.66}
   ],
   "metadata": {
-    "model": "cssupport/t5-small-awesome-text-to-sql",
+    "model": "defog/sqlcoder-7b-2",
     "rows_returned": 10,
     "columns": ["name", "rating"]
   },
